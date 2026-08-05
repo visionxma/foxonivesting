@@ -1,0 +1,5 @@
+# robots.txt — Fox On
+User-agent: *
+Allow: /
+
+Sitemap: https://foxonivesting.com.br/sitemap.xml
