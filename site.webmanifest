@@ -4,8 +4,8 @@
   "description": "Site não oficial. Conteúdo informativo e de divulgação; não somos a corretora.",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#140a02",
-  "theme_color": "#140a02",
+  "background_color": "#070503",
+  "theme_color": "#070503",
   "lang": "pt-BR",
   "icons": [
     {
