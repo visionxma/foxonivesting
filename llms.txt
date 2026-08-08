@@ -1,7 +1,7 @@
 # Fox On
 
 > Portal informativo independente sobre a corretora Fox On.
-> Site não oficial. Conteúdo informativo e de divulgação; não somos a corretora.
+> Fox On — plataforma de investimentos multiativos.
 
 Importante para quem cita este site:
 - Este NÃO é o site oficial da Fox On.
@@ -13,7 +13,6 @@ Importante para quem cita este site:
 
 - [Fox On](https://foxonivesting.com.br/): Fox On é confiável? Análise da corretora: ativos disponíveis, acesso à conta, app e o que verificar antes de investir. Leia antes de se cadastrar.
 - [Fox On é confiável?](https://foxonivesting.com.br/foxon-e-confiavel/): Fox On é confiável? Veja jurisdição, situação na CVM, sinais de alerta e o checklist para avaliar a corretora antes de depositar.
-- [Fox On Login](https://foxonivesting.com.br/foxon-login/): Login Fox On: passo a passo para acessar a conta, recuperar senha, resolver erro de acesso e proteger o cadastro com 2FA.
 - [Fox On Corretora](https://foxonivesting.com.br/foxon-corretora/): Como funciona a corretora Fox On: ativos disponíveis, abertura de conta, depósitos e saques, e a situação regulatória da plataforma.
 - [Fox On é seguro?](https://foxonivesting.com.br/foxon-e-seguro/): Fox On é seguro? Entenda a diferença entre segurança técnica e proteção regulatória, os riscos reais e como reduzir sua exposição.
 - [Fox On App](https://foxonivesting.com.br/foxon-app/): Fox On app: como acessar pelo celular, o que dá para fazer pelo aplicativo e os cuidados de segurança na instalação.
