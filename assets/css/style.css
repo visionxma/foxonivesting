@@ -895,3 +895,8 @@ body::before{content:'';position:fixed;inset:0;z-index:-1;pointer-events:none;
 .footer__legal{display:flex;flex-wrap:wrap;gap:8px 20px;align-items:center}
 .footer__legal > a,.footer__legal .footer__links a{color:rgba(255,255,255,.7)}
 .footer__legal > a:hover,.footer__legal .footer__links a:hover{color:#fff}
+/* logo oficial da Fox On no lugar do ícone + texto */
+.wordmark__logo{display:block;height:32px;width:auto}
+.site-footer .wordmark__logo{height:40px}
+.wordmark__text:empty{display:none}
+.wordmark__blog{margin-left:2px}

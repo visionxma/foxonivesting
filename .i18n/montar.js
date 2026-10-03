@@ -142,9 +142,8 @@ function cabecalho(idioma, chave, chaveMenu) {
       <div class="site-header__left">
         <a class="site-logo" href="${caminho(idioma, 'inicio')}" aria-label="${escAttr(C.logo_aria)}">
           <span class="wordmark">
-          <img class="wordmark__badge-img" src="/assets/img/marca-foxon.png"
-               alt="" aria-hidden="true" width="36" height="36" decoding="async">
-          <span class="wordmark__text">Fox On</span>
+          <img class="wordmark__logo" src="/assets/img/logo-fox-on.png" alt="Fox On" width="147" height="32" decoding="async">
+          <span class="wordmark__text"></span>
         </span>
         </a>
         <button class="nav-toggle" type="button" aria-expanded="false"
@@ -174,9 +173,8 @@ function rodape(idioma, chaveMenu) {
       <div class="footer__grid">
         <div class="footer__brand">
           <span class="site-logo"><span class="wordmark">
-            <img class="wordmark__badge-img" src="/assets/img/marca-foxon.png"
-                 alt="" aria-hidden="true" width="46" height="46" decoding="async">
-            <span class="wordmark__text">Fox On</span>
+            <img class="wordmark__logo" src="/assets/img/logo-fox-on.png" alt="Fox On" width="183" height="40" decoding="async">
+            <span class="wordmark__text"></span>
           </span></span>
           <p class="footer__copy">${R.copy1.replace('{ano}', ano)}<br>
             ${R.copy2}<br>
@@ -363,7 +361,7 @@ function gerados(h, idioma, chave) {
   // blog em modo claro, com "Fox On Blog" no logo do topo (os artigos herdam da casca /blog/)
   if (chave === 'blog') {
     h = h.replace(/<body(?: class="tema-claro")?>/, '<body class="tema-claro">');
-    h = h.replace(/<span class="wordmark__text">Fox On(?: <span class="wordmark__blog">Blog<\/span>)?<\/span>/, '<span class="wordmark__text">Fox On <span class="wordmark__blog">Blog</span></span>');
+    h = h.replace(/<span class="wordmark__text">(?:<span class="wordmark__blog">Blog<\/span>)?<\/span>/, '<span class="wordmark__text"><span class="wordmark__blog">Blog</span></span>');
   }
   if (BANNERS[chave]) h = h.replace(/(<main id="conteudo">[\s\S]*?)(<h1)/, (m, a, b) => `${a.replace(/\s*$/, '\n        ')}<!--gerado--><div class="topo-banner" style="background-image:url('/assets/img/banners/${BANNERS[chave]}.webp')" aria-hidden="true"></div><!--/gerado-->\n        ${b}`);
   if (chave === 'inicio') h = h.replace(/(<section class="faixa">[\s\S]*?<\/section>)/, (m, a) => a + '\n    ' + plataformas(idioma));
