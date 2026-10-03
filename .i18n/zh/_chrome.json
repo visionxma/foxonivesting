@@ -1,0 +1,153 @@
+{
+  "_nota": "Textos fixos do site (cabeçalho, rodapé, pop-up, metadados). Traduza só os VALORES. Mantenha {ano} e {n} como estão. 'rodape.legal' é a versão internacional do aviso: quem lê pode não estar no Brasil.",
+  "pular": "跳至正文",
+  "logo_aria": "Fox On — 首页",
+  "menu_abrir": "打开导航菜单",
+  "menu_fechar": "关闭导航菜单",
+  "nav_aria": "主导航",
+  "nav": {
+    "home": "首页",
+    "confiavel": "是否可靠？",
+    "login": "登录",
+    "corretora": "经纪商介绍",
+    "seguro": "是否安全？",
+    "app": "App",
+    "melhores": "最佳经纪商",
+    "blog": "博客"
+  },
+  "criar_conta": "注册账户",
+  "entrar": "登录",
+  "idioma": "语言",
+  "idioma_aria": "选择语言",
+  "topo_aria": "返回页面顶部",
+  "rodape": {
+    "copy1": "版权所有 © {ano} Fox On。",
+    "copy2": "保留所有权利。",
+    "copy3": "非官方网站。",
+    "empresa": "公司",
+    "menu": {
+      "confiavel": "Fox On 靠谱吗？",
+      "login": "登录方式",
+      "corretora": "了解经纪商",
+      "seguro": "经纪商安全性",
+      "app": "应用"
+    },
+    "contato": "联系我们",
+    "legal": "Fox On 在圣文森特和格林纳丁斯（SVG）注册运营，未获得巴西证券交易委员会（CVM）的授权，也可能未获得您所在国家或地区金融监管机构的授权：开户前请务必核实。本网站提供的任何信息均不应被理解为金融服务要约。本网站仅供参考，并非 Fox On 官方网站，由联盟推广方运营。任何预测或策略均不保证能取得特定表现，过往业绩也不代表未来结果。市场波动可能导致收益大幅变化。衍生品和杠杆产品较为复杂，风险极高：请务必清楚认识到可能损失部分乃至全部投资本金。切勿投入您无法承受损失的资金。",
+    "links": {
+      "faq": "常见问题",
+      "sobre": "关于本站",
+      "avaliamos": "评估方法",
+      "risco": "风险提示",
+      "contato": "联系我们",
+      "privacidade": "隐私政策",
+      "termos": "使用条款"
+    },
+    "suporte": "7×24 客户经理"
+  },
+  "meta": {
+    "og_alt_prefixo": "Fox On — ",
+    "escrito_por": "作者",
+    "tempo_leitura": "阅读时间",
+    "minuto": "{n} 分钟",
+    "minutos": "{n} 分钟",
+    "org_desc": "Fox On — 专注市场订单流的短线交易。",
+    "site_desc": "Fox On — 投资平台。",
+    "corretora_desc": "定位于短线交易、专注市场订单流的数字经纪商。注册地为圣文森特和格林纳丁斯（SVG）。"
+  },
+  "popup": {
+    "fechar": "关闭",
+    "selo": "欢迎",
+    "titulo": "几分钟即可开通 Fox On 账户",
+    "linha1": "存款奖金",
+    "linha2": "100%",
+    "texto": "使用优惠码 {cupom} 入金，即可获得入金金额 100% 的奖金。",
+    "item1": "加密货币、外汇、指数和大宗商品",
+    "item2": "支持浏览器和手机访问",
+    "item3": "身份验证（KYC）和双重验证（2FA）",
+    "item4": "加密货币市场 7×24 小时开放",
+    "nota": "建议：先小额入金，并在追加资金前先测试一次出金。",
+    "botao": "立即领取",
+    "mini": "受促销条款约束。交易杠杆产品存在亏损风险。",
+    "cupom": "优惠码",
+    "copiar": "复制",
+    "copiado": "已复制！"
+  },
+  "app": {
+    "titulo": "现代化交易平台",
+    "qr_titulo": "你的财务未来掌握在自己手中",
+    "qr_cta": "立即下载 App"
+  },
+  "lojas": {
+    "apple_pre": "下载于",
+    "apple": "App Store",
+    "google_pre": "下载于",
+    "google": "Google Play"
+  },
+  "plataformas": {
+    "titulo": "随时随地交易",
+    "titulo2": "就用 Fox On 应用",
+    "desktop": "桌面端",
+    "desktop_txt": "直接在电脑浏览器中享受流畅的交易体验。",
+    "desktop_link": "打开网页版平台",
+    "movel": "移动端",
+    "movel_txt": "随时随地用手机在线交易。",
+    "movel_link": "了解移动应用",
+    "webapp": "网页版",
+    "apk": "Android APK"
+  },
+  "passos": {
+    "t1": "只需",
+    "t2": "3 个简单步骤即可开始",
+    "sub": "我们简化了一切，让你尽快开始在市场中交易。",
+    "r1": "第一步",
+    "r2": "第二步",
+    "r3": "第三步",
+    "p1t": "免费注册账户。",
+    "p1": "点击屏幕顶部的“注册账户”，输入邮箱和密码，几分钟即可准备就绪。",
+    "p2t": "无风险练习。",
+    "p2": "在模拟账户中获得 R$ 10,000 虚拟余额，练到有信心再交易，无需拿自己的钱冒险。",
+    "p3t": "入金并交易。",
+    "p3": "完成首笔入金，轻松交易 270 多种资产。"
+  },
+  "suporte": {
+    "selo": "7×24 小时支持",
+    "t1": "你的专属客户经理",
+    "t2": "全天 24 小时，每周 7 天。",
+    "txt": "每位 Fox On 客户都有专属客户经理，随时为你提供帮助。只需注册账户，即可拥有自己的客户经理。",
+    "botao": "注册账户，联系我的客户经理"
+  },
+  "blog": {
+    "recentes": "最新文章",
+    "emalta": "热门",
+    "ativos": "交易最多的资产",
+    "negociar": "交易",
+    "leitura": "阅读 {n} 分钟",
+    "risco": "交易存在损失投资本金的风险。",
+    "equipe": "Fox On 团队",
+    "destaque": "精选",
+    "todos": "全部",
+    "mais": "加载更多",
+    "cats": {
+      "Notícias": "新闻",
+      "Iniciantes": "新手入门",
+      "Análise técnica": "技术分析",
+      "Indicadores": "技术指标",
+      "Estratégias": "交易策略",
+      "Gestão de risco": "风险管理",
+      "Psicologia": "交易心理",
+      "Forex": "外汇",
+      "Criptomoedas": "加密货币",
+      "Ações": "股票",
+      "ETFs e índices": "ETF 与指数",
+      "Commodities": "大宗商品",
+      "Opções": "期权",
+      "Mercado": "市场"
+    },
+    "cta_titulo": "先练习，再冒险。",
+    "cta_texto": "开设 Fox On 账户，在拥有 10,000 雷亚尔虚拟资金的模拟账户中检验您的想法。",
+    "cta_botao": "免费开户",
+    "leia": "延伸阅读",
+    "fonte": "来源："
+  }
+}

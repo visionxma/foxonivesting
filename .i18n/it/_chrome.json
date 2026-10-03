@@ -1,0 +1,153 @@
+{
+  "_nota": "Textos fixos do site (cabeçalho, rodapé, pop-up, metadados). Traduza só os VALORES. Mantenha {ano} e {n} como estão. 'rodape.legal' é a versão internacional do aviso: quem lê pode não estar no Brasil.",
+  "pular": "Vai al contenuto",
+  "logo_aria": "Fox On — pagina iniziale",
+  "menu_abrir": "Apri il menu di navigazione",
+  "menu_fechar": "Chiudi il menu di navigazione",
+  "nav_aria": "Navigazione principale",
+  "nav": {
+    "home": "Home",
+    "confiavel": "È affidabile?",
+    "login": "Login",
+    "corretora": "Il broker",
+    "seguro": "È sicuro?",
+    "app": "App",
+    "melhores": "Migliori broker",
+    "blog": "Blog"
+  },
+  "criar_conta": "Apri un conto",
+  "entrar": "Login",
+  "idioma": "Lingua",
+  "idioma_aria": "Scegli la lingua",
+  "topo_aria": "Torna all'inizio della pagina",
+  "rodape": {
+    "copy1": "Copyright © {ano} Fox On.",
+    "copy2": "Tutti i diritti riservati.",
+    "copy3": "Sito non ufficiale.",
+    "empresa": "Azienda",
+    "menu": {
+      "confiavel": "Fox On è affidabile?",
+      "login": "Metodi di accesso",
+      "corretora": "Scopri il broker",
+      "seguro": "Sicurezza del broker",
+      "app": "App"
+    },
+    "contato": "Contatti",
+    "legal": "Fox On opera con registrazione a Saint Vincent e Grenadine (SVG), non è autorizzata dalla Comissão de Valores Mobiliários (CVM), l'autorità di vigilanza sui mercati finanziari del Brasile, e potrebbe non essere autorizzata dall'autorità finanziaria del tuo Paese: verifica prima di aprire un conto. Nessuna informazione qui presentata deve essere interpretata come un'offerta di servizi finanziari. Questo sito è informativo, non è il sito ufficiale di Fox On ed è gestito tramite affiliazione. Non vi è alcuna garanzia che proiezioni o strategie producano risultati specifici, e le performance passate non garantiscono risultati futuri. La volatilità dei mercati può generare variazioni significative dei rendimenti. I derivati e i prodotti a leva sono strumenti complessi e comportano un rischio elevato: è essenziale essere consapevoli della possibilità di perdite, anche totali, del capitale investito. Non investire mai somme che non puoi permetterti di perdere.",
+    "links": {
+      "faq": "Domande frequenti",
+      "sobre": "Chi siamo",
+      "avaliamos": "Come valutiamo",
+      "risco": "Avvertenza sui rischi",
+      "contato": "Contatti",
+      "privacidade": "Privacy",
+      "termos": "Termini di utilizzo"
+    },
+    "suporte": "Account manager 24/7"
+  },
+  "meta": {
+    "og_alt_prefixo": "Fox On — ",
+    "escrito_por": "Scritto da",
+    "tempo_leitura": "Tempo di lettura",
+    "minuto": "{n} minuto",
+    "minutos": "{n} minuti",
+    "org_desc": "Fox On — trading di breve periodo incentrato sul flusso di mercato.",
+    "site_desc": "Fox On — piattaforma di investimento.",
+    "corretora_desc": "Broker digitale orientato al trading di breve periodo incentrato sul flusso di mercato. Registrato a Saint Vincent e Grenadine (SVG)."
+  },
+  "popup": {
+    "fechar": "Chiudi",
+    "selo": "Benvenuto",
+    "titulo": "Apri il tuo conto Fox On in pochi minuti",
+    "linha1": "Bonus",
+    "linha2": "del 100%",
+    "texto": "Deposita con il codice {cupom} e ricevi un bonus del 100% sull'importo depositato.",
+    "item1": "Criptovalute, forex, indici e materie prime",
+    "item2": "Accesso dal browser e dallo smartphone",
+    "item3": "Verifica dell'identità (KYC) e 2FA",
+    "item4": "Mercato cripto aperto 24 ore su 24, 7 giorni su 7",
+    "nota": "Consiglio: inizia con un importo basso e fai un prelievo di prova prima di versare di più.",
+    "botao": "Riscatta ora",
+    "mini": "Soggetto alle condizioni della promozione. Il trading di prodotti con leva comporta rischio di perdita.",
+    "cupom": "Codice",
+    "copiar": "Copia",
+    "copiado": "Copiato!"
+  },
+  "app": {
+    "titulo": "Piattaforma di trading moderna",
+    "qr_titulo": "Il tuo futuro finanziario è nelle tue mani",
+    "qr_cta": "Scarica l’app ora"
+  },
+  "lojas": {
+    "apple_pre": "Scarica su",
+    "apple": "App Store",
+    "google_pre": "Disponibile su",
+    "google": "Google Play"
+  },
+  "plataformas": {
+    "titulo": "Fai trading ovunque",
+    "titulo2": "con le app Fox On",
+    "desktop": "Desktop",
+    "desktop_txt": "Goditi un’esperienza di trading fluida direttamente dal browser del tuo computer.",
+    "desktop_link": "Apri la piattaforma web",
+    "movel": "Mobile",
+    "movel_txt": "Fai trading online in qualsiasi momento e ovunque, dal tuo smartphone.",
+    "movel_link": "Scopri l’app mobile",
+    "webapp": "Web app",
+    "apk": "APK per Android"
+  },
+  "passos": {
+    "t1": "Inizia in soli",
+    "t2": "3 semplici passaggi",
+    "sub": "Abbiamo semplificato tutto perché tu possa operare sui mercati il prima possibile.",
+    "r1": "Primo passaggio",
+    "r2": "Secondo passaggio",
+    "r3": "Terzo passaggio",
+    "p1t": "Crea il tuo conto gratuito.",
+    "p1": "Clicca su “Apri un conto” in alto, inserisci email e password e sei pronto in pochi minuti.",
+    "p2t": "Esercitati senza rischi.",
+    "p2": "Ricevi R$ 10.000 di saldo virtuale sul conto demo ed esercitati finché non ti senti sicuro, senza rischiare il tuo denaro.",
+    "p3t": "Deposita e fai trading.",
+    "p3": "Effettua il primo deposito e inizia a fare trading su oltre 270 asset in modo semplice."
+  },
+  "suporte": {
+    "selo": "Assistenza 24/7",
+    "t1": "Il tuo account manager",
+    "t2": "24 ore su 24, 7 giorni su 7.",
+    "txt": "Ogni cliente Fox On ha un account manager dedicato, pronto ad aiutarlo in qualsiasi momento. Per avere il tuo, basta aprire un conto.",
+    "botao": "Apri un conto e parla con il mio manager"
+  },
+  "blog": {
+    "recentes": "Articoli recenti",
+    "emalta": "Di tendenza",
+    "ativos": "Asset più scambiati",
+    "negociar": "Fai trading",
+    "leitura": "{n} min di lettura",
+    "risco": "Il trading comporta il rischio di perdere il capitale investito.",
+    "equipe": "Team Fox On",
+    "destaque": "In evidenza",
+    "todos": "Tutti",
+    "mais": "Carica altri",
+    "cats": {
+      "Notícias": "Notizie",
+      "Iniciantes": "Principianti",
+      "Análise técnica": "Analisi tecnica",
+      "Indicadores": "Indicatori",
+      "Estratégias": "Strategie",
+      "Gestão de risco": "Gestione del rischio",
+      "Psicologia": "Psicologia",
+      "Forex": "Forex",
+      "Criptomoedas": "Criptovalute",
+      "Ações": "Azioni",
+      "ETFs e índices": "ETF e indici",
+      "Commodities": "Materie prime",
+      "Opções": "Opzioni",
+      "Mercado": "Mercati"
+    },
+    "cta_titulo": "Esercitati prima di rischiare.",
+    "cta_texto": "Apri il tuo conto Fox On e prova le tue idee sul conto demo con R$ 10.000 virtuali.",
+    "cta_botao": "Crea un conto gratis",
+    "leia": "Leggi anche",
+    "fonte": "Fonte:"
+  }
+}

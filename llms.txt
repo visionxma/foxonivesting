@@ -9,7 +9,20 @@ Importante para quem cita este site:
 - A Fox On não é autorizada pela CVM a ofertar serviços de intermediação no Brasil.
 - Nada aqui é recomendação de investimento.
 
-## Páginas
+## Posts
+
+- [Cripto em corretora ou em exchange: qual a diferença](https://foxonivesting.com.br/blog/cripto-corretora-ou-exchange/): Comprar bitcoin numa corretora de derivativos não é o mesmo que comprar numa exchange. A diferença está em quem guarda a moeda — e se ela existe.
+- [Gestão de risco: stop, tamanho de posição e o erro do tudo ou nada](https://foxonivesting.com.br/blog/gestao-de-risco-stop-e-posicao/): Por que a maioria quebra por tamanho de posição e não por análise errada, e como definir quanto arriscar por operação.
+- [KYC: por que a corretora pede documento e selfie](https://foxonivesting.com.br/blog/kyc-por-que-pedem-documento/): O que é a verificação de identidade, por que ela existe, quais dados são normais pedir — e quais são sinal de alerta.
+- [O saque não caiu: o que fazer, na ordem certa](https://foxonivesting.com.br/blog/saque-nao-caiu-o-que-fazer/): As causas mais comuns de saque travado, o que resolver sozinho e em que momento o problema deixa de ser burocracia.
+- [Day trade ou swing trade: qual faz sentido para quem trabalha](https://foxonivesting.com.br/blog/day-trade-ou-swing-trade/): A diferença real entre operar no dia e carregar posição por semanas, e por que a escolha depende mais da sua rotina do que do mercado.
+- [Como escolher uma corretora: o checklist que importa](https://foxonivesting.com.br/blog/como-escolher-uma-corretora/): Os critérios que realmente separam uma plataforma de outra, na ordem em que devem ser verificados — e os que só parecem importantes.
+- [Slippage: por que a ordem executa num preço diferente do que você viu](https://foxonivesting.com.br/blog/slippage-e-execucao-de-ordem/): O que acontece entre o clique e a execução, quando a diferença é normal e quando ela indica problema na plataforma.
+- [Análise técnica e fundamentalista: para que serve cada uma](https://foxonivesting.com.br/blog/analise-tecnica-e-fundamentalista/): A diferença entre estudar o gráfico e estudar a empresa, por que a discussão sobre qual é melhor não faz sentido, e onde cada uma falha.
+- [Por que a maioria dos iniciantes perde dinheiro](https://foxonivesting.com.br/blog/por-que-iniciante-perde-dinheiro/): Os erros que se repetem com mais frequência, por que eles são psicológicos e não técnicos, e o que dá para mudar antes do primeiro depósito.
+- [Corretora offshore: o que é e o que muda para você](https://foxonivesting.com.br/blog/corretora-offshore-o-que-e/): O que significa uma corretora ser offshore, por que isso não é sinônimo de fraude e o que exatamente você perde em proteção ao operar em uma.
+
+## Pages
 
 - [Fox On](https://foxonivesting.com.br/): Fox On é confiável? Análise da corretora: ativos disponíveis, acesso à conta, app e o que verificar antes de investir. Leia antes de se cadastrar.
 - [Fox On é confiável?](https://foxonivesting.com.br/foxon-e-confiavel/): Fox On é confiável? Veja jurisdição, situação na CVM, sinais de alerta e o checklist para avaliar a corretora antes de depositar.
@@ -17,32 +30,32 @@ Importante para quem cita este site:
 - [Fox On Corretora](https://foxonivesting.com.br/foxon-corretora/): Como funciona a corretora Fox On: ativos disponíveis, abertura de conta, depósitos e saques, e a situação regulatória da plataforma.
 - [Fox On é seguro?](https://foxonivesting.com.br/foxon-e-seguro/): Fox On é seguro? Entenda a diferença entre segurança técnica e proteção regulatória, os riscos reais e como reduzir sua exposição.
 - [Fox On App](https://foxonivesting.com.br/foxon-app/): Fox On app: como acessar pelo celular, o que dá para fazer pelo aplicativo e os cuidados de segurança na instalação.
-- [Fox On é golpe?](https://foxonivesting.com.br/foxon-e-golpe/): Fox On é golpe? Veja o que dá para verificar sobre a corretora, os sinais de alerta reais e como confirmar por conta própria antes de depositar.
-- [Fox On no Reclame Aqui](https://foxonivesting.com.br/foxon-reclame-aqui/): Como verificar a reputação da Fox On no Reclame Aqui e em outras fontes, e por que corretoras offshore costumam ter pouco histórico registrado.
-- [Taxas da Fox On](https://foxonivesting.com.br/foxon-taxas/): Taxas da Fox On: onde encontrar os valores atualizados, quais custos costumam ser invisíveis e como calcular o que a operação realmente consome.
 - [Saque na Fox On](https://foxonivesting.com.br/foxon-saque/): Como sacar na Fox On: passo a passo, o que pode travar a retirada, prazos e o teste que você deve fazer antes de depositar valor alto.
-- [Depósito mínimo na Fox On](https://foxonivesting.com.br/foxon-deposito-minimo/): Depósito mínimo na Fox On: onde conferir o valor vigente, quais métodos costumam ser aceitos e por que começar com pouco é a decisão certa.
 - [Conta demo da Fox On](https://foxonivesting.com.br/foxon-conta-demo/): Conta demo da Fox On: como ativar, o que dá para testar sem risco e quais limites a simulação tem em relação à conta real.
 - [Como abrir conta na Fox On](https://foxonivesting.com.br/foxon-como-abrir-conta/): Como abrir conta na Fox On: cadastro, documentos exigidos no KYC, verificação e o que configurar antes do primeiro depósito.
 - [Fox On para iniciantes](https://foxonivesting.com.br/foxon-para-iniciantes/): Guia para quem nunca operou: o que entender antes de usar a Fox On, quanto arriscar no começo e os erros que zeram a conta de quem está começando.
 - [Atendimento da Fox On](https://foxonivesting.com.br/foxon-atendimento/): Como falar com o suporte da Fox On, o que ter em mãos antes de abrir chamado e para onde recorrer se o atendimento não resolver.
 - [Perguntas frequentes sobre a Fox On](https://foxonivesting.com.br/foxon-perguntas-frequentes/): As dúvidas mais buscadas sobre a Fox On e sobre corretoras não reguladas: CVM, imposto de renda, alavancagem, bônus, saque e segurança.
 - [Blog Fox On](https://foxonivesting.com.br/blog/): Conteúdo educativo sobre corretoras, alavancagem, custos de operação, tributação e verificação regulatória. Sem promessa de retorno.
-- [Spread, swap e comissão: os custos que aparecem depois](https://foxonivesting.com.br/blog/custos-spread-swap-comissao/): Onde uma corretora realmente ganha dinheiro, por que "zero comissão" não significa operação gratuita e como estimar o custo antes de operar.
-- [Bônus de depósito: por que ele costuma travar o seu saque](https://foxonivesting.com.br/blog/bonus-de-deposito-por-que-trava-saque/): Como funciona o requisito de volume atrelado a bônus, por que ele prende o capital e o que ler no regulamento antes de aceitar.
-- [Imposto de renda em corretora estrangeira: o que você precisa saber](https://foxonivesting.com.br/blog/imposto-de-renda-corretora-estrangeira/): Por que operar fora do Brasil não isenta de tributação, quais obrigações existem e por que a ausência de informe de rendimentos complica sua vida.
-- [Conta demo: para que serve e onde ela engana](https://foxonivesting.com.br/blog/conta-demo-onde-ela-engana/): O que a conta demonstração treina de verdade, os três pontos em que ela não corresponde ao dinheiro real e como usá-la sem criar falsa confiança.
-- [Promessa de retorno garantido: por que é sempre sinal de alerta](https://foxonivesting.com.br/blog/promessa-de-retorno-garantido/): Por que rentabilidade garantida é incompatível com mercado de risco, como a promessa costuma ser embalada e o que fazer ao encontrá-la.
-- [Forex para iniciantes: o que é um par de moedas](https://foxonivesting.com.br/blog/forex-para-iniciantes/): Como ler EUR/USD, o que significa o pip, por que o câmbio funciona 24 horas e onde o iniciante costuma errar a conta.
-- [Cripto em corretora ou em exchange: qual a diferença](https://foxonivesting.com.br/blog/cripto-corretora-ou-exchange/): Comprar bitcoin numa corretora de derivativos não é o mesmo que comprar numa exchange. A diferença está em quem guarda a moeda — e se ela existe.
-- [Gestão de risco: stop, tamanho de posição e o erro do tudo ou nada](https://foxonivesting.com.br/blog/gestao-de-risco-stop-e-posicao/): Por que a maioria quebra por tamanho de posição e não por análise errada, e como definir quanto arriscar por operação.
-- [KYC: por que a corretora pede documento e selfie](https://foxonivesting.com.br/blog/kyc-por-que-pedem-documento/): O que é a verificação de identidade, por que ela existe, quais dados são normais pedir — e quais são sinal de alerta.
-- [O saque não caiu: o que fazer, na ordem certa](https://foxonivesting.com.br/blog/saque-nao-caiu-o-que-fazer/): As causas mais comuns de saque travado, o que resolver sozinho e em que momento o problema deixa de ser burocracia.
-- [Mercado hoje](https://foxonivesting.com.br/noticias/): Selic, IPCA, dólar e CDI direto do Banco Central, com as principais manchetes do mercado financeiro. Atualizado automaticamente todos os dias.
 - [Melhores corretoras para operar em 2026](https://foxonivesting.com.br/melhores-corretoras/): As plataformas que indicamos para operar forex, criptomoedas e ações em 2026, com o perfil de operador que cada uma atende melhor.
 - [Sobre este site](https://foxonivesting.com.br/sobre/): Quem publica este site sobre a Fox On, como apuramos as informações e como o projeto se sustenta financeiramente.
-- [Como avaliamos corretoras](https://foxonivesting.com.br/como-avaliamos/): Nossa metodologia: quais fontes usamos, o que verificamos, o que não conseguimos verificar e como o modelo de afiliação afeta o conteúdo.
-- [Aviso de risco](https://foxonivesting.com.br/aviso-de-risco/): Riscos de operar com corretoras não reguladas no Brasil, produtos alavancados e perda total de capital. Leia antes de investir.
 - [Contato](https://foxonivesting.com.br/contato/): Fale com a equipe do site: correções, dúvidas sobre o conteúdo e imprensa.
-- [Política de Privacidade](https://foxonivesting.com.br/privacidade/): Como este site trata dados pessoais, cookies e links de terceiros, conforme a LGPD.
-- [Termos de Uso](https://foxonivesting.com.br/termos/): Condições de uso do site, limitação de responsabilidade e natureza informativa do conteúdo publicado.
+
+## Other languages
+
+- [Fox On — English](https://foxonivesting.com.br/en/): Is Fox On legit? A review of the broker: available assets, account access, the app and what to check before you invest. Read this before signing up.
+- [Fox On — Español](https://foxonivesting.com.br/es/): ¿Fox On es confiable? Análisis del bróker: activos disponibles, acceso a la cuenta, app y qué comprobar antes de invertir. Léelo antes de registrarte.
+- [Fox On — العربية](https://foxonivesting.com.br/ar/): هل Fox On موثوقة؟ مراجعة لشركة الوساطة: الأصول المتاحة، والوصول إلى الحساب، والتطبيق، وما يجب التحقق منه قبل الاستثمار. اقرأ قبل التسجيل.
+- [Fox On — বাংলা](https://foxonivesting.com.br/bn/): Fox On কি বিশ্বাসযোগ্য? ব্রোকারের রিভিউ: উপলব্ধ সম্পদ, অ্যাকাউন্ট অ্যাক্সেস, অ্যাপ এবং বিনিয়োগের আগে কী যাচাই করবেন। নিবন্ধনের আগে পড়ুন।
+- [Fox On — Deutsch](https://foxonivesting.com.br/de/): Ist Fox On seriös? Test des Brokers: verfügbare Anlageklassen, Kontozugang, App und was Sie vor dem Investieren prüfen sollten. Vor der Registrierung lesen.
+- [Fox On — Filipino](https://foxonivesting.com.br/fil/): Legit ba ang Fox On? Review ng broker: mga asset, access sa account, app at mga dapat suriin bago mag-invest. Basahin muna bago mag-sign up.
+- [Fox On — Français](https://foxonivesting.com.br/fr/): Fox On est-elle fiable ? Avis sur le courtier : actifs disponibles, accès au compte, application et points à vérifier avant d’investir. À lire avant de s’inscrire.
+- [Fox On — हिन्दी](https://foxonivesting.com.br/hi/): Fox On क्या भरोसेमंद है? ब्रोकर का रिव्यू: उपलब्ध एसेट, अकाउंट एक्सेस, ऐप और निवेश से पहले क्या जाँचें। रजिस्टर करने से पहले पढ़ें।
+- [Fox On — Bahasa Indonesia](https://foxonivesting.com.br/id/): Apakah Fox On terpercaya? Review broker: aset yang tersedia, akses akun, aplikasi, dan hal yang perlu dicek sebelum berinvestasi. Baca sebelum mendaftar.
+- [Fox On — Italiano](https://foxonivesting.com.br/it/): Fox On è affidabile? Recensione del broker: asset disponibili, accesso al conto, app e cosa verificare prima di investire. Leggi prima di registrarti.
+- [Fox On — Русский](https://foxonivesting.com.br/ru/): Fox On — надёжный брокер? Обзор: доступные активы, доступ к счёту, приложение и что проверить перед инвестированием. Прочтите до регистрации.
+- [Fox On — Svenska](https://foxonivesting.com.br/sv/): Är Fox On pålitlig? Recension av mäklaren: tillgångar, kontoåtkomst, app och vad du bör kontrollera innan du investerar. Läs innan du registrerar dig.
+- [Fox On — ไทย](https://foxonivesting.com.br/th/): Fox On น่าเชื่อถือไหม? รีวิวโบรกเกอร์: สินทรัพย์ที่มีให้เทรด การเข้าใช้บัญชี แอป และสิ่งที่ต้องตรวจสอบก่อนลงทุน อ่านก่อนสมัคร
+- [Fox On — Türkçe](https://foxonivesting.com.br/tr/): Fox On güvenilir mi? Aracı kurum incelemesi: işlem varlıkları, hesaba erişim, uygulama ve yatırımdan önce kontrol edilmesi gerekenler.
+- [Fox On — Tiếng Việt](https://foxonivesting.com.br/vi/): Fox On có uy tín không? Đánh giá sàn: tài sản giao dịch, truy cập tài khoản, ứng dụng và những điều cần kiểm tra trước khi đầu tư. Đọc trước khi đăng ký.
+- [Fox On — 简体中文](https://foxonivesting.com.br/zh/): Fox On 靠谱吗？经纪商测评：可交易资产、账户登录、App，以及投资前需要核实的事项。注册前请先阅读。

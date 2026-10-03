@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="tr" dir="ltr" data-tema="dark" data-tv="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- ===== SEO principal ===== -->
+  <title>RVI: Göreceli Canlılık Endeksi teknik analizde nasıl kullanılır | Blog Fox On</title>
+  <meta name="description" content="Göreceli Canlılık Endeksi'nin (RVI) ne olduğunu, formülünün nasıl hesaplanacağını ve kesişimler ile uyumsuzlukların pratikte nasıl yorumlanacağını öğrenin.">
+  <link rel="canonical" href="https://foxonivesting.com.br/tr/blog/rvi-goreceli-canlilik-endeksi-nasil-kullanilir/">
+  <!--hreflang-->
+  <link rel="alternate" hreflang="pt-BR" href="https://foxonivesting.com.br/blog/indice-de-vigor-relativo-rvi-como-usar/">
+  <link rel="alternate" hreflang="en" href="https://foxonivesting.com.br/en/blog/relative-vigor-index-rvi-how-to-use/">
+  <link rel="alternate" hreflang="es" href="https://foxonivesting.com.br/es/blog/indice-de-vigor-relativo-rvi-como-usar/">
+  <link rel="alternate" hreflang="ar" href="https://foxonivesting.com.br/ar/blog/relative-vigor-index-rvi-how-to-use/">
+  <link rel="alternate" hreflang="bn" href="https://foxonivesting.com.br/bn/blog/relative-vigor-index-rvi-how-to-use/">
+  <link rel="alternate" hreflang="de" href="https://foxonivesting.com.br/de/blog/rvi-relativer-vigor-index-anwendung/">
+  <link rel="alternate" hreflang="fil" href="https://foxonivesting.com.br/fil/blog/rvi-paano-gamitin-ang-relative-vigor-index/">
+  <link rel="alternate" hreflang="fr" href="https://foxonivesting.com.br/fr/blog/rvi-comment-utiliser-indice-de-vigueur-relative/">
+  <link rel="alternate" hreflang="hi" href="https://foxonivesting.com.br/hi/blog/relative-vigor-index-rvi-how-to-use/">
+  <link rel="alternate" hreflang="id" href="https://foxonivesting.com.br/id/blog/rvi-cara-menggunakan-relative-vigor-index/">
+  <link rel="alternate" hreflang="it" href="https://foxonivesting.com.br/it/blog/rvi-come-usare-lindice-di-vigore-relativo/">
+  <link rel="alternate" hreflang="ru" href="https://foxonivesting.com.br/ru/blog/relative-vigor-index-rvi-how-to-use/">
+  <link rel="alternate" hreflang="sv" href="https://foxonivesting.com.br/sv/blog/rvi-index-relativ-kraft-hur-anvanda/">
+  <link rel="alternate" hreflang="th" href="https://foxonivesting.com.br/th/blog/rvi-relative-vigor-index-how-to-use/">
+  <link rel="alternate" hreflang="tr" href="https://foxonivesting.com.br/tr/blog/rvi-goreceli-canlilik-endeksi-nasil-kullanilir/">
+  <link rel="alternate" hreflang="vi" href="https://foxonivesting.com.br/vi/blog/rvi-chi-so-suc-song-tuong-doi-cach-su-dung/">
+  <link rel="alternate" hreflang="zh-CN" href="https://foxonivesting.com.br/zh/blog/relative-vigor-index-rvi-how-to-use/">
+  <link rel="alternate" hreflang="x-default" href="https://foxonivesting.com.br/en/blog/relative-vigor-index-rvi-how-to-use/">
+  <!--/hreflang-->
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="author" content="Fox On">
+  <!-- ===== Open Graph ===== -->
+  <meta property="og:locale" content="tr_TR">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="RVI: Göreceli Canlılık Endeksi teknik analizde nasıl kullanılır">
+  <meta property="og:description" content="Göreceli Canlılık Endeksi'nin (RVI) ne olduğunu, formülünün nasıl hesaplanacağını ve kesişimler ile uyumsuzlukların pratikte nasıl yorumlanacağını öğrenin.">
+  <meta property="og:url" content="https://foxonivesting.com.br/tr/blog/rvi-goreceli-canlilik-endeksi-nasil-kullanilir/">
+  <meta property="og:site_name" content="Fox On">
+  <meta property="og:image" content="https://foxonivesting.com.br/assets/img/foxon-corretora-04.webp">
+  <meta property="og:image:alt" content="Fox On — Fox On Blog">
+  <meta name="twitter:image" content="https://foxonivesting.com.br/assets/img/foxon-corretora-04.webp">
+  <meta property="og:updated_time" content="undefined">
+  <!-- ===== Twitter Card ===== -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="RVI: Göreceli Canlılık Endeksi teknik analizde nasıl kullanılır">
+  <meta name="twitter:description" content="Göreceli Canlılık Endeksi'nin (RVI) ne olduğunu, formülünün nasıl hesaplanacağını ve kesişimler ile uyumsuzlukların pratikte nasıl yorumlanacağını öğrenin.">
+  <meta name="twitter:label1" content="Yazan">
+  <meta name="twitter:data1" content="Fox On">
+  <meta name="twitter:label2" content="Okuma süresi">
+  <meta name="twitter:data2" content="5 dakika">
+  <!-- ===== Ícones e PWA ===== -->
+  <link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="manifest" href="/site.webmanifest">
+  <meta name="theme-color" content="#1f2026">
+  <!-- ===== Performance ===== -->
+  <link rel="preload" as="font" type="font/woff2"
+        href="/assets/fonts/montserrat-latin-var.woff2" crossorigin>
+  <link rel="stylesheet" href="/assets/css/style.css?v=20261003f">
+  <!-- ===== Dados estruturados (JSON-LD) ===== -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://foxonivesting.com.br/tr/blog/rvi-goreceli-canlilik-endeksi-nasil-kullanilir/#artigo",
+      "headline": "RVI: Göreceli Canlılık Endeksi teknik analizde nasıl kullanılır",
+      "description": "Göreceli Canlılık Endeksi'nin (RVI) ne olduğunu, formülünün nasıl hesaplanacağını ve kesişimler ile uyumsuzlukların pratikte nasıl yorumlanacağını öğrenin.",
+      "url": "https://foxonivesting.com.br/tr/blog/rvi-goreceli-canlilik-endeksi-nasil-kullanilir/",
+      "inLanguage": "tr",
+      "datePublished": "2026-09-24T09:00:00-03:00",
+      "dateModified": "2026-09-24T09:00:00-03:00",
+      "image": "https://foxonivesting.com.br/assets/img/foxon-corretora-04.webp",
+      "articleSection": "Göstergeler",
+      "author": {
+        "@type": "Organization",
+        "name": "Fox On Ekibi",
+        "url": "https://foxonivesting.com.br/tr/"
+      },
+      "publisher": {
+        "@id": "https://foxonivesting.com.br/#organization"
+      },
+      "mainEntityOfPage": "https://foxonivesting.com.br/tr/blog/rvi-goreceli-canlilik-endeksi-nasil-kullanilir/",
+      "isPartOf": {
+        "@id": "https://foxonivesting.com.br/tr/blog/#blog"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://foxonivesting.com.br/tr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://foxonivesting.com.br/tr/blog/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "RVI: Göreceli Canlılık Endeksi teknik analizde nasıl kullanılır",
+          "item": "https://foxonivesting.com.br/tr/blog/rvi-goreceli-canlilik-endeksi-nasil-kullanilir/"
+        }
+      ]
+    }
+  ]
+}
+</script>
+</head>
+<body class="tema-claro">
+  <a class="skip-link" href="#conteudo">İçeriğe geç</a>
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <div class="site-header__left">
+        <a class="site-logo" href="/tr/" aria-label="Fox On — ana sayfa">
+          <span class="wordmark">
+          <img class="wordmark__badge-img" src="/assets/img/marca-foxon.png"
+               alt="" aria-hidden="true" width="36" height="36" decoding="async">
+          <span class="wordmark__text">Fox On <span class="wordmark__blog">Blog</span></span>
+        </span>
+        </a>
+        <button class="nav-toggle" type="button" aria-expanded="false"
+                aria-controls="menu-principal" aria-label="Gezinme menüsünü aç"
+                data-abrir="Gezinme menüsünü aç" data-fechar="Gezinme menüsünü kapat">
+          <span></span>
+        </button>
+        <details class="idioma">
+          <summary aria-label="Dil seçin"><img class="bandeira" src="/assets/img/bandeiras/tr.svg" alt="" width="22" height="16"><span>tr</span></summary>
+          <ul class="idioma__lista">
+            <li><a href="/blog/indice-de-vigor-relativo-rvi-como-usar/" hreflang="pt-BR" lang="pt-BR"><img class="bandeira" src="/assets/img/bandeiras/pt.svg" alt="" width="20" height="15" loading="lazy">Português <small>pt</small></a></li>
+            <li><a href="/en/blog/relative-vigor-index-rvi-how-to-use/" hreflang="en" lang="en"><img class="bandeira" src="/assets/img/bandeiras/en.svg" alt="" width="20" height="15" loading="lazy">English <small>en</small></a></li>
+            <li><a href="/es/blog/indice-de-vigor-relativo-rvi-como-usar/" hreflang="es" lang="es"><img class="bandeira" src="/assets/img/bandeiras/es.svg" alt="" width="20" height="15" loading="lazy">Español <small>es</small></a></li>
+            <li><a href="/ar/blog/relative-vigor-index-rvi-how-to-use/" hreflang="ar" lang="ar"><img class="bandeira" src="/assets/img/bandeiras/ar.svg" alt="" width="20" height="15" loading="lazy">العربية <small>ar</small></a></li>
+            <li><a href="/bn/blog/relative-vigor-index-rvi-how-to-use/" hreflang="bn" lang="bn"><img class="bandeira" src="/assets/img/bandeiras/bn.svg" alt="" width="20" height="15" loading="lazy">বাংলা <small>bn</small></a></li>
+            <li><a href="/de/blog/rvi-relativer-vigor-index-anwendung/" hreflang="de" lang="de"><img class="bandeira" src="/assets/img/bandeiras/de.svg" alt="" width="20" height="15" loading="lazy">Deutsch <small>de</small></a></li>
+            <li><a href="/fil/blog/rvi-paano-gamitin-ang-relative-vigor-index/" hreflang="fil" lang="fil"><img class="bandeira" src="/assets/img/bandeiras/fil.svg" alt="" width="20" height="15" loading="lazy">Filipino <small>fil</small></a></li>
+            <li><a href="/fr/blog/rvi-comment-utiliser-indice-de-vigueur-relative/" hreflang="fr" lang="fr"><img class="bandeira" src="/assets/img/bandeiras/fr.svg" alt="" width="20" height="15" loading="lazy">Français <small>fr</small></a></li>
+            <li><a href="/hi/blog/relative-vigor-index-rvi-how-to-use/" hreflang="hi" lang="hi"><img class="bandeira" src="/assets/img/bandeiras/hi.svg" alt="" width="20" height="15" loading="lazy">हिन्दी <small>hi</small></a></li>
+            <li><a href="/id/blog/rvi-cara-menggunakan-relative-vigor-index/" hreflang="id" lang="id"><img class="bandeira" src="/assets/img/bandeiras/id.svg" alt="" width="20" height="15" loading="lazy">Bahasa Indonesia <small>id</small></a></li>
+            <li><a href="/it/blog/rvi-come-usare-lindice-di-vigore-relativo/" hreflang="it" lang="it"><img class="bandeira" src="/assets/img/bandeiras/it.svg" alt="" width="20" height="15" loading="lazy">Italiano <small>it</small></a></li>
+            <li><a href="/ru/blog/relative-vigor-index-rvi-how-to-use/" hreflang="ru" lang="ru"><img class="bandeira" src="/assets/img/bandeiras/ru.svg" alt="" width="20" height="15" loading="lazy">Русский <small>ru</small></a></li>
+            <li><a href="/sv/blog/rvi-index-relativ-kraft-hur-anvanda/" hreflang="sv" lang="sv"><img class="bandeira" src="/assets/img/bandeiras/sv.svg" alt="" width="20" height="15" loading="lazy">Svenska <small>sv</small></a></li>
+            <li><a href="/th/blog/rvi-relative-vigor-index-how-to-use/" hreflang="th" lang="th"><img class="bandeira" src="/assets/img/bandeiras/th.svg" alt="" width="20" height="15" loading="lazy">ไทย <small>th</small></a></li>
+            <li><a href="/tr/blog/rvi-goreceli-canlilik-endeksi-nasil-kullanilir/" hreflang="tr" lang="tr" aria-current="true"><img class="bandeira" src="/assets/img/bandeiras/tr.svg" alt="" width="20" height="15" loading="lazy">Türkçe <small>tr</small></a></li>
+            <li><a href="/vi/blog/rvi-chi-so-suc-song-tuong-doi-cach-su-dung/" hreflang="vi" lang="vi"><img class="bandeira" src="/assets/img/bandeiras/vi.svg" alt="" width="20" height="15" loading="lazy">Tiếng Việt <small>vi</small></a></li>
+            <li><a href="/zh/blog/relative-vigor-index-rvi-how-to-use/" hreflang="zh-CN" lang="zh-CN"><img class="bandeira" src="/assets/img/bandeiras/zh.svg" alt="" width="20" height="15" loading="lazy">简体中文 <small>zh</small></a></li>
+          </ul>
+        </details>
+      </div>
+      <nav class="site-nav" id="menu-principal" aria-label="Ana gezinme">
+        <ul>
+          <li><a href="/tr/">Ana Sayfa</a></li>
+          <li><a href="/tr/foxon-guvenilir-mi/">Güvenilir mi?</a></li>
+          <li><a href="/tr/foxon-giris/">Giriş</a></li>
+          <li><a href="/tr/foxon-araci-kurum/">Aracı kurum</a></li>
+          <li><a href="/tr/foxon-guvenli-mi/">Güvenli mi?</a></li>
+          <li><a href="/tr/foxon-uygulama/">Uygulama</a></li>
+          <li><a href="/tr/en-iyi-araci-kurumlar/">En iyi aracı kurumlar</a></li>
+          <li><a href="/tr/blog/" aria-current="page">Blog</a></li>
+        </ul>
+      </nav>
+      <div class="site-header__actions">
+        <a class="btn btn--primary btn--sm" href="https://trade.safirion.com/register?aff=818084&aff_model=revenue&afftrack=foxon-tr"
+           target="_blank" rel="noopener sponsored nofollow">Hesap oluştur</a>
+        <a class="btn btn--outline btn--sm" href="/tr/foxon-giris/">Giriş</a>
+      </div>
+    </div>
+  </header>
+  <nav class="breadcrumb" aria-label="Sayfa yolu">
+    <div class="container">
+      <ol>
+        <li><a href="/tr/">Ana Sayfa</a></li>
+        <li><a href="/tr/blog/">Blog</a></li>
+        <li><span aria-current="page">RVI: Göreceli Canlılık Endeksi teknik analizde nasıl kullanılır</span></li>
+      </ol>
+    </div>
+  </nav>
+  <main id="conteudo"><!--artigo-blog-->
+    <section class="section">
+      <div class="container article bq-post">
+        <span class="bq__tag">Göstergeler</span>
+        <h1>RVI: Göreceli Canlılık Endeksi teknik analizde nasıl kullanılır</h1>
+        <p class="bq-post__meta">Fox On Ekibi · <time datetime="2026-09-24">24.09.2026</time> · 4 dk okuma</p>
+        <figure class="foto"><img src="/assets/img/foxon-corretora-04.webp" alt="" width="1024" height="512" decoding="async" fetchpriority="high"></figure>
+        <p>RVI kısaltmasıyla bilinen Göreceli Canlılık Endeksi (İngilizce Relative Vigor Index), basit bir soruyu yanıtlamaya çalışan bir momentum göstergesidir: fiyatı yukarı veya aşağı iten güç gerçekten sürdürülebilir mi, yoksa sadece geçici bir sarsıntı mı? Sadece fiyatın nereye gittiğine bakan hareketli ortalamalardan farklı olarak, RVI mumun <em>nasıl</em> oluştuğuna bakar; kapanışı açılışla karşılaştırır ve bu farkı dönemin toplam genişliğiyle ilişkilendirir.</p>
+<p>Bunun arkasındaki mantık, sağlıklı yükseliş trendlerinde fiyatların mumun en yükseğine yakın kapanma eğiliminde olduğu gözleminden gelir. Düşüş trendlerinde ise tersi olur: kapanış en düşüğe yakın kalır. Bu artık gerçekleşmediğinde, fiyat hâlâ yükseliyor veya düşüyor olsa bile, RVI hareketin soluğunun zayıfladığının sinyalini zaten verir.</p>
+<h2>RVI nasıl hesaplanır</h2>
+<p>Tek bir mumun temel formülü şudur: RVI = (Kapanış − Açılış) ÷ (En Yüksek − En Düşük). Sonuç -1 ile 1 arasında değişir. 1'e yakın değerler, kapanışın en yükseğe yapışık olduğu güçlü bir alım gücü mumunu gösterir. -1'e yakın değerler tersini, baskın bir satış baskısını gösterir.</p>
+<p>Pratikte kimse tek bir mumun değerini kullanmaz, çünkü gürültü çok büyük olurdu. Bu yüzden analiz platformlarında kullanılan versiyon, bu hesabı hem payda hem paydada genellikle 10 periyotluk basit bir hareketli ortalamayla yumuşatır. Sonuç, genellikle RVI'nin kendisinin 4 periyotluk ağırlıklı bir ortalaması olan, sinyal çizgisi adı verilen ikinci bir çizgiyle birlikte daha istikrarlı bir çizgidir. Çoğu trader'ın gözlemlediği bu iki çizgi arasındaki kesişimdir.</p>
+<h2>Sinyaller nasıl yorumlanır</h2>
+<p>En yaygın sinyal kesişimdir: RVI sinyal çizgisini aşağıdan yukarı kestiğinde, birçok trader bunu alım gücünün alan kazandığının bir işareti olarak görür. Ters kesişim, yukarıdan aşağı, tersini öne sürer. Bu kesişimler, izole bir tetikleyici olarak değil, fiyat grafiğinde zaten var olan bir hareketi teyit ettiklerinde daha iyi işler.</p>
+<p>Zaten bir miktar deneyimi olanlar için daha değerli olan ikinci kullanım, uyumsuzluktur. Bir varlığın fiyatı yeni bir zirve yaparken RVI öncekinden daha düşük bir zirve yapıyorsa, bu bir düşüş uyumsuzluğudur: fiyat yükseldi, ama yükselişin arkasındaki canlılık azaldı. Ters akıl yürütme dipler için geçerlidir: fiyat daha düşük bir dip yaparken RVI yükseliyorsa, bu satış baskısının tükenmekte olabileceğinin bir sinyalidir.</p>
+<h2>Sayısal bir örnek</h2>
+<p>Seansın açılışında R$ 38,00'dan işlem gören bir hisse düşünün. Gün boyunca R$ 37,80 dip ile R$ 39,50 zirve arasında salınır ve R$ 39,20'de kapanır. Tek bir mumun formülünü uygulayarak: (39,20 − 38,00) ÷ (39,50 − 37,80) = 1,20 ÷ 1,70 = 0,70. Bu izole değer bile, kapanışın günün zirvesine oldukça yakın olduğu güçlü bir mumu gösterir. Sonraki günlerde fiyat yükselmeye devam ederse ama bu hesaplanan oran 0,50'ye, sonra 0,30'a düşerse, bu, fiyat hâlâ yükselirken bile canlılığın azaldığını gösterir — trendin grafikte dönmeden önce bile yakıtını kaybediyor olabileceğine dair bir uyarı.</p>
+<h2>RVI kullanırken yaygın hatalar ve dikkat edilmesi gerekenler</h2>
+<p>İlk hata, RVI'yi mükemmel bir öngörü göstergesi olarak ele almaktır. Yapısı gereği bir teyit ve güç göstergesidir, bir sonraki mumun tahmini değildir. İkinci hata, onu tek başına kullanmaktır: fiyata dayalı herhangi bir osilatör gibi, fiyatta önemli hiçbir şey olmadan sinyal çizgisi etrafında gidip gelerek, net bir yönü olmayan piyasalarda sahte sinyaller üretebilir. Bu yüzden birçok trader, RVI'yi daha büyük periyotlu bir hareketli ortalama gibi daha geniş bir trend okumasıyla birleştirir, osilatörü sadece zaten belirlenmiş bir yön içinde girişleri zamanlamak için kullanır.</p>
+<p>Hiçbir teknik göstergenin sonuç garanti etmediğini de hatırlamakta fayda var. RVI, bir hareketin güç ve zayıflık okumasını düzenlemeye yardımcı olur, ama piyasa herhangi bir anda herhangi bir sinyali geçersiz kılabilir ve işlem yapmak her zaman zarar riski içerir.</p>
+<h2>RVI'yi pratiğe dökmek</h2>
+<p>Yeni başlayanlar için göstergeyi test etmenin basit bir yolu, zaten takip ettiğiniz bir varlığı gözlemlemek ve bir hafta boyunca RVI ile sinyal çizgisi arasındaki kesişimleri, hemen sonra fiyatta olanla karşılaştırarak not etmektir. Bu, gerçek kararlar almak için kullanmayı düşünmeden önce, göstergenin o belirli varlıkta nasıl davrandığına dair kişisel bir referans oluşturur. Fox On gibi bir platformda, RVI'yi grafiğe eklemek ve bu davranışı fiyatla yan yana görselleştirmek mümkündür; bu, herhangi bir işlemden önce bu tür bir çalışmayı büyük ölçüde kolaylaştırır.</p>
+        <div class="bq-post__cta">
+          <p><strong>Risk almadan önce pratik yapın.</strong> Fox On hesabınızı açın ve fikirlerinizi 10.000 R$ sanal bakiyeli demo hesapta test edin.</p>
+          <a class="btn btn--primary" href="https://trade.safirion.com/register?aff=818084&aff_model=revenue&afftrack=foxon-tr" target="_blank" rel="noopener sponsored nofollow">Ücretsiz hesap aç</a>
+        </div>
+        <aside class="bq-post__mais">
+          <h2>Bunları da okuyun</h2>
+          <div class="bq__grade bq__grade--3">
+            <a class="bq__card" href="/tr/blog/adx-gostergesi-nedir-ve-nasil-calisir/"><img src="/assets/img/foxon-corretora-02.webp" alt="" width="1024" height="512" loading="lazy" decoding="async"><span class="bq__titulo">ADX Göstergesi Nedir ve Nasıl Çalışır</span><span class="bq__meta">24.09.2026 · 4 dk okuma</span></a>
+            <a class="bq__card" href="/tr/blog/stokastik-osilator-nedir-ve-nasil-calisir/"><img src="/assets/img/capas/blog-analise-tecnica-e-fundamentalista.webp" alt="" width="1024" height="512" loading="lazy" decoding="async"><span class="bq__titulo">Stokastik Osilatör Nedir ve Nasıl Çalışır</span><span class="bq__meta">24.09.2026 · 4 dk okuma</span></a>
+            <a class="bq__card" href="/tr/blog/average-true-range-atr-nedir-ve-nasil-hesaplanir/"><img src="/assets/img/foxon-corretora-04.webp" alt="" width="1024" height="512" loading="lazy" decoding="async"><span class="bq__titulo">Average True Range (ATR) Nedir ve Nasıl Hesaplanır</span><span class="bq__meta">24.09.2026 · 4 dk okuma</span></a>
+          </div>
+        </aside>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <span class="site-logo"><span class="wordmark">
+            <img class="wordmark__badge-img" src="/assets/img/marca-foxon.png"
+                 alt="" aria-hidden="true" width="46" height="46" decoding="async">
+            <span class="wordmark__text">Fox On</span>
+          </span></span>
+          <p class="footer__copy">Telif hakkı © 2026 Fox On.<br>
+            Tüm hakları saklıdır.<br>
+            Resmî olmayan site.</p>
+        </div>
+        <div class="footer__nav footer__empresa">
+          <h2>Şirket</h2>
+          <ul>
+            <li><a href="/tr/">Ana Sayfa</a></li>
+            <li><a href="/tr/foxon-guvenilir-mi/">Fox On Güvenilir mi?</a></li>
+            <li><a href="/tr/foxon-giris/">Giriş Yöntemleri</a></li>
+            <li><a href="/tr/foxon-araci-kurum/">Aracı Kurumu Tanıyın</a></li>
+            <li><a href="/tr/foxon-guvenli-mi/">Aracı Kurum Güvenliği</a></li>
+            <li><a href="/tr/foxon-uygulama/">Uygulama</a></li>
+          </ul>
+        </div>
+        <div class="footer__nav footer__contact">
+          <h2>İletişim</h2>
+          <p><a href="mailto:contato@foxonivesting.com.br">contato@foxonivesting.com.br</a></p>
+          <p class="footer__suporte"><span>7/24 hesap yöneticisi</span><a href="mailto:suporte@foxonivesting.com.br">suporte@foxonivesting.com.br</a></p>
+        </div>
+      </div>
+      <div class="footer__legal">
+        <p>Fox On, Saint Vincent ve Grenadinler'de (SVG) kayıtlı olarak faaliyet göstermektedir, Brezilya Sermaye Piyasası Kurulu'nun (CVM) iznine sahip değildir ve bulunduğunuz ülkenin finansal düzenleyicisi tarafından da yetkilendirilmemiş olabilir: hesap açmadan önce kontrol edin. Burada sunulan hiçbir bilgi, finansal hizmet teklifi olarak yorumlanmamalıdır. Bu site bilgilendirme amaçlıdır, Fox On'ın resmî sitesi değildir ve bir ortaklık (affiliate) programı kapsamında yürütülmektedir. Projeksiyonların veya stratejilerin belirli bir performansla sonuçlanacağının garantisi yoktur ve geçmiş performans gelecekteki sonuçların güvencesi değildir. Piyasalardaki oynaklık, getirilerde önemli dalgalanmalara yol açabilir. Türev ve kaldıraçlı ürünler karmaşıktır ve yüksek risk potansiyeli taşır: yatırılan sermayenin tamamı dahil olmak üzere kayıp yaşanabileceğinin farkında olmak esastır. Kaybetmeyi göze alamayacağınız parayla asla yatırım yapmayın.</p>
+        <p class="footer__links">
+          <a href="/tr/foxon-sikca-sorulan-sorular/">Sıkça sorulan sorular</a>
+          <a href="/tr/hakkinda/">Bu site hakkında</a>
+          <a href="/tr/iletisim/">İletişim</a>
+        </p>
+      </div>
+    </div>
+  </footer>
+  <button class="to-top" type="button" aria-label="Sayfanın başına dön">
+    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+      <path d="M12 8l-6 6 1.4 1.4L12 10.8l4.6 4.6L18 14z"/>
+    </svg>
+  </button>
+  <template id="pp-modelo">
+    <div class="pp pp--bonus" role="dialog" aria-modal="true" aria-labelledby="ppTit">
+      <div class="pp__cx" tabindex="-1">
+        <button class="pp__x" type="button" aria-label="Kapat">&#10005;</button>
+        <div class="pp__cont">
+          <h2 id="ppTit"><span class="pp__l1">Bonus</span> <span class="pp__l2">%100</span></h2>
+          <p><strong>WELCOME100</strong> kuponuyla para yatırın ve yatırdığınız tutar üzerinden %100 bonus kazanın.</p>
+          <div class="pp__cupom"><span class="pp__cupom-rot">Kupon</span><strong class="pp__cupom-cod">WELCOME100</strong><button class="pp__copiar" type="button" data-copiado="Kopyalandı!">Kopyala</button></div>
+          <a class="pp__btn" href="https://trade.safirion.com/register?aff=818084&aff_model=revenue&afftrack=foxon-tr" target="_blank" rel="noopener sponsored nofollow">Hemen al</a>
+          <p class="pp__mini">Kampanya koşullarına tabidir. Kaldıraçlı ürünlerle işlem yapmak zarar riski taşır.</p>
+        </div>
+        <div class="pp__fig" aria-hidden="true">
+          <picture><source media="(max-width: 799px)" srcset="/assets/img/popup-cofre-mob.webp"><img src="/assets/img/popup-cofre.webp" alt="" width="1034" height="960" loading="lazy" decoding="async"></picture>
+        </div>
+      </div>
+    </div>
+  </template>
+  <script src="/assets/js/main.js?v=20261003f" defer></script>
+</body>
+</html>
