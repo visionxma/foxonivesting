@@ -55,7 +55,7 @@
   <!-- ===== Performance ===== -->
   <link rel="preload" as="font" type="font/woff2"
         href="/assets/fonts/montserrat-latin-var.woff2" crossorigin>
-  <link rel="stylesheet" href="/assets/css/style.css?v=20261003g">
+  <link rel="stylesheet" href="/assets/css/style.css?v=202610061114">
   <!-- ===== Dados estruturados (JSON-LD) ===== -->
 <script type="application/ld+json">
 {
@@ -164,7 +164,7 @@
         </ul>
       </nav>
       <div class="site-header__actions">
-        <a class="btn btn--primary btn--sm" href="https://trade.foxonivesting.com/fil/register"
+        <a class="btn btn--primary btn--sm" href="https://trade.safirion.com/register?aff=818084&aff_model=revenue&afftrack=foxon"
            target="_blank" rel="noopener sponsored nofollow">Gumawa ng account</a>
         <a class="btn btn--outline btn--sm" href="/fil/foxon-login/">Login</a>
       </div>
@@ -189,7 +189,7 @@
         <p>Karamihan ng trend indicator ay dinisenyo para sundan ang presyo sa real time. Ang Detrended Price Oscillator, kilala sa akronim na DPO (mula sa Ingles na <em>Detrended Price Oscillator</em>), ay ginagawa ang kabaligtaran nang sadya: inaalis nito ang mahabang-panahong trend mula sa gráfiko para ilantad lamang ang maikli hanggang katamtamang-panahong siklo na nakatago sa likod nito.</p><h2>Ang problemang sinusubukang lutasin ng DPO</h2><p>Kapag nasa malakas na uptrend ang isang asset, karaniwan itong bumubuo ng mas maliliit na peak at lambak sa loob ng pangkalahatang pagtaas na ito. Sa pagtingin lang sa raw na presyo, mahirap ihiwalay nang visual ang mga maliliit na siklong ito mula sa pangunahing galaw. Sinasalakay ng DPO ang problemang ito sa paghahambing ng kasalukuyang presyo sa isang moving average na inaantala pabalik sa oras, inaalis ang malaking bahagi ng bahagi ng trend sa equation.</p><h2>Paano gumagana ang kalkulasyon</h2><p>Kinukuha ng formula ang isang simple moving average ng isang tiyak na bilang ng period — 20, halimbawa — at inaantala ito pabalik sa humigit-kumulang kalahati ng period na iyon dagdag isa. Pagkatapos, ibinabawas ang naantalang average na ito mula sa closing price ng bawat candle. Ang resulta ay isang linyang umiindayog sa itaas at ibaba ng zero, itinatampok ang mga peak at lambak na kumakatawan sa maikling-panahong siklo, nang walang hilig ng pangkalahatang trend na nakakasagabal sa pagbasa.</p><h2>Ano ang inilalantad ng linya ng DPO</h2><p>Kapag positibo ang DPO, nasa itaas ng naantalang average ang presyo, nagpapahiwatig ng sandali ng lakas sa loob ng naobserbahang maikling-panahong siklo. Kapag negatibo, nasa ibaba ng average na ito ang presyo, nagpapahiwatig ng kahinaan sa loob ng parehong siklo. Ang praktikal na value ng indicator ay nasa pagtulong tukuyin ang tinatayang tagal ng mga siklong ito — binibilang kung ilang period ang naghihiwalay sa isang peak sa isa pa sa DPO — na maaaring gumabay, halimbawa, sa inaasahang agwat sa pagitan ng isang entry at isa pa sa isang diskarteng batay sa siklo.</p><h2>Isang halimbawa gamit ang mga numero</h2><p>Ipagpalagay ang isang asset na may 20-period simple moving average na naantala nang 11 period pabalik, kasalukuyang nasa R$ 45,00. Kung ang closing price ng pinakabagong candle ay nasa R$ 47,25, ang value ng DPO sa puntong ito ay 47,25 − 45,00 = 2,25, isang positibong value na nagpapahiwatig na R$ 2,25 sa itaas ng naantalang reference average ang presyo. Kung, ilang linggo pagkatapos, ang parehong kalkulasyon ay magreresulta sa -1,80, ipinapakita nito na bumaling ang maikling-panahong siklo mula sa lakas patungong kahinaan sa loob ng naobserbahang panahong iyon — isang impormasyong mas mahirap mapansin kung titingnan lang ang raw na presyo sa isang tuloy-tuloy na uptrend.</p><h2>Bakit hindi bagay ang DPO para basahin ang trend</h2><p>Mismo dahil sinadya ng kalkulasyon nitong alisin ang trend, hindi dapat gamitin ang DPO para magdesisyon kung nasa uptrend o downtrend ba ang isang asset sa mahabang panahon — para dito, mas angkop pa rin ang tradisyunal na trend indicator. Isa pang punto ng pansin ay ang pagkaantala sa oras: dahil naantala pabalik ang average na ginamit sa kalkulasyon, ang DPO ay may posibilidad na maging "huli" kaugnay ng pinakabagong candle, na pinapatibay ang papel nito bilang kasangkapan sa pagtukoy ng mga nakaraang siklo, hindi bilang maagang senyales ng susunod na galaw.</p><h2>Pagsasama ng DPO sa ibang kasangkapan</h2><p>Isang karaniwang paraan ng paggamit ay ang pagsasama ng DPO sa isang mas mahabang-panahong trend indicator: tinutukoy ng trend indicator ang pangkalahatang direksyon (uptrend, downtrend, o sideways), at tumutulong ang DPO tukuyin sa loob ng direksyong iyon ang mga sandaling paborable ang maikling-panahong siklo para sa isang entry na naka-align sa pangunahing trend — halimbawa, pagpasok sa isang uptrend kapag lumabas na lang ang DPO sa negatibong value at nagsimulang tumaas, nagmumungkahi ng simula ng isang bagong siklo ng lakas sa loob ng mas malaking trend.</p><h2>Praktikal na pag-iingat</h2><p>Gaya ng anumang kasangkapang batay sa naantalang average, mas mahusay gumana ang DPO sa mga asset na makasaysayang nagpapakita ng medyo regular na siklikal na pattern. Sa mga napaka-hindi-regular na merkado, walang matutukoy na siklo, maaaring gumawa ang indicator ng mga pagbasang mabilis magbago ng senyales, walang malinaw na praktikal na gamit.</p><h2>Sa pagtatapos</h2><p>Ang DPO ay isang niche na kasangkapan, kapaki-pakinabang mismo para sa mga gustong pag-aralan ang maikli at katamtamang-panahong siklo na nakatago sa loob ng isang mas malaking trend, at hindi dapat palitan ang tradisyunal na trend indicator sa paggawa ng desisyon tungkol sa pangkalahatang direksyon ng merkado. Ang pagsubok dito katabi ng price chart, pinagmamasdan ang distansya sa pagitan ng mga peak at lambak sa mga asset na sinusubaybayan mo na, ang pinakamahusay na paraan para maunawaan kung talagang nagdaragdag ito ng tunay na value sa analysis mo.</p>
         <div class="bq-post__cta">
           <p><strong>Magsanay muna bago sumugal.</strong> Gumawa ng account sa Fox On at subukan ang iyong mga ideya sa demo account na may R$ 10,000 na virtual na pondo.</p>
-          <a class="btn btn--primary" href="https://trade.foxonivesting.com/fil/register" target="_blank" rel="noopener sponsored nofollow">Gumawa ng libreng account</a>
+          <a class="btn btn--primary" href="https://trade.safirion.com/register?aff=818084&aff_model=revenue&afftrack=foxon" target="_blank" rel="noopener sponsored nofollow">Gumawa ng libreng account</a>
         </div>
         <aside class="bq-post__mais">
           <h2>Basahin din</h2>
@@ -254,7 +254,7 @@
           <h2 id="ppTit"><span class="pp__l1">Bonus</span> <span class="pp__l2">na 100%</span></h2>
           <p>Mag-deposit gamit ang coupon na <strong>WELCOME100</strong> at makakuha ng 100% bonus sa halagang idineposito.</p>
           <div class="pp__cupom"><span class="pp__cupom-rot">Coupon</span><strong class="pp__cupom-cod">WELCOME100</strong><button class="pp__copiar" type="button" data-copiado="Nakopya!">Kopyahin</button></div>
-          <a class="pp__btn" href="https://trade.foxonivesting.com/fil/register" target="_blank" rel="noopener sponsored nofollow">Kunin na ngayon</a>
+          <a class="pp__btn" href="https://trade.safirion.com/register?aff=818084&aff_model=revenue&afftrack=foxon" target="_blank" rel="noopener sponsored nofollow">Kunin na ngayon</a>
           <p class="pp__mini">Napapailalim sa mga kondisyon ng promo. May panganib ng pagkalugi ang pag-trade ng leveraged products.</p>
         </div>
         <div class="pp__fig" aria-hidden="true">
@@ -263,6 +263,6 @@
       </div>
     </div>
   </template>
-  <script src="/assets/js/main.js?v=20261003g" defer></script>
+  <script src="/assets/js/main.js?v=202610061114" defer></script>
 </body>
 </html>

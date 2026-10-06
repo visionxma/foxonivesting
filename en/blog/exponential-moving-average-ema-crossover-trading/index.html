@@ -55,7 +55,7 @@
   <!-- ===== Performance ===== -->
   <link rel="preload" as="font" type="font/woff2"
         href="/assets/fonts/montserrat-latin-var.woff2" crossorigin>
-  <link rel="stylesheet" href="/assets/css/style.css?v=20261003g">
+  <link rel="stylesheet" href="/assets/css/style.css?v=202610061114">
   <!-- ===== Dados estruturados (JSON-LD) ===== -->
 <script type="application/ld+json">
 {
@@ -164,7 +164,7 @@
         </ul>
       </nav>
       <div class="site-header__actions">
-        <a class="btn btn--primary btn--sm" href="https://trade.foxonivesting.com/en/register"
+        <a class="btn btn--primary btn--sm" href="https://trade.safirion.com/register?aff=818084&aff_model=revenue&afftrack=foxon"
            target="_blank" rel="noopener sponsored nofollow">Create account</a>
         <a class="btn btn--outline btn--sm" href="/en/foxon-login/">Login</a>
       </div>
@@ -189,7 +189,7 @@
         <p>The exponential moving average crossover is one of the most commonly taught strategies for people starting out in technical analysis, and for good reason: it's easy to visualize, easy to automate, and doesn't depend on subjective interpretation of a chart pattern. The core idea is to use two EMAs of different periods and watch for the moment when one crosses the other.</p><p>Choosing the EMA over the simple moving average isn't accidental. Since the EMA gives more weight to recent prices, it reacts faster to direction changes — something especially relevant in a strategy that depends precisely on the exact moment of the crossover between two lines.</p><h2>How the strategy works</h2><p>The most common format uses two EMAs, one shorter and one longer — for example, 9 and 21 periods:</p><ul><li><strong>Bullish crossover</strong>: the short EMA crosses from below to above the long EMA, suggesting recent momentum is getting stronger than the underlying average.</li><li><strong>Bearish crossover</strong>: the short EMA crosses from above to below the long EMA, suggesting the previous upward momentum is weakening.</li></ul><p>The logic behind this is that, when the short-term average moves above the long-term one, recent prices are pulling the average up more strongly than the more distant history — an indirect sign that the trend may be changing direction.</p><h2>An example with numbers</h2><p>Imagine an asset where the 9-period EMA is at R$ 74.20 and the 21-period EMA is at R$ 74.80, with the price rising over the last few candles. If, two candles later, the 9-period EMA rises to R$ 75.10 and the 21-period one is at R$ 74.90, a bullish crossover has occurred: the short average moved above the long one. That's the point the strategy treats as a long entry signal.</p><p>The reverse path — the 9-period EMA crossing below the 21-period EMA — would generate the exit or sell signal, depending on how the strategy was built.</p><h2>Lag is the price you pay</h2><p>Like any moving average, the EMA reacts to what has already happened, not to what's about to happen. The crossover is only confirmed after the price has already moved enough to flip the relative position between the two lines. That means part of the move is already behind you by the time the signal appears — the strategy trades prediction for confirmation, and that has a direct cost on the size of each entry's potential profit.</p><h2>Where the method fails often</h2><p>In markets with no clear trend, moving sideways within a narrow range, the two EMAs get tangled up, crossing repeatedly over short spans of time. Each crossover generates a signal, but the price doesn't move far enough in the indicated direction before reversing and generating the opposite crossover. The result is a series of small losses — the whipsaw effect that tends to erode accounts trading every crossover with no additional filter.</p><p>One way to reduce this problem is to combine the crossover with a trend-strength filter, like the ADX: requiring the ADX to be above a certain level before considering a crossover valid helps rule out much of the signal noise generated in markets with no defined direction.</p><h2>Adjusting the averages' periods</h2><p>Shorter combinations, like 5 and 13, generate signals earlier, but also more false signals. Longer combinations, like 21 and 55, take longer to confirm, but tend to filter out short-term noise better. There's no universally superior combination — the ideal one depends on how long you intend to hold the trade and how much confirmation lag you're willing to accept in exchange for fewer false signals.</p><h2>Using the crossover with judgment</h2><p>The EMA crossover works better as part of a system with additional filters — trend strength, volume, or support and resistance context — than as an isolated rule applied without exception. It automates part of the decision, but doesn't replace the need for risk management: even the best period combination will still generate false signals with some frequency, especially in sideways markets.</p>
         <div class="bq-post__cta">
           <p><strong>Practice before you risk.</strong> Open your Fox On account and test your ideas on the demo account with R$ 10,000 in virtual funds.</p>
-          <a class="btn btn--primary" href="https://trade.foxonivesting.com/en/register" target="_blank" rel="noopener sponsored nofollow">Create free account</a>
+          <a class="btn btn--primary" href="https://trade.safirion.com/register?aff=818084&aff_model=revenue&afftrack=foxon" target="_blank" rel="noopener sponsored nofollow">Create free account</a>
         </div>
         <aside class="bq-post__mais">
           <h2>Read also</h2>
@@ -254,7 +254,7 @@
           <h2 id="ppTit"><span class="pp__l1">Bonus</span> <span class="pp__l2">of 100%</span></h2>
           <p>Deposit with the code <strong>WELCOME100</strong> and get a 100% bonus on the amount deposited.</p>
           <div class="pp__cupom"><span class="pp__cupom-rot">Code</span><strong class="pp__cupom-cod">WELCOME100</strong><button class="pp__copiar" type="button" data-copiado="Copied!">Copy</button></div>
-          <a class="pp__btn" href="https://trade.foxonivesting.com/en/register" target="_blank" rel="noopener sponsored nofollow">Claim now</a>
+          <a class="pp__btn" href="https://trade.safirion.com/register?aff=818084&aff_model=revenue&afftrack=foxon" target="_blank" rel="noopener sponsored nofollow">Claim now</a>
           <p class="pp__mini">Subject to the promotion's terms. Trading leveraged products involves risk of loss.</p>
         </div>
         <div class="pp__fig" aria-hidden="true">
@@ -263,6 +263,6 @@
       </div>
     </div>
   </template>
-  <script src="/assets/js/main.js?v=20261003g" defer></script>
+  <script src="/assets/js/main.js?v=202610061114" defer></script>
 </body>
 </html>

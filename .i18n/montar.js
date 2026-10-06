@@ -12,7 +12,7 @@ const { execFileSync } = require('child_process');
 const RAIZ = path.join(__dirname, '..');
 const SITE = 'https://foxonivesting.com.br';
 const HOJE = new Date().toISOString().slice(0, 10) + 'T12:00:00-03:00';
-const AFF_BASE = 'https://trade.safirion.com/register?aff=818084&aff_model=revenue&afftrack=';
+const AFF_BASE = 'https://trade.safirion.com/register?aff=818084&aff_model=revenue&afftrack=foxon';
 const IDIOMAS = JSON.parse(fs.readFileSync(path.join(__dirname, 'idiomas.json'), 'utf8'));
 const PT = IDIOMAS[0];
 const ROTAS = JSON.parse(fs.readFileSync(path.join(__dirname, 'fonte/_rotas.json'), 'utf8')); // chave -> rota pt
@@ -30,9 +30,9 @@ const escAttr = s => s.replace(/&(?!(?:[a-z]+|#\d+);)/g, '&amp;').replace(/"/g, 
 const escXml = s => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 const decod = s => s.replace(/&nbsp;/g, ' ').replace(/&quot;/g, '"').replace(/&#39;/g, "'").replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&amp;/g, '&');
 const texto = h => decod(h.replace(/<[^>]+>/g, ' ')).replace(/\s+/g, ' ').trim();
-const aff = idioma => `https://trade.foxonivesting.com/${idioma === PT ? 'pt' : idioma.pasta}/register`;
+const aff = idioma => 'https://trade.safirion.com/register?aff=818084&aff_model=revenue&afftrack=foxon';
 // links de afiliado que continuam só na página de ranking (Safirion)
-const affSafirion = idioma => AFF_BASE + (idioma === PT ? 'foxon' : 'foxon-' + idioma.pasta);
+const affSafirion = idioma => 'https://trade.safirion.com/register?aff=818084&aff_model=revenue&afftrack=foxon';
 
 // ---------------------------------------------------------------- traduções
 function partes(html) {
@@ -440,7 +440,6 @@ function mapearLinks(html, idioma) {
       const c = chavePorRotaPt[rota];
       return c ? `href="${caminho(idioma, c)}${resto}"` : m;
     })
-    .replace(/https:\/\/trade\.foxonivesting\.com\/pt\/register/g, aff(idioma))
     .replace(/https:\/\/trade\.safirion\.com\/register\?aff=818084&(?:amp;)?aff_model=revenue&(?:amp;)?afftrack=foxon(?![-\w])/g, affSafirion(idioma));
 }
 

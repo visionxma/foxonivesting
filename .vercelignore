@@ -4,3 +4,4 @@
 .imagens
 node_modules
 *.pendente
+publicar.sh

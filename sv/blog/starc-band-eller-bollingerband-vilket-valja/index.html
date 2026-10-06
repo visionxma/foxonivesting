@@ -55,7 +55,7 @@
   <!-- ===== Performance ===== -->
   <link rel="preload" as="font" type="font/woff2"
         href="/assets/fonts/montserrat-latin-var.woff2" crossorigin>
-  <link rel="stylesheet" href="/assets/css/style.css?v=20261003g">
+  <link rel="stylesheet" href="/assets/css/style.css?v=202610061114">
   <!-- ===== Dados estruturados (JSON-LD) ===== -->
 <script type="application/ld+json">
 {
@@ -164,7 +164,7 @@
         </ul>
       </nav>
       <div class="site-header__actions">
-        <a class="btn btn--primary btn--sm" href="https://trade.foxonivesting.com/sv/register"
+        <a class="btn btn--primary btn--sm" href="https://trade.safirion.com/register?aff=818084&aff_model=revenue&afftrack=foxon"
            target="_blank" rel="noopener sponsored nofollow">Skapa konto</a>
         <a class="btn btn--outline btn--sm" href="/sv/foxon-logga-in/">Logga in</a>
       </div>
@@ -189,7 +189,7 @@
         <p>När någon öppnar ett diagram för första gången och ser två linjer som omsluter priset som en korridor, är det vanligt att blanda ihop STARC-indikatorn (Stoller Average Range Channel) med Bollingerbanden. Visuellt liknar de varandra: en mittlinje och två band, ett ovanför och ett under priset. Men sättet som var och en beräknar dessa band på förändrar signalens beteende avsevärt, och att välja fel indikator för din stil kan leda till dåliga ingångar.</p><p>Den här artikeln förklarar konstruktionsskillnaden mellan de två, visar i vilken situation var och en fungerar bäst och ger ett exempel på hur man använder dem tillsammans med riskhanteringsregler.</p><h2>Hur varje indikator beräknas</h2><h3>Bollingerband</h3><p>Bollingerbanden utgår från ett enkelt glidande medelvärde, vanligtvis över 20 perioder, och adderar respektive subtraherar två gånger standardavvikelsen för priset under den perioden. Eftersom standardavvikelsen mäter prisernas spridning kring medelvärdet, vidgas banden när volatiliteten stiger och närmar sig varandra när marknaden blir lugnare — den här rörelsen av att öppna och stänga kallas squeeze.</p><h3>STARC-band</h3><p>STARC använder också ett enkelt glidande medelvärde som mittlinje, men det övre och undre bandet konstrueras genom att addera respektive subtrahera en multipel av ATR (Average True Range), inte standardavvikelsen. Eftersom ATR mäter prisstaplarnas genomsnittliga intervall (inklusive gap) tenderar STARC-banden att reagera mjukare och jämnare på volatilitetsförändringar, utan de plötsliga rörelser som ibland förekommer i Bollingerbanden.</p><h2>I praktiken, vad förändras för den som handlar</h2><p>Eftersom standardavvikelsen är känsligare för isolerade pristoppar tenderar Bollingerbanden att öppna och stänga snabbare — vilket är användbart för den som snabbt vill identifiera en period av låg volatilitet som ofta föregår en kraftig rörelse. STARC, som baseras på ATR, ger däremot en stabilare kanal, vilket hjälper traders som föredrar att handla inom ett definierat prisintervall, köpa nära det undre bandet och sälja nära det övre bandet på marknader utan tydlig trend.</p><h2>Ett exempel som jämför de två</h2><p>Anta en tillgång som handlas till R$ 25,00, med det 20-periodiga glidande medelvärdet också på R$ 25,00. I Bollingerbanden, med en standardavvikelse på R$ 0,80, skulle banden ligga på R$ 26,60 (övre) och R$ 23,40 (undre). I STARC, med en ATR på R$ 0,60 och en multiplikator på 2, skulle banden ligga på R$ 26,20 och R$ 23,80 — en något smalare kanal som är mindre benägen att plötsligt vidgas på grund av ett enda längre candle.</p><p>Om priset når R$ 23,80 (STARC:s undre band) men ännu inte nått Bollingers R$ 23,40, skulle en trader som följer STARC redan ha en möjlig köpsignal, medan den som använder Bollinger fortfarande skulle vänta.</p><h2>Hur man bestämmer vilken man ska använda</h2><ul><li>Om ditt fokus är att identifiera volatilitetskontraktion före ett utbrott brukar Bollingerbanden vara mer direkta.</li><li>Om du handlar sidledes och föredrar en stabilare kanal, utan så många plötsliga vidgningar, tenderar STARC att fungera bättre.</li><li>Ingen av dem förutspår framtiden: båda beskriver prisets senaste beteende, så de fungerar bäst i kombination med en momentumindikator, som RSI, eller med avläsning av stöd och motstånd.</li><li>Testa båda på samma tillgång och under samma period innan du väljer — skillnaden i beteende varierar beroende på tillgång och tidsram.</li></ul><h2>Begränsningar som gäller för båda indikatorerna</h2><p>STARC skapades av analytikern Manning Stoller som ett alternativ till Bollingerbanden, men ingen av dem löser den huvudsakliga risken med att handla volatilitetsband: i en stark trend kan priset klibba fast vid det övre eller undre bandet under många candlar i rad, utan att det innebär en vändning. Den som köper varje gång priset rör det undre bandet, utan att kontrollera trendkontexten, riskerar att köpa under en nedgång som fortfarande kommer att fortsätta.</p><p>En annan viktig punkt är tidsramen: band beräknade på ett 1-minutersdiagram reagerar väldigt annorlunda än samma band på ett dagsdiagram, eftersom både standardavvikelsen och ATR direkt beror på det valda tidsintervallet. Att justera medelvärdets period (till exempel testa 14, 20 eller 30) och bandets multiplikator är en del av processen att hitta den konfiguration som bäst beskriver beteendet hos tillgången du följer.</p><h2>Att omsätta det i praktiken</h2><p>Det finns ingen rätt eller fel indikator mellan STARC och Bollinger — det finns den som passar bäst in i din handelsstil. Ett bra sätt är att öppna båda indikatorerna tillsammans på ett demokonto hos Fox On, tillämpa dem på de tillgångar du brukar följa och observera, under några veckor, vilken av dem som bäst förutser de rörelser du vill fånga. Kom ihåg att alla volatilitetsband är ett stödverktyg, inte en garanti för framgång, och att riskkontroll genom stop loss fortfarande är oumbärlig i varje strategi baserad på dessa kanaler.</p>
         <div class="bq-post__cta">
           <p><strong>Öva innan du tar risker.</strong> Öppna ditt Fox On-konto och testa dina idéer på demokontot med R$ 10 000 i virtuella medel.</p>
-          <a class="btn btn--primary" href="https://trade.foxonivesting.com/sv/register" target="_blank" rel="noopener sponsored nofollow">Skapa gratiskonto</a>
+          <a class="btn btn--primary" href="https://trade.safirion.com/register?aff=818084&aff_model=revenue&afftrack=foxon" target="_blank" rel="noopener sponsored nofollow">Skapa gratiskonto</a>
         </div>
         <aside class="bq-post__mais">
           <h2>Läs också</h2>
@@ -254,7 +254,7 @@
           <h2 id="ppTit"><span class="pp__l1">Bonus</span> <span class="pp__l2">på 100 %</span></h2>
           <p>Sätt in med koden <strong>WELCOME100</strong> och få 100 % bonus på insatt belopp.</p>
           <div class="pp__cupom"><span class="pp__cupom-rot">Kod</span><strong class="pp__cupom-cod">WELCOME100</strong><button class="pp__copiar" type="button" data-copiado="Kopierad!">Kopiera</button></div>
-          <a class="pp__btn" href="https://trade.foxonivesting.com/sv/register" target="_blank" rel="noopener sponsored nofollow">Hämta nu</a>
+          <a class="pp__btn" href="https://trade.safirion.com/register?aff=818084&aff_model=revenue&afftrack=foxon" target="_blank" rel="noopener sponsored nofollow">Hämta nu</a>
           <p class="pp__mini">Kampanjvillkor gäller. Handel med hävstångsprodukter innebär risk för förlust.</p>
         </div>
         <div class="pp__fig" aria-hidden="true">
@@ -263,6 +263,6 @@
       </div>
     </div>
   </template>
-  <script src="/assets/js/main.js?v=20261003g" defer></script>
+  <script src="/assets/js/main.js?v=202610061114" defer></script>
 </body>
 </html>
