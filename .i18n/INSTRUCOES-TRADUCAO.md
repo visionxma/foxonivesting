@@ -1,8 +1,7 @@
 # Instruções para traduzir o site foxonivesting.com.br
 
-O site `foxonivesting.com.br` é um portal **informativo e não oficial** sobre a corretora
-Fox On, escrito em português do Brasil e mantido por afiliação (os botões de cadastro
-levam à plataforma parceira). Ele está sendo publicado em 17 idiomas, cada um numa
+O site `foxonivesting.com.br` é o **site oficial** da Fox On, escrito em português do
+Brasil (os botões de cadastro levam à plataforma da Fox On). Ele está sendo publicado em 17 idiomas, cada um numa
 pasta (`/en/`, `/es/`…). Você traduz **um** idioma.
 
 ## O que você recebe e o que entrega

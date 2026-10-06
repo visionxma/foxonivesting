@@ -164,7 +164,7 @@
         </ul>
       </nav>
       <div class="site-header__actions">
-        <a class="btn btn--primary btn--sm" href="https://trade.safirion.com/register?aff=818084&aff_model=revenue&afftrack=foxon-vi"
+        <a class="btn btn--primary btn--sm" href="https://trade.foxonivesting.com/vi/register"
            target="_blank" rel="noopener sponsored nofollow">Tạo tài khoản</a>
         <a class="btn btn--outline btn--sm" href="/vi/foxon-dang-nhap/">Đăng nhập</a>
       </div>
@@ -189,7 +189,7 @@
         <p>Khác với phần lớn các chỉ báo, Average True Range (ATR) không cố dự đoán hướng đi nào cả. Nó chỉ đo một điều duy nhất: một tài sản thường di chuyển bao nhiêu, tính theo giá trị tuyệt đối, trong một chu kỳ. Đây là một thước đo độ biến động, không phải tín hiệu mua hay bán.</p><p>Được tạo ra bởi J. Welles Wilder, cùng tác giả của ADX và RSI, ATR xuất hiện trong hầu như mọi chiến lược cần xác định kích thước điểm dừng lỗ hoặc khối lượng vị thế dựa trên hành vi thực tế của tài sản, thay vì một giá trị cố định được chọn tùy tiện.</p><h2>Vì sao chỉ lấy giá cao nhất trừ giá thấp nhất là chưa đủ</h2><p>Nếu bạn chỉ lấy giá thấp nhất trừ giá cao nhất của mỗi cây nến, bạn sẽ bỏ lỡ một chi tiết quan trọng: khoảng trống giá (gap). Hãy tưởng tượng một tài sản đóng cửa phiên trước ở R$ 50,00 và mở cửa phiên tiếp theo đã ở R$ 46,00, sau đó giao dịch giữa R$ 45,50 và R$ 46,80. Biến động trong cây nến (giá cao nhất trừ giá thấp nhất) chỉ là R$ 1,30. Nhưng biến động thực sự kể từ lần đóng cửa trước là R$ 4,50. Bỏ qua điều này sẽ đánh giá thấp độ biến động thực sự của tài sản.</p><h2>Cách tính True Range</h2><p>Để khắc phục vấn đề này, True Range (TR) của mỗi cây nến là giá trị lớn nhất trong ba phép tính:</p><ul><li>Giá cao nhất của cây nến hiện tại trừ giá thấp nhất của cây nến hiện tại;</li><li>Giá cao nhất của cây nến hiện tại trừ giá đóng cửa của cây nến trước đó (lấy giá trị tuyệt đối);</li><li>Giá thấp nhất của cây nến hiện tại trừ giá đóng cửa của cây nến trước đó (lấy giá trị tuyệt đối).</li></ul><p>Trong ví dụ trên, TR sẽ là giá trị lớn nhất trong số 1,30 (46,80 − 45,50), 3,20 (|46,80 − 50,00|) và 4,50 (|45,50 − 50,00|). Tức là, TR = R$ 4,50 — con số thực sự nắm bắt được độ lớn của biến động, bao gồm cả khoảng trống giá.</p><h2>Từ True Range đến ATR</h2><p>ATR là một đường trung bình đã làm mượt của True Range qua một chu kỳ, thường là 14 cây nến. Giá trị đầu tiên thường là trung bình đơn giản của 14 TR đầu tiên. Sau đó, áp dụng phép làm mượt của Wilder:</p><p><strong>ATR hôm nay = ((ATR hôm trước × 13) + TR hôm nay) ÷ 14</strong></p><p>Giả sử ATR của hôm qua là R$ 2,00 và TR của hôm nay là R$ 4,50, theo ví dụ trước đó:</p><p><strong>ATR hôm nay = ((2,00 × 13) + 4,50) ÷ 14 = (26,00 + 4,50) ÷ 14 = 30,50 ÷ 14 ≈ R$ 2,18</strong></p><p>Hãy để ý cách một cây nến biến động mạnh duy nhất không làm ATR tăng vọt ngay lập tức — nó tăng dần dần, vì mang theo trọng số của 13 chu kỳ trước đó. Điều này là có chủ đích: ATR đo độ biến động lặp lại, không phải một đỉnh đơn lẻ.</p><h2>Dùng để làm gì trong thực tế</h2><p>Cách dùng phổ biến nhất của ATR là xác định kích thước điểm dừng lỗ và khối lượng vị thế theo tỷ lệ với hành vi của chính tài sản đó, thay vì dùng một số điểm hoặc số tiền cố định cho bất kỳ thị trường nào.</p><p>Một ví dụ: nếu ATR của một tài sản là R$ 2,18, một điểm dừng lỗ đặt cách điểm vào lệnh 1,5 ATR sẽ cách R$ 3,27 so với giá vào lệnh (2,18 × 1,5). Với một tài sản biến động mạnh hơn, có ATR là R$ 8,00, cùng bội số 1,5 ATR sẽ cho ra một điểm dừng lỗ R$ 12,00 — rộng hơn nhiều, vì bản thân tài sản đó di chuyển nhiều hơn hằng ngày. Dùng cùng một khoảng cách dừng lỗ cố định trong cả hai trường hợp sẽ không hợp lý: với tài sản yên tĩnh hơn, điểm dừng lỗ sẽ quá rộng; với tài sản biến động mạnh hơn, quá hẹp và dễ bị chạm chỉ vì nhiễu bình thường của thị trường.</p><h2>ATR không cho biết giá sẽ đi về đâu</h2><p>Một sai lầm phổ biến là cố dùng ATR làm tín hiệu vào lệnh — một ATR cao không cho biết tăng hay giảm, chỉ cho biết biến động lớn hơn. Một đợt giảm mạnh 10% và một đợt tăng mạnh 10% có thể tạo ra các giá trị True Range tương tự nhau, vì phép tính dùng giá trị tuyệt đối. Vì vậy ATR thường xuất hiện cùng với một chỉ báo khác hoặc một cách đọc xu hướng, không bao giờ đứng một mình như cơ chế kích hoạt giao dịch.</p><h2>Đưa ATR vào công việc hằng ngày</h2><p>ATR hoạt động tốt hơn như một công cụ quản lý rủi ro hơn là một tín hiệu vào lệnh. Nó giúp trả lời những câu hỏi thực tế: điểm dừng lỗ này có tương xứng với độ biến động hiện tại của tài sản không? Khối lượng vị thế này có hợp lý với mức độ giá thường dao động không? Dùng theo cách này, chỉ báo giúp giảm khả năng một điểm dừng lỗ bị chạm chỉ vì nhiễu bình thường của tài sản, dù không kỹ thuật quản lý nào loại bỏ hoàn toàn rủi ro — nó chỉ giúp xác định khối lượng rủi ro một cách nhất quán hơn.</p>
         <div class="bq-post__cta">
           <p><strong>Luyện tập trước khi mạo hiểm.</strong> Mở tài khoản Fox On và thử ý tưởng của bạn trên tài khoản demo với R$ 10.000 tiền ảo.</p>
-          <a class="btn btn--primary" href="https://trade.safirion.com/register?aff=818084&aff_model=revenue&afftrack=foxon-vi" target="_blank" rel="noopener sponsored nofollow">Tạo tài khoản miễn phí</a>
+          <a class="btn btn--primary" href="https://trade.foxonivesting.com/vi/register" target="_blank" rel="noopener sponsored nofollow">Tạo tài khoản miễn phí</a>
         </div>
         <aside class="bq-post__mais">
           <h2>Đọc thêm</h2>
@@ -212,7 +212,7 @@
           </span></span>
           <p class="footer__copy">Bản quyền © 2026 Fox On.<br>
             Đã đăng ký bản quyền.<br>
-            Trang web không chính thức.</p>
+            Trang web chính thức.</p>
         </div>
         <div class="footer__nav footer__empresa">
           <h2>Công ty</h2>
@@ -232,7 +232,7 @@
         </div>
       </div>
       <div class="footer__legal">
-        <p>Fox On hoạt động theo đăng ký tại Saint Vincent và Grenadines (SVG), không được Ủy ban Chứng khoán Brazil (CVM) cấp phép và có thể không được cơ quan quản lý tài chính tại quốc gia của bạn cấp phép: hãy kiểm tra trước khi mở tài khoản. Mọi thông tin trình bày tại đây không được hiểu là lời chào mời cung cấp dịch vụ tài chính. Trang web này mang tính thông tin, không phải trang web chính thức của Fox On và được duy trì theo hình thức liên kết (affiliate). Không có gì đảm bảo rằng các dự báo hoặc chiến lược sẽ mang lại kết quả cụ thể, và hiệu suất trong quá khứ không đảm bảo kết quả trong tương lai. Biến động của thị trường có thể gây ra chênh lệch đáng kể về lợi nhuận. Phái sinh và các sản phẩm có đòn bẩy là sản phẩm phức tạp và có mức rủi ro cao: bạn cần ý thức rõ khả năng thua lỗ, kể cả mất toàn bộ số vốn đã đầu tư. Đừng bao giờ đầu tư số tiền mà bạn không thể chấp nhận mất.</p>
+        <p>Fox On hoạt động theo đăng ký tại Saint Vincent và Grenadines (SVG), không được Ủy ban Chứng khoán Brazil (CVM) cấp phép và có thể không được cơ quan quản lý tài chính tại quốc gia của bạn cấp phép: hãy kiểm tra trước khi mở tài khoản. Mọi thông tin trình bày tại đây không được hiểu là lời chào mời cung cấp dịch vụ tài chính. Không có gì đảm bảo rằng các dự báo hoặc chiến lược sẽ mang lại kết quả cụ thể, và hiệu suất trong quá khứ không đảm bảo kết quả trong tương lai. Biến động của thị trường có thể gây ra chênh lệch đáng kể về lợi nhuận. Phái sinh và các sản phẩm có đòn bẩy là sản phẩm phức tạp và có mức rủi ro cao: bạn cần ý thức rõ khả năng thua lỗ, kể cả mất toàn bộ số vốn đã đầu tư. Đừng bao giờ đầu tư số tiền mà bạn không thể chấp nhận mất.</p>
         <p class="footer__links">
           <a href="/vi/foxon-cau-hoi-thuong-gap/">Câu hỏi thường gặp</a>
           <a href="/vi/ve-trang-nay/">Về trang web này</a>
@@ -254,7 +254,7 @@
           <h2 id="ppTit"><span class="pp__l1">Thưởng</span> <span class="pp__l2">100%</span></h2>
           <p>Nạp tiền với mã <strong>WELCOME100</strong> và nhận thưởng 100% trên số tiền đã nạp.</p>
           <div class="pp__cupom"><span class="pp__cupom-rot">Mã</span><strong class="pp__cupom-cod">WELCOME100</strong><button class="pp__copiar" type="button" data-copiado="Đã sao chép!">Sao chép</button></div>
-          <a class="pp__btn" href="https://trade.safirion.com/register?aff=818084&aff_model=revenue&afftrack=foxon-vi" target="_blank" rel="noopener sponsored nofollow">Nhận ngay</a>
+          <a class="pp__btn" href="https://trade.foxonivesting.com/vi/register" target="_blank" rel="noopener sponsored nofollow">Nhận ngay</a>
           <p class="pp__mini">Áp dụng điều kiện của chương trình. Giao dịch sản phẩm đòn bẩy có rủi ro thua lỗ.</p>
         </div>
         <div class="pp__fig" aria-hidden="true">
