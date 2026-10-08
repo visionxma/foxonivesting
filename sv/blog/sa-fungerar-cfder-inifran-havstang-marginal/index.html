@@ -55,7 +55,7 @@
   <!-- ===== Performance ===== -->
   <link rel="preload" as="font" type="font/woff2"
         href="/assets/fonts/montserrat-latin-var.woff2" crossorigin>
-  <link rel="stylesheet" href="/assets/css/style.css?v=202610061114">
+  <link rel="stylesheet" href="/assets/css/style.css?v=202610072150">
   <!-- ===== Dados estruturados (JSON-LD) ===== -->
 <script type="application/ld+json">
 {
@@ -69,13 +69,13 @@
       "url": "https://foxonivesting.com.br/sv/blog/sa-fungerar-cfder-inifran-havstang-marginal/",
       "inLanguage": "sv",
       "datePublished": "2026-09-24T09:00:00-03:00",
-      "dateModified": "2026-09-24T09:00:00-03:00",
+      "dateModified": "2026-09-27T09:00:00-03:00",
       "image": "https://foxonivesting.com.br/assets/img/foxon-e-confiavel-02.webp",
       "articleSection": "Riskhantering",
       "author": {
         "@type": "Organization",
-        "name": "Fox On-teamet",
-        "url": "https://foxonivesting.com.br/sv/"
+        "name": "Fox On — Redaktionen för risk och beteende",
+        "url": "https://foxonivesting.com.br/sv/blog/"
       },
       "publisher": {
         "@id": "https://foxonivesting.com.br/#organization"
@@ -171,42 +171,80 @@
     </div>
   </header>
   <nav class="breadcrumb" aria-label="Navigeringsspår">
-    <div class="container">
+    <div class="container ap__trilha">
       <ol>
         <li><a href="/sv/">Hem</a></li>
         <li><a href="/sv/blog/">Blogg</a></li>
         <li><span aria-current="page">Så fungerar CFD:er inifrån: hävstång, marginal och risk</span></li>
       </ol>
+      <a class="ap__voltar" href="/sv/blog/">Tillbaka</a>
     </div>
   </nav>
   <main id="conteudo"><!--artigo-blog-->
-    <section class="section">
-      <div class="container article bq-post">
-        <span class="bq__tag">Riskhantering</span>
-        <h1>Så fungerar CFD:er inifrån: hävstång, marginal och risk</h1>
-        <p class="bq-post__meta">Fox On-teamet · <time datetime="2026-09-24">2026-09-24</time> · 4 min läsning</p>
-        <figure class="foto"><img src="/assets/img/foxon-e-confiavel-02.webp" alt="" width="1024" height="512" decoding="async" fetchpriority="high"></figure>
-        <p>Ett CFD (kontrakt om prisdifferens) är ett avtal mellan två parter — tradern och mäklaren — om att byta skillnaden mellan en tillgångs värde vid öppningstillfället och vid stängningen av positionen. Ingen av parterna kommer någonsin att äga tillgången på riktigt: kontraktet existerar bara för att återspegla den prisförändringen. Att förstå den här mekaniken inifrån hjälper till att se varifrån risken kommer, som ofta är större än handelsgränssnittets enkelhet antyder.</p>
-<h2>Varifrån hävstången kommer</h2>
+    <div class="ap__progresso" aria-hidden="true"><span></span></div>
+    <article class="ap" data-slug="como-funcionam-os-cfds-por-dentro" data-api="https://duotide-visitas.visionxma.workers.dev" data-copiado="Länken kopierad">
+      <div class="container">
+        <header class="ap__cab" id="topo">
+          <div class="ap__info">
+            <div class="ap__linha">
+              <span><time datetime="2026-09-24">24 sep. 2026</time><span class="ap__sep">4 min läsning</span></span>
+              <span class="ap__vis" data-visitas hidden><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" d="M1.5 12S5.5 4.5 12 4.5 22.5 12 22.5 12 18.5 19.5 12 19.5 1.5 12 1.5 12z"/><circle cx="12" cy="12" r="3" fill="none" stroke="currentColor" stroke-width="2"/></svg><b></b><span class="sr-only"> visningar</span></span>
+            </div>
+            <p class="ap__atual">Uppdaterad: <time datetime="2026-09-27">27 september 2026</time></p>
+            <span class="bq__tag">Riskhantering</span>
+            <h1>Så fungerar CFD:er inifrån: hävstång, marginal och risk</h1>
+            <div class="ap__autor"><span class="ap__avatar" style="background:#ea580c" aria-hidden="true"><svg viewBox="0 0 24 24" width="28" height="28"><path d="M12 3 19 6v5.5c0 4.4-3 8-7 9.5-4-1.5-7-5.1-7-9.5V6z" fill="none" stroke="#fff" stroke-width="2" stroke-linejoin="round"/><path d="m8.8 12 2.2 2.2 4.2-4.4" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span><strong>Redaktionen för risk och beteende</strong><small>Fox On-redaktion</small></span></div>
+          </div>
+          <figure class="ap__capa"><img src="/assets/img/foxon-e-confiavel-02.webp" alt="" width="1024" height="512" decoding="async" fetchpriority="high"></figure>
+        </header>
+        <div class="ap__grade">
+          <aside class="ap__lado">
+            <nav class="ap__indice" aria-label="Innehåll">
+              <p class="ap__indice-tit">Innehåll</p>
+              <div class="ap__trilho"><span class="ap__barra"></span><ol>
+                <li><a href="#varifran-havstangen-kommer">Varifrån hävstången kommer</a></li>
+                <li><a href="#utrakningen-som-visar-effekten-inifran-och-ut">Uträkningen som visar effekten inifrån och ut</a></li>
+                <li><a href="#vad-ett-marginalanrop-ar">Vad ett marginalanrop är</a></li>
+                <li><a href="#kostnaden-for-att-halla-havstangen-oppen">Kostnaden för att hålla hävstången öppen</a></li>
+                <li><a href="#varfor-cfd-forstarker-vinst-och-forlust-lika-mycket">Varför CFD förstärker vinst och förlust lika mycket</a></li>
+                <li><a href="#varfor-kontraktets-loptid-spelar-mindre-roll-an-i-andra-inst">Varför kontraktets löptid spelar mindre roll än i andra instrument</a></li>
+                <li><a href="#vad-man-ska-ta-med-sig-fran-den-har-mekaniken">Vad man ska ta med sig från den här mekaniken</a></li>
+              </ol></div>
+              <a class="ap__topo" href="#topo"><svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><circle cx="12" cy="12" r="10.5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M12 17V7m-4.5 4.5L12 7l4.5 4.5" fill="none" stroke="currentColor" stroke-width="1.6"/></svg>Till toppen</a>
+            </nav>
+          </aside>
+          <div class="ap__texto article">
+            <p>Ett CFD (kontrakt om prisdifferens) är ett avtal mellan två parter — tradern och mäklaren — om att byta skillnaden mellan en tillgångs värde vid öppningstillfället och vid stängningen av positionen. Ingen av parterna kommer någonsin att äga tillgången på riktigt: kontraktet existerar bara för att återspegla den prisförändringen. Att förstå den här mekaniken inifrån hjälper till att se varifrån risken kommer, som ofta är större än handelsgränssnittets enkelhet antyder.</p>
+<h2 id="varifran-havstangen-kommer">Varifrån hävstången kommer</h2>
 <p>Hävstången finns eftersom mäklaren bara kräver en bråkdel av positionens totala värde som säkerhet — marginalen — i stället för hela beloppet. Om den nödvändiga marginalen är 10% och du vill kontrollera en position på R$ 5.000,00, måste du sätta in R$ 500,00. Det förhållandet på 10 mot 1 är hävstången: en liten rörelse i tillgångens pris, beräknad på positionens totala värde, ger ett proportionellt mycket större resultat på det insatta beloppet.</p>
-<h2>Uträkningen som visar effekten inifrån och ut</h2>
+<h2 id="utrakningen-som-visar-effekten-inifran-och-ut">Uträkningen som visar effekten inifrån och ut</h2>
 <p>Med positionen på R$ 5.000,00 från exemplet ovan (marginal på R$ 500,00) ger en nedgång på bara 8% i tillgången en förlust på R$ 400,00 — 80% av den insatta marginalen, trots att tillgången fallit mindre än en tiondel av sitt värde. En nedgång på 10% skulle förbruka hela marginalen. Den här multiplikationseffekten är kärnan i det som gör CFD till ett instrument med hög risk: tillgångens procentuella förändring och ditt kapitals procentuella förändring slutar vara samma sak.</p>
-<h2>Vad ett marginalanrop är</h2>
+<h2 id="vad-ett-marginalanrop-ar">Vad ett marginalanrop är</h2>
 <p>När förlusterna i en position närmar sig det belopp som satts in som marginal kan mäklaren utfärda ett marginalanrop — en begäran om att sätta in mer kapital för att upprätthålla den öppna positionen. Om det inte sker i tid brukar positionen stängas automatiskt av mäklaren själv, även mot traderns vilja, för att förhindra att förlusten överstiger det tillgängliga kapitalet på kontot. Den mekanismen skyddar båda parter, men innebär att tradern kan tvingas lämna en position vid sämsta möjliga tillfälle, utan kontroll över den utgångens tajming.</p>
-<h2>Kostnaden för att hålla hävstången öppen</h2>
+<h2 id="kostnaden-for-att-halla-havstangen-oppen">Kostnaden för att hålla hävstången öppen</h2>
 <p>Utöver prisrisken brukar det att hålla en belånad CFD öppen från en dag till en annan generera en finansieringskostnad (rollover), eftersom en del av positionens värde i praktiken finansieras. I en position på R$ 5.000,00 med en daglig ränta på 0,02% är kostnaden R$ 1,00 per dag — liten isolerat sett, men som ackumuleras i positioner som hålls i veckor eller månader, och urholkar resultatet även om tillgångens pris inte rör sig mycket.</p>
-<h2>Varför CFD förstärker vinst och förlust lika mycket</h2>
+<h2 id="varfor-cfd-forstarker-vinst-och-forlust-lika-mycket">Varför CFD förstärker vinst och förlust lika mycket</h2>
 <p>Det är vanligt att höra om hävstångens vinstpotential och glömma att den fungerar symmetriskt. I föregående exempel, om tillgången hade stigit 8% i stället för att falla, skulle vinsten också vara R$ 400,00 på de R$ 500,00 i marginal — 80% avkastning. Hävstången väljer inte sida: den multiplicerar resultatet av vilken rörelse som helst, i den riktning den sker, och kan därför både ge snabba vinster och ta bort kapital i samma hastighet.</p>
-<h2>Varför kontraktets löptid spelar mindre roll än i andra instrument</h2>
+<h2 id="varfor-kontraktets-loptid-spelar-mindre-roll-an-i-andra-inst">Varför kontraktets löptid spelar mindre roll än i andra instrument</h2>
 <p>Till skillnad från en option, som har ett förfallodatum och förlorar tidsvärde, kan ett CFD hållas öppet på obestämd tid — det som förändras är rollover-kostnaden, som tas ut varje dag positionen förblir aktiv. Det gör CFD, i teorin, flexibelt för olika löptider, men samma flexibilitet kan leda till att en förlorande position hålls öppen längre än planerat, vilket ackumulerar rollover-kostnad på en förlust som kanske borde ha stängts tidigare.</p>
-<h2>Vad man ska ta med sig från den här mekaniken</h2>
+<h2 id="vad-man-ska-ta-med-sig-fran-den-har-mekaniken">Vad man ska ta med sig från den här mekaniken</h2>
 <p>Innan du handlar CFD:er är det värt att simulera olika nedgångsscenarier för tillgången (inte bara uppgång) och beräkna vad det skulle innebära för den insatta marginalen — inte för positionens totala värde. Den här enkla övningen brukar avslöja att den verkliga risken i en belånad position är mycket större än den verkar när man bara tittar på det investerade beloppet på skärmen. Att förstå den här mekaniken inifrån, innan man handlar, är det som skiljer att använda hävstång på ett beräknat sätt från att bara acceptera det maximala belopp som mäklaren erbjuder utan att förstå vad det innebär i risk.</p>
-        <div class="bq-post__cta">
-          <p><strong>Öva innan du tar risker.</strong> Öppna ditt Fox On-konto och testa dina idéer på demokontot med R$ 10 000 i virtuella medel.</p>
-          <a class="btn btn--primary" href="https://trade.safirion.com/register?aff=818084&aff_model=revenue&afftrack=foxon" target="_blank" rel="noopener sponsored nofollow">Skapa gratiskonto</a>
+            <div class="bq-post__cta">
+              <p><strong>Öva innan du tar risker.</strong> Öppna ditt Fox On-konto och testa dina idéer på demokontot med R$ 10 000 i virtuella medel.</p>
+              <a class="btn btn--primary" href="https://trade.safirion.com/register?aff=818084&aff_model=revenue&afftrack=foxon" target="_blank" rel="noopener sponsored nofollow">Skapa gratiskonto</a>
+            </div>
+            <div class="ap__fim">
+              <p>Uppdaterad: <time datetime="2026-09-27">27 sep. 2026</time></p>
+              <div class="ap__acoes"><span class="ap__vis ap__vis--pilula" data-visitas hidden><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" d="M1.5 12S5.5 4.5 12 4.5 22.5 12 22.5 12 18.5 19.5 12 19.5 1.5 12 1.5 12z"/><circle cx="12" cy="12" r="3" fill="none" stroke="currentColor" stroke-width="2"/></svg><b></b><span class="sr-only"> visningar</span></span><button class="ap__compartilhar" type="button">Dela <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path d="M12 15V3m-4 4 4-4 4 4M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-7" fill="none" stroke="currentColor" stroke-width="2"/></svg></button></div>
+            </div>
+            <div class="ap__autorbox">
+              <span class="ap__avatar ap__avatar--g" style="background:#ea580c" aria-hidden="true"><svg viewBox="0 0 24 24" width="48" height="48"><path d="M12 3 19 6v5.5c0 4.4-3 8-7 9.5-4-1.5-7-5.1-7-9.5V6z" fill="none" stroke="#fff" stroke-width="2" stroke-linejoin="round"/><path d="m8.8 12 2.2 2.2 4.2-4.4" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+              <div><strong>Redaktionen för risk och beteende</strong><p>Skriver om riskhantering, positionsstorlek och psykologin bakom tradares beslut.</p></div>
+            </div>
+          </div>
         </div>
-        <aside class="bq-post__mais">
-          <h2>Läs också</h2>
+        <aside class="ap__rel">
+          <h2>Relaterade artiklar</h2>
           <div class="bq__grade bq__grade--3">
             <a class="bq__card" href="/sv/blog/sa-anvander-du-stop-loss-och-take-profit-i-forex/"><img src="/assets/img/capas/blog-gestao-de-risco-stop-e-posicao.webp" alt="" width="1024" height="512" loading="lazy" decoding="async"><span class="bq__titulo">Så använder du stop loss och take profit i forex</span><span class="bq__meta">2026-09-24 · 4 min läsning</span></a>
             <a class="bq__card" href="/sv/blog/martingale-strategin-i-trading-risker/"><img src="/assets/img/foxon-seguro-02.webp" alt="" width="1024" height="512" loading="lazy" decoding="async"><span class="bq__titulo">Martingale-strategin i trading: så fungerar den och riskerna</span><span class="bq__meta">2026-09-24 · 4 min läsning</span></a>
@@ -214,7 +252,7 @@
           </div>
         </aside>
       </div>
-    </section>
+    </article>
   </main>
   <footer class="site-footer">
     <div class="container">
@@ -249,7 +287,6 @@
         <p>Fox On är registrerat i Saint Vincent och Grenadinerna (SVG), har inte tillstånd från Brasiliens värdepappersmyndighet (CVM) och kan sakna tillstånd från finanstillsynsmyndigheten i ditt land: kontrollera detta innan du öppnar ett konto. Ingen information på denna webbplats ska tolkas som ett erbjudande om finansiella tjänster. Det finns ingen garanti för att prognoser eller strategier leder till ett visst resultat, och historisk avkastning är ingen garanti för framtida resultat. Marknadernas volatilitet kan ge betydande svängningar i avkastningen. Derivat och hävstångsprodukter är komplexa och innebär hög risk: det är viktigt att vara medveten om att du kan förlora delar av eller hela det investerade kapitalet. Investera aldrig pengar som du inte har råd att förlora.</p>
         <p class="footer__links">
           <a href="/sv/foxon-vanliga-fragor/">Vanliga frågor</a>
-          <a href="/sv/om-denna-webbplats/">Om denna webbplats</a>
           <a href="/sv/kontakt/">Kontakt</a>
         </p>
       </div>
@@ -277,6 +314,6 @@
       </div>
     </div>
   </template>
-  <script src="/assets/js/main.js?v=202610061114" defer></script>
+  <script src="/assets/js/main.js?v=202610072150" defer></script>
 </body>
 </html>

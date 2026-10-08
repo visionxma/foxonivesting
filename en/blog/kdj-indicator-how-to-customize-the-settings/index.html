@@ -55,7 +55,7 @@
   <!-- ===== Performance ===== -->
   <link rel="preload" as="font" type="font/woff2"
         href="/assets/fonts/montserrat-latin-var.woff2" crossorigin>
-  <link rel="stylesheet" href="/assets/css/style.css?v=202610061114">
+  <link rel="stylesheet" href="/assets/css/style.css?v=202610072150">
   <!-- ===== Dados estruturados (JSON-LD) ===== -->
 <script type="application/ld+json">
 {
@@ -69,13 +69,13 @@
       "url": "https://foxonivesting.com.br/en/blog/kdj-indicator-how-to-customize-the-settings/",
       "inLanguage": "en",
       "datePublished": "2026-09-24T09:00:00-03:00",
-      "dateModified": "2026-09-24T09:00:00-03:00",
+      "dateModified": "2026-10-03T09:00:00-03:00",
       "image": "https://foxonivesting.com.br/assets/img/capas/blog-analise-tecnica-e-fundamentalista.webp",
       "articleSection": "Indicators",
       "author": {
         "@type": "Organization",
-        "name": "Fox On Team",
-        "url": "https://foxonivesting.com.br/en/"
+        "name": "Fox On — Analysis Desk",
+        "url": "https://foxonivesting.com.br/en/blog/"
       },
       "publisher": {
         "@id": "https://foxonivesting.com.br/#organization"
@@ -171,28 +171,66 @@
     </div>
   </header>
   <nav class="breadcrumb" aria-label="Breadcrumb">
-    <div class="container">
+    <div class="container ap__trilha">
       <ol>
         <li><a href="/en/">Home</a></li>
         <li><a href="/en/blog/">Blog</a></li>
         <li><span aria-current="page">KDJ Indicator: How to Customize the Settings</span></li>
       </ol>
+      <a class="ap__voltar" href="/en/blog/">Back</a>
     </div>
   </nav>
   <main id="conteudo"><!--artigo-blog-->
-    <section class="section">
-      <div class="container article bq-post">
-        <span class="bq__tag">Indicators</span>
-        <h1>KDJ Indicator: How to Customize the Settings</h1>
-        <p class="bq-post__meta">Fox On Team · <time datetime="2026-09-24">09/24/2026</time> · 4 min read</p>
-        <figure class="foto"><img src="/assets/img/capas/blog-analise-tecnica-e-fundamentalista.webp" alt="" width="1024" height="512" decoding="async" fetchpriority="high"></figure>
-        <p>Anyone who already uses the stochastic oscillator knows the logic of comparing the price's close with the recent high-low range. The KDJ takes that same base and adds a third, more sensitive line, creating an indicator with a richer reading of reversals and move exhaustion — widely used by short-term traders in Chinese stocks and, nowadays, in various other markets.</p><p>This article explains what each of the three lines represents and how to adjust the KDJ's parameters to make it faster or more stable, depending on what you're looking for.</p><h2>What the K, D, and J lines are</h2><p>The K line is practically identical to the fast stochastic oscillator, measuring the current close's position within a given period's high-low range. The D line is a moving average of the K line, smoothing out its oscillation. The J line, unique to the KDJ, is calculated from the distance between K and D, amplified — and it's exactly this amplification that makes the J line the most sensitive of the three, with the particularity of being able to go past the 0 and 100 limits, something that doesn't happen in the traditional stochastic.</p><h2>How to interpret the signals</h2><p>When the three lines are above 80, the asset is considered overbought; below 20, oversold. The K line crossing above the D line is read as a possible buy signal, and crossing below, as a possible sell signal — the same logic as the plain stochastic. The practical difference is the J line: when it spikes well above 100 or drops well below 0, that usually indicates a stretched move that could reverse soon, working as an early warning even before the crossover between K and D is confirmed.</p><h2>Default setting and what it represents</h2><p>The most common KDJ setting uses periods 9, 3, and 3: nine periods to calculate the price's position within the high-low range, and three smoothing periods for the D and J lines. This combination works well on intraday charts of liquid assets, but can generate excessive signals in more volatile markets or slower-moving ones.</p><h2>How to adjust the parameters to your style</h2><ul><li>For a faster, more sensitive indicator, reduce the main period to 5 or 6 — useful for very short-term trades, but with more false signals on low-volatility days.</li><li>For a more stable indicator, increase the main period to 14 or 21, reducing the number of signals, but with slower responses to real direction changes.</li><li>Increasing the smoothing periods for the D and J lines makes the indicator less noisy, at the cost of slightly delaying signal confirmation.</li><li>Always test parameter changes on the same asset and the same chart timeframe you intend to trade, since the ideal behavior varies a lot between stocks, currencies, and crypto assets.</li></ul><h2>Practical reading example</h2><p>Imagine an asset in a steady decline, with the J line dropping to -15, well below zero, while K and D are still around 18. This behavior of the J line suggests the decline is stretched beyond normal, a cue to watch the next candles for a K-crossing-above-D as confirmation of a possible reversal — without, however, buying based solely on this one signal. It's also worth waiting for the K-above-D crossover to actually happen, or watching whether the asset's volume rises on the following candles, before considering the reversal confirmed.</p><h2>Comparing the KDJ with the traditional stochastic</h2><p>Anyone already used to the stochastic might find the J line strange at first, since it breaks from the fixed 0-to-100 range logic. In practice, this feature is the main reason traders switch to the KDJ: instead of waiting for the stochastic to simply hit 100 or 0 (which it does often in strong trends, without indicating a reversal), the J line broadens the reading and helps tell apart a common extreme from a truly unusual one for that asset.</p><h2>Using the KDJ responsibly</h2><p>Like any oscillator, the KDJ works best combined with a broader trend reading, avoiding trading against the main move just because the J line reached an extreme. Adjusting the parameters is a trial-and-observation process, best done on a demo account, whether on Fox On or another platform, before applying the chosen setting to trades with real money — remembering that no parameter adjustment eliminates the risk inherent to any trade in the market.</p>
-        <div class="bq-post__cta">
-          <p><strong>Practice before you risk.</strong> Open your Fox On account and test your ideas on the demo account with R$ 10,000 in virtual funds.</p>
-          <a class="btn btn--primary" href="https://trade.safirion.com/register?aff=818084&aff_model=revenue&afftrack=foxon" target="_blank" rel="noopener sponsored nofollow">Create free account</a>
+    <div class="ap__progresso" aria-hidden="true"><span></span></div>
+    <article class="ap" data-slug="indicador-kdj-como-personalizar-as-configuracoes" data-api="https://duotide-visitas.visionxma.workers.dev" data-copiado="Link copied">
+      <div class="container">
+        <header class="ap__cab" id="topo">
+          <div class="ap__info">
+            <div class="ap__linha">
+              <span><time datetime="2026-09-24">Sep 24, 2026</time><span class="ap__sep">4 min read</span></span>
+              <span class="ap__vis" data-visitas hidden><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" d="M1.5 12S5.5 4.5 12 4.5 22.5 12 22.5 12 18.5 19.5 12 19.5 1.5 12 1.5 12z"/><circle cx="12" cy="12" r="3" fill="none" stroke="currentColor" stroke-width="2"/></svg><b></b><span class="sr-only"> views</span></span>
+            </div>
+            <p class="ap__atual">Updated: <time datetime="2026-10-03">October 3, 2026</time></p>
+            <span class="bq__tag">Indicators</span>
+            <h1>KDJ Indicator: How to Customize the Settings</h1>
+            <div class="ap__autor"><span class="ap__avatar" style="background:#16a34a" aria-hidden="true"><svg viewBox="0 0 24 24" width="28" height="28"><path d="M7 5v14M12 3v18M17 7v10" stroke="#fff" stroke-width="1.6"/><rect x="5.5" y="8" width="3" height="6" rx=".6" fill="#fff"/><rect x="10.5" y="6" width="3" height="9" rx=".6" fill="#fff"/><rect x="15.5" y="9" width="3" height="5" rx=".6" fill="#fff"/></svg></span><span><strong>Analysis Desk</strong><small>Fox On desk</small></span></div>
+          </div>
+          <figure class="ap__capa"><img src="/assets/img/capas/blog-analise-tecnica-e-fundamentalista.webp" alt="" width="1024" height="512" decoding="async" fetchpriority="high"></figure>
+        </header>
+        <div class="ap__grade">
+          <aside class="ap__lado">
+            <nav class="ap__indice" aria-label="Contents">
+              <p class="ap__indice-tit">Contents</p>
+              <div class="ap__trilho"><span class="ap__barra"></span><ol>
+                <li><a href="#what-the-k-d-and-j-lines-are">What the K, D, and J lines are</a></li>
+                <li><a href="#how-to-interpret-the-signals">How to interpret the signals</a></li>
+                <li><a href="#default-setting-and-what-it-represents">Default setting and what it represents</a></li>
+                <li><a href="#how-to-adjust-the-parameters-to-your-style">How to adjust the parameters to your style</a></li>
+                <li><a href="#practical-reading-example">Practical reading example</a></li>
+                <li><a href="#comparing-the-kdj-with-the-traditional-stochastic">Comparing the KDJ with the traditional stochastic</a></li>
+                <li><a href="#using-the-kdj-responsibly">Using the KDJ responsibly</a></li>
+              </ol></div>
+              <a class="ap__topo" href="#topo"><svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><circle cx="12" cy="12" r="10.5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M12 17V7m-4.5 4.5L12 7l4.5 4.5" fill="none" stroke="currentColor" stroke-width="1.6"/></svg>Back to top</a>
+            </nav>
+          </aside>
+          <div class="ap__texto article">
+            <p>Anyone who already uses the stochastic oscillator knows the logic of comparing the price's close with the recent high-low range. The KDJ takes that same base and adds a third, more sensitive line, creating an indicator with a richer reading of reversals and move exhaustion — widely used by short-term traders in Chinese stocks and, nowadays, in various other markets.</p><p>This article explains what each of the three lines represents and how to adjust the KDJ's parameters to make it faster or more stable, depending on what you're looking for.</p><h2 id="what-the-k-d-and-j-lines-are">What the K, D, and J lines are</h2><p>The K line is practically identical to the fast stochastic oscillator, measuring the current close's position within a given period's high-low range. The D line is a moving average of the K line, smoothing out its oscillation. The J line, unique to the KDJ, is calculated from the distance between K and D, amplified — and it's exactly this amplification that makes the J line the most sensitive of the three, with the particularity of being able to go past the 0 and 100 limits, something that doesn't happen in the traditional stochastic.</p><h2 id="how-to-interpret-the-signals">How to interpret the signals</h2><p>When the three lines are above 80, the asset is considered overbought; below 20, oversold. The K line crossing above the D line is read as a possible buy signal, and crossing below, as a possible sell signal — the same logic as the plain stochastic. The practical difference is the J line: when it spikes well above 100 or drops well below 0, that usually indicates a stretched move that could reverse soon, working as an early warning even before the crossover between K and D is confirmed.</p><h2 id="default-setting-and-what-it-represents">Default setting and what it represents</h2><p>The most common KDJ setting uses periods 9, 3, and 3: nine periods to calculate the price's position within the high-low range, and three smoothing periods for the D and J lines. This combination works well on intraday charts of liquid assets, but can generate excessive signals in more volatile markets or slower-moving ones.</p><h2 id="how-to-adjust-the-parameters-to-your-style">How to adjust the parameters to your style</h2><ul><li>For a faster, more sensitive indicator, reduce the main period to 5 or 6 — useful for very short-term trades, but with more false signals on low-volatility days.</li><li>For a more stable indicator, increase the main period to 14 or 21, reducing the number of signals, but with slower responses to real direction changes.</li><li>Increasing the smoothing periods for the D and J lines makes the indicator less noisy, at the cost of slightly delaying signal confirmation.</li><li>Always test parameter changes on the same asset and the same chart timeframe you intend to trade, since the ideal behavior varies a lot between stocks, currencies, and crypto assets.</li></ul><h2 id="practical-reading-example">Practical reading example</h2><p>Imagine an asset in a steady decline, with the J line dropping to -15, well below zero, while K and D are still around 18. This behavior of the J line suggests the decline is stretched beyond normal, a cue to watch the next candles for a K-crossing-above-D as confirmation of a possible reversal — without, however, buying based solely on this one signal. It's also worth waiting for the K-above-D crossover to actually happen, or watching whether the asset's volume rises on the following candles, before considering the reversal confirmed.</p><h2 id="comparing-the-kdj-with-the-traditional-stochastic">Comparing the KDJ with the traditional stochastic</h2><p>Anyone already used to the stochastic might find the J line strange at first, since it breaks from the fixed 0-to-100 range logic. In practice, this feature is the main reason traders switch to the KDJ: instead of waiting for the stochastic to simply hit 100 or 0 (which it does often in strong trends, without indicating a reversal), the J line broadens the reading and helps tell apart a common extreme from a truly unusual one for that asset.</p><h2 id="using-the-kdj-responsibly">Using the KDJ responsibly</h2><p>Like any oscillator, the KDJ works best combined with a broader trend reading, avoiding trading against the main move just because the J line reached an extreme. Adjusting the parameters is a trial-and-observation process, best done on a demo account, whether on Fox On or another platform, before applying the chosen setting to trades with real money — remembering that no parameter adjustment eliminates the risk inherent to any trade in the market.</p>
+            <div class="bq-post__cta">
+              <p><strong>Practice before you risk.</strong> Open your Fox On account and test your ideas on the demo account with R$ 10,000 in virtual funds.</p>
+              <a class="btn btn--primary" href="https://trade.safirion.com/register?aff=818084&aff_model=revenue&afftrack=foxon" target="_blank" rel="noopener sponsored nofollow">Create free account</a>
+            </div>
+            <div class="ap__fim">
+              <p>Updated: <time datetime="2026-10-03">Oct 3, 2026</time></p>
+              <div class="ap__acoes"><span class="ap__vis ap__vis--pilula" data-visitas hidden><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" d="M1.5 12S5.5 4.5 12 4.5 22.5 12 22.5 12 18.5 19.5 12 19.5 1.5 12 1.5 12z"/><circle cx="12" cy="12" r="3" fill="none" stroke="currentColor" stroke-width="2"/></svg><b></b><span class="sr-only"> views</span></span><button class="ap__compartilhar" type="button">Share <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path d="M12 15V3m-4 4 4-4 4 4M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-7" fill="none" stroke="currentColor" stroke-width="2"/></svg></button></div>
+            </div>
+            <div class="ap__autorbox">
+              <span class="ap__avatar ap__avatar--g" style="background:#16a34a" aria-hidden="true"><svg viewBox="0 0 24 24" width="48" height="48"><path d="M7 5v14M12 3v18M17 7v10" stroke="#fff" stroke-width="1.6"/><rect x="5.5" y="8" width="3" height="6" rx=".6" fill="#fff"/><rect x="10.5" y="6" width="3" height="9" rx=".6" fill="#fff"/><rect x="15.5" y="9" width="3" height="5" rx=".6" fill="#fff"/></svg></span>
+              <div><strong>Analysis Desk</strong><p>Explains charts, indicators and trading strategies: how they work, where they fail and how to test them first.</p></div>
+            </div>
+          </div>
         </div>
-        <aside class="bq-post__mais">
-          <h2>Read also</h2>
+        <aside class="ap__rel">
+          <h2>Related articles</h2>
           <div class="bq__grade bq__grade--3">
             <a class="bq__card" href="/en/blog/what-is-the-adx-indicator/"><img src="/assets/img/foxon-corretora-02.webp" alt="" width="1024" height="512" loading="lazy" decoding="async"><span class="bq__titulo">What the ADX Indicator Is and How It Works</span><span class="bq__meta">09/24/2026 · 4 min read</span></a>
             <a class="bq__card" href="/en/blog/what-is-the-stochastic-oscillator/"><img src="/assets/img/capas/blog-analise-tecnica-e-fundamentalista.webp" alt="" width="1024" height="512" loading="lazy" decoding="async"><span class="bq__titulo">What the Stochastic Oscillator Is and How It Works</span><span class="bq__meta">09/24/2026 · 4 min read</span></a>
@@ -200,7 +238,7 @@
           </div>
         </aside>
       </div>
-    </section>
+    </article>
   </main>
   <footer class="site-footer">
     <div class="container">
@@ -235,7 +273,6 @@
         <p>Fox On operates under registration in Saint Vincent and the Grenadines (SVG), is not authorized by the Brazilian Securities and Exchange Commission (CVM), and may not be authorized by the financial regulator in your country: check before opening an account. Nothing on this site should be construed as an offer of financial services. There is no guarantee that projections or strategies will deliver any specific performance, and past performance does not guarantee future results. Market volatility can cause significant swings in returns. Derivatives and leveraged products are complex and carry a high level of risk: you must be aware that you may lose some or all of the capital you invest. Never invest money you cannot afford to lose.</p>
         <p class="footer__links">
           <a href="/en/foxon-faq/">Frequently asked questions</a>
-          <a href="/en/about/">About this site</a>
           <a href="/en/contact/">Contact</a>
         </p>
       </div>
@@ -263,6 +300,6 @@
       </div>
     </div>
   </template>
-  <script src="/assets/js/main.js?v=202610061114" defer></script>
+  <script src="/assets/js/main.js?v=202610072150" defer></script>
 </body>
 </html>

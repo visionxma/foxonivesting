@@ -23,7 +23,7 @@ const CHROME_PT = JSON.parse(fs.readFileSync(path.join(__dirname, 'fonte/_chrome
 const MENU = [['home', 'inicio'], ['confiavel', 'foxon-e-confiavel'], ['login', 'foxon-login'],
   ['corretora', 'foxon-corretora'], ['seguro', 'foxon-e-seguro'], ['app', 'foxon-app'],
   ['melhores', 'melhores-corretoras'], ['blog', 'blog']];
-const LINKS_RODAPE = [['faq', 'foxon-perguntas-frequentes'], ['sobre', 'sobre'], ['contato', 'contato']];
+const LINKS_RODAPE = [['faq', 'foxon-perguntas-frequentes'], ['contato', 'contato']];
 
 const ler = p => fs.readFileSync(p, 'utf8');
 const escAttr = s => s.replace(/&(?!(?:[a-z]+|#\d+);)/g, '&amp;').replace(/"/g, '&quot;');
@@ -351,7 +351,7 @@ ${ATIVOS.map(([n, s, ics]) => `              <li><span class="bq__ic${ics.length
 // Banner no topo de páginas internas (a imagem fica atrás do título; no celular, acima dele).
 const BANNERS = { 'foxon-como-abrir-conta': 'como-abrir-conta', 'foxon-conta-demo': 'conta-demo', 'foxon-saque': 'saque',
   'foxon-atendimento': 'atendimento', 'foxon-para-iniciantes': 'iniciantes', 'foxon-perguntas-frequentes': 'faq',
-  'melhores-corretoras': 'melhores-corretoras', sobre: 'sobre', contato: 'contato' };
+  'melhores-corretoras': 'melhores-corretoras', contato: 'contato' };
 
 // Preenche o que é gerado dentro do <main> (idempotente: limpa antes de preencher).
 function gerados(h, idioma, chave) {

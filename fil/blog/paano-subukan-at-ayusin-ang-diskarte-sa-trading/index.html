@@ -55,7 +55,7 @@
   <!-- ===== Performance ===== -->
   <link rel="preload" as="font" type="font/woff2"
         href="/assets/fonts/montserrat-latin-var.woff2" crossorigin>
-  <link rel="stylesheet" href="/assets/css/style.css?v=202610061114">
+  <link rel="stylesheet" href="/assets/css/style.css?v=202610072150">
   <!-- ===== Dados estruturados (JSON-LD) ===== -->
 <script type="application/ld+json">
 {
@@ -69,13 +69,13 @@
       "url": "https://foxonivesting.com.br/fil/blog/paano-subukan-at-ayusin-ang-diskarte-sa-trading/",
       "inLanguage": "fil",
       "datePublished": "2026-09-24T09:00:00-03:00",
-      "dateModified": "2026-09-24T09:00:00-03:00",
+      "dateModified": "2026-10-03T09:00:00-03:00",
       "image": "https://foxonivesting.com.br/assets/img/foxon-app-01.webp",
       "articleSection": "Mga estratehiya",
       "author": {
         "@type": "Organization",
-        "name": "Fox On Team",
-        "url": "https://foxonivesting.com.br/fil/"
+        "name": "Fox On — Analysis Desk",
+        "url": "https://foxonivesting.com.br/fil/blog/"
       },
       "publisher": {
         "@id": "https://foxonivesting.com.br/#organization"
@@ -171,28 +171,63 @@
     </div>
   </header>
   <nav class="breadcrumb" aria-label="Breadcrumb navigation">
-    <div class="container">
+    <div class="container ap__trilha">
       <ol>
         <li><a href="/fil/">Home</a></li>
         <li><a href="/fil/blog/">Blog</a></li>
         <li><span aria-current="page">Paano subukan at ayusin ang iyong diskarte sa trading</span></li>
       </ol>
+      <a class="ap__voltar" href="/fil/blog/">Bumalik</a>
     </div>
   </nav>
   <main id="conteudo"><!--artigo-blog-->
-    <section class="section">
-      <div class="container article bq-post">
-        <span class="bq__tag">Mga estratehiya</span>
-        <h1>Paano subukan at ayusin ang iyong diskarte sa trading</h1>
-        <p class="bq-post__meta">Fox On Team · <time datetime="2026-09-24">09/24/2026</time> · 6 min basahin</p>
-        <figure class="foto"><img src="/assets/img/foxon-app-01.webp" alt="" width="1024" height="512" decoding="async" fetchpriority="high"></figure>
-        <p>Matapos matukoy ang profile ng trader na bagay sa iyo — oras na available, tolerance sa risk, kapital, at personalidad —, ang susunod na hakbang ay subukan ang napiling diskarte bago mag-trade ng mahalagang halaga. Sa hakbang na ito karaniwang tumatalon agad ang maraming tao sa totoong pera, dala ng pagkabalisang magsimula, at natatapos na babayaran ang mga aral na sana ay ipinakita na ng isang simpleng test nang walang gastos.</p><p>Ito ang ikalawang bahagi ng gabay tungkol sa kung paano pumili ng diskarte sa trading. Nakatuon dito ang praktikal na bahagi: kung paano subukan ang isang diskarte sa history, kung paano ayusin ang risk batay sa test na ito, at kung paano malaman, nang may criteria, kung kailan na oras para palitan ang diskarte.</p><h2>Isang simpleng backtest, nang hindi kailangan ng programming</h2><p>Ang backtest ay basta paglalapat lang ng mga panuntunan ng diskarte sa mga datos na nangyari na, para makita kung paano ito kikilos. Hindi kailangan ng mahal na software para magsimula: isang historical chart at isang spreadsheet ay sapat na. Piliin ang asset, tukuyin ang eksaktong panuntunan ng entry at exit (halimbawa, bumili kapag na-cross ng presyo ang 20-period na moving average pataas, at lumabas na may target na 2% o stop na 1%), at daanan nang manual ang huling anim hanggang labindalawang buwan ng chart, itinatala ang bawat senyales na sana'y nabuo ng panuntunan.</p><p>Itala, para sa bawat senyales, kung positibo o negatibo sana ang resulta at magkano. Sa 30 hanggang 40 senyales na naitala, posible nang kalkulahin ang dalawang simpleng sukatan: ang win rate (ilang operasyon sana ang positibo, hinati sa kabuuan) at ang average na resulta kada operasyon. Ang isang diskarte na may win rate na 40%, halimbawa, ay maaari pa ring kumita kung ang kita, sa average, ay mas malaki kaysa sa pagkalugi.</p><h2>Paano ayusin ang risk pagkatapos ng test</h2><p>Ang backtest ay ginagamit din para i-calibrate ang laki ng posisyon. Ipagpalagay ang kapital na R$ 2.000 at isang panuntunang risgahin ang 1% kada operasyon, katumbas ng R$ 20. Kung ipinakita ng test ang isang sunod-sunod na hanggang limang pagkalugi sa panahong sinuri, mainam i-simulate ang senaryong ito: ang limang pagkalugi na R$ 20 ay kabuuang R$ 100, mga 5% ng kapital. Kung mukhang kayang pamahalaan ang halagang ito, ang 1% na risk kada operasyon ay nasa loob ng makatwiran para sa profile na iyon; kung mukhang mabigat na masyado, oras na para bawasan ang risk kada operasyon bago mag-trade gamit ang totoong pera.</p><p>Ang pag-aayos na ito ay hindi ginagawa nang minsan lang. Habang nagbabago ang kapital, o habang tumataas o bumababa ang volatility ng asset, ang halaga ng risk kada operasyon ay dapat kalkulahing muli, palaging bilang isang nakapirming porsyento ng kasalukuyang kapital, hindi bilang isang nakapirming halaga sa reales na napapaluma sa paglipas ng panahon.</p><h2>Kailan palitan ang diskarte, nang may criteria</h2><p>Ang pagpapalit ng diskarte sa tuwing may mali sa isang operasyon ay isa sa mga pinakakaraniwang pagkakamali ng mga baguhan, at kadalasang lalo pang pinapalala ang resulta, dahil hindi na natin naipon ng sapat na senyales para maging seryosong tasahin ang anuman. Ang criteria para palitan ang diskarte ay dapat statistical, hindi emosyonal: kung matapos ang 30 o 40 operasyon na sinundan nang eksakto ang panuntunan patuloy na negatibo ang akumuladong resulta, at walang naganap na mahalagang pagbabago sa kondisyon ng merkado, doon ay may saysay na baguhin o palitan ang diskarte.</p><p>May saysay ding palitan kapag structurally nagbago ang kondisyon ng merkado: ang isang diskarteng dinisenyo para sa trending na merkado, halimbawa, ay malamang na bumuo ng masamang resulta sa mahabang panahon ng sideways, at ang pagpupumilit dito sa senaryong ito ay iba sa ang diskarte ay basta mali.</p><h2>Pagdodokumento para matuto mula sa sariling history</h2><p>Ang pagpapanatili ng tala ng bawat operasyon — asset, petsa, dahilan ng entry, resulta, at isang nota kung sinunod nang eksakto o hindi — ang siyang gumagawa sa mga buwan ng pag-trade na tunay na aral. Nang walang talang ito, inuulit ang bawat pagkakamali dahil walang paraan para matukoy ang pattern. Sa pagkakaroon ng tala, posible nang sagutin ang mga konkretong tanong, tulad ng kung nagko-concentrate ang mga pagkalugi sa isang partikular na oras, sa isang partikular na uri ng asset, o kaagad matapos ang isang malaking kita, kung kailan tumataas ang tiwala nang higit sa dapat.</p><p>Ang pagsubok, pag-aayos, at pagdodokumento ay hindi mga hakbang na ginagawa nang minsan at kinalilimutan: ito ay isang tuluy-tuloy na cycle. Bawat block ng operasyon — stocks man, currencies, o indices, kabilang na sa mga platform tulad ng Fox On — ay bumubuo ng bagong datos para suriin ang risk at kumpirmahin, o hindi, kung ang diskarteng napili sa unang bahagi ng gabay na ito ay patuloy na may saysay para sa profile mo.</p>
-        <div class="bq-post__cta">
-          <p><strong>Magsanay muna bago sumugal.</strong> Gumawa ng account sa Fox On at subukan ang iyong mga ideya sa demo account na may R$ 10,000 na virtual na pondo.</p>
-          <a class="btn btn--primary" href="https://trade.safirion.com/register?aff=818084&aff_model=revenue&afftrack=foxon" target="_blank" rel="noopener sponsored nofollow">Gumawa ng libreng account</a>
+    <div class="ap__progresso" aria-hidden="true"><span></span></div>
+    <article class="ap" data-slug="como-testar-e-ajustar-sua-estrategia" data-api="https://duotide-visitas.visionxma.workers.dev" data-copiado="Nakopya ang link">
+      <div class="container">
+        <header class="ap__cab" id="topo">
+          <div class="ap__info">
+            <div class="ap__linha">
+              <span><time datetime="2026-09-24">Set 24, 2026</time><span class="ap__sep">6 min basahin</span></span>
+              <span class="ap__vis" data-visitas hidden><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" d="M1.5 12S5.5 4.5 12 4.5 22.5 12 22.5 12 18.5 19.5 12 19.5 1.5 12 1.5 12z"/><circle cx="12" cy="12" r="3" fill="none" stroke="currentColor" stroke-width="2"/></svg><b></b><span class="sr-only"> views</span></span>
+            </div>
+            <p class="ap__atual">Na-update noong: <time datetime="2026-10-03">Oktubre 3, 2026</time></p>
+            <span class="bq__tag">Mga estratehiya</span>
+            <h1>Paano subukan at ayusin ang iyong diskarte sa trading</h1>
+            <div class="ap__autor"><span class="ap__avatar" style="background:#16a34a" aria-hidden="true"><svg viewBox="0 0 24 24" width="28" height="28"><path d="M7 5v14M12 3v18M17 7v10" stroke="#fff" stroke-width="1.6"/><rect x="5.5" y="8" width="3" height="6" rx=".6" fill="#fff"/><rect x="10.5" y="6" width="3" height="9" rx=".6" fill="#fff"/><rect x="15.5" y="9" width="3" height="5" rx=".6" fill="#fff"/></svg></span><span><strong>Analysis Desk</strong><small>Seksyon ng Fox On</small></span></div>
+          </div>
+          <figure class="ap__capa"><img src="/assets/img/foxon-app-01.webp" alt="" width="1024" height="512" decoding="async" fetchpriority="high"></figure>
+        </header>
+        <div class="ap__grade">
+          <aside class="ap__lado">
+            <nav class="ap__indice" aria-label="Nilalaman">
+              <p class="ap__indice-tit">Nilalaman</p>
+              <div class="ap__trilho"><span class="ap__barra"></span><ol>
+                <li><a href="#isang-simpleng-backtest-nang-hindi-kailangan-ng-programming">Isang simpleng backtest, nang hindi kailangan ng programming</a></li>
+                <li><a href="#paano-ayusin-ang-risk-pagkatapos-ng-test">Paano ayusin ang risk pagkatapos ng test</a></li>
+                <li><a href="#kailan-palitan-ang-diskarte-nang-may-criteria">Kailan palitan ang diskarte, nang may criteria</a></li>
+                <li><a href="#pagdodokumento-para-matuto-mula-sa-sariling-history">Pagdodokumento para matuto mula sa sariling history</a></li>
+              </ol></div>
+              <a class="ap__topo" href="#topo"><svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><circle cx="12" cy="12" r="10.5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M12 17V7m-4.5 4.5L12 7l4.5 4.5" fill="none" stroke="currentColor" stroke-width="1.6"/></svg>Bumalik sa itaas</a>
+            </nav>
+          </aside>
+          <div class="ap__texto article">
+            <p>Matapos matukoy ang profile ng trader na bagay sa iyo — oras na available, tolerance sa risk, kapital, at personalidad —, ang susunod na hakbang ay subukan ang napiling diskarte bago mag-trade ng mahalagang halaga. Sa hakbang na ito karaniwang tumatalon agad ang maraming tao sa totoong pera, dala ng pagkabalisang magsimula, at natatapos na babayaran ang mga aral na sana ay ipinakita na ng isang simpleng test nang walang gastos.</p><p>Ito ang ikalawang bahagi ng gabay tungkol sa kung paano pumili ng diskarte sa trading. Nakatuon dito ang praktikal na bahagi: kung paano subukan ang isang diskarte sa history, kung paano ayusin ang risk batay sa test na ito, at kung paano malaman, nang may criteria, kung kailan na oras para palitan ang diskarte.</p><h2 id="isang-simpleng-backtest-nang-hindi-kailangan-ng-programming">Isang simpleng backtest, nang hindi kailangan ng programming</h2><p>Ang backtest ay basta paglalapat lang ng mga panuntunan ng diskarte sa mga datos na nangyari na, para makita kung paano ito kikilos. Hindi kailangan ng mahal na software para magsimula: isang historical chart at isang spreadsheet ay sapat na. Piliin ang asset, tukuyin ang eksaktong panuntunan ng entry at exit (halimbawa, bumili kapag na-cross ng presyo ang 20-period na moving average pataas, at lumabas na may target na 2% o stop na 1%), at daanan nang manual ang huling anim hanggang labindalawang buwan ng chart, itinatala ang bawat senyales na sana'y nabuo ng panuntunan.</p><p>Itala, para sa bawat senyales, kung positibo o negatibo sana ang resulta at magkano. Sa 30 hanggang 40 senyales na naitala, posible nang kalkulahin ang dalawang simpleng sukatan: ang win rate (ilang operasyon sana ang positibo, hinati sa kabuuan) at ang average na resulta kada operasyon. Ang isang diskarte na may win rate na 40%, halimbawa, ay maaari pa ring kumita kung ang kita, sa average, ay mas malaki kaysa sa pagkalugi.</p><h2 id="paano-ayusin-ang-risk-pagkatapos-ng-test">Paano ayusin ang risk pagkatapos ng test</h2><p>Ang backtest ay ginagamit din para i-calibrate ang laki ng posisyon. Ipagpalagay ang kapital na R$ 2.000 at isang panuntunang risgahin ang 1% kada operasyon, katumbas ng R$ 20. Kung ipinakita ng test ang isang sunod-sunod na hanggang limang pagkalugi sa panahong sinuri, mainam i-simulate ang senaryong ito: ang limang pagkalugi na R$ 20 ay kabuuang R$ 100, mga 5% ng kapital. Kung mukhang kayang pamahalaan ang halagang ito, ang 1% na risk kada operasyon ay nasa loob ng makatwiran para sa profile na iyon; kung mukhang mabigat na masyado, oras na para bawasan ang risk kada operasyon bago mag-trade gamit ang totoong pera.</p><p>Ang pag-aayos na ito ay hindi ginagawa nang minsan lang. Habang nagbabago ang kapital, o habang tumataas o bumababa ang volatility ng asset, ang halaga ng risk kada operasyon ay dapat kalkulahing muli, palaging bilang isang nakapirming porsyento ng kasalukuyang kapital, hindi bilang isang nakapirming halaga sa reales na napapaluma sa paglipas ng panahon.</p><h2 id="kailan-palitan-ang-diskarte-nang-may-criteria">Kailan palitan ang diskarte, nang may criteria</h2><p>Ang pagpapalit ng diskarte sa tuwing may mali sa isang operasyon ay isa sa mga pinakakaraniwang pagkakamali ng mga baguhan, at kadalasang lalo pang pinapalala ang resulta, dahil hindi na natin naipon ng sapat na senyales para maging seryosong tasahin ang anuman. Ang criteria para palitan ang diskarte ay dapat statistical, hindi emosyonal: kung matapos ang 30 o 40 operasyon na sinundan nang eksakto ang panuntunan patuloy na negatibo ang akumuladong resulta, at walang naganap na mahalagang pagbabago sa kondisyon ng merkado, doon ay may saysay na baguhin o palitan ang diskarte.</p><p>May saysay ding palitan kapag structurally nagbago ang kondisyon ng merkado: ang isang diskarteng dinisenyo para sa trending na merkado, halimbawa, ay malamang na bumuo ng masamang resulta sa mahabang panahon ng sideways, at ang pagpupumilit dito sa senaryong ito ay iba sa ang diskarte ay basta mali.</p><h2 id="pagdodokumento-para-matuto-mula-sa-sariling-history">Pagdodokumento para matuto mula sa sariling history</h2><p>Ang pagpapanatili ng tala ng bawat operasyon — asset, petsa, dahilan ng entry, resulta, at isang nota kung sinunod nang eksakto o hindi — ang siyang gumagawa sa mga buwan ng pag-trade na tunay na aral. Nang walang talang ito, inuulit ang bawat pagkakamali dahil walang paraan para matukoy ang pattern. Sa pagkakaroon ng tala, posible nang sagutin ang mga konkretong tanong, tulad ng kung nagko-concentrate ang mga pagkalugi sa isang partikular na oras, sa isang partikular na uri ng asset, o kaagad matapos ang isang malaking kita, kung kailan tumataas ang tiwala nang higit sa dapat.</p><p>Ang pagsubok, pag-aayos, at pagdodokumento ay hindi mga hakbang na ginagawa nang minsan at kinalilimutan: ito ay isang tuluy-tuloy na cycle. Bawat block ng operasyon — stocks man, currencies, o indices, kabilang na sa mga platform tulad ng Fox On — ay bumubuo ng bagong datos para suriin ang risk at kumpirmahin, o hindi, kung ang diskarteng napili sa unang bahagi ng gabay na ito ay patuloy na may saysay para sa profile mo.</p>
+            <div class="bq-post__cta">
+              <p><strong>Magsanay muna bago sumugal.</strong> Gumawa ng account sa Fox On at subukan ang iyong mga ideya sa demo account na may R$ 10,000 na virtual na pondo.</p>
+              <a class="btn btn--primary" href="https://trade.safirion.com/register?aff=818084&aff_model=revenue&afftrack=foxon" target="_blank" rel="noopener sponsored nofollow">Gumawa ng libreng account</a>
+            </div>
+            <div class="ap__fim">
+              <p>Na-update noong: <time datetime="2026-10-03">Okt 3, 2026</time></p>
+              <div class="ap__acoes"><span class="ap__vis ap__vis--pilula" data-visitas hidden><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" d="M1.5 12S5.5 4.5 12 4.5 22.5 12 22.5 12 18.5 19.5 12 19.5 1.5 12 1.5 12z"/><circle cx="12" cy="12" r="3" fill="none" stroke="currentColor" stroke-width="2"/></svg><b></b><span class="sr-only"> views</span></span><button class="ap__compartilhar" type="button">Ibahagi <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path d="M12 15V3m-4 4 4-4 4 4M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-7" fill="none" stroke="currentColor" stroke-width="2"/></svg></button></div>
+            </div>
+            <div class="ap__autorbox">
+              <span class="ap__avatar ap__avatar--g" style="background:#16a34a" aria-hidden="true"><svg viewBox="0 0 24 24" width="48" height="48"><path d="M7 5v14M12 3v18M17 7v10" stroke="#fff" stroke-width="1.6"/><rect x="5.5" y="8" width="3" height="6" rx=".6" fill="#fff"/><rect x="10.5" y="6" width="3" height="9" rx=".6" fill="#fff"/><rect x="15.5" y="9" width="3" height="5" rx=".6" fill="#fff"/></svg></span>
+              <div><strong>Analysis Desk</strong><p>Ipinapaliwanag ang mga chart, indicator at trading strategy: paano gumagana, saan pumapalya at paano muna susubukan.</p></div>
+            </div>
+          </div>
         </div>
-        <aside class="bq-post__mais">
-          <h2>Basahin din</h2>
+        <aside class="ap__rel">
+          <h2>Mga kaugnay na artikulo</h2>
           <div class="bq__grade bq__grade--3">
             <a class="bq__card" href="/fil/blog/crossover-ng-ema-sa-trading/"><img src="/assets/img/capas/blog-day-trade-ou-swing-trade.webp" alt="" width="1024" height="512" loading="lazy" decoding="async"><span class="bq__titulo">Crossover ng exponential moving average (EMA) sa trading</span><span class="bq__meta">09/24/2026 · 4 min basahin</span></a>
             <a class="bq__card" href="/fil/blog/paano-pumili-ng-expiration-ng-operasyon/"><img src="/assets/img/foxon-corretora-01.webp" alt="" width="1024" height="512" loading="lazy" decoding="async"><span class="bq__titulo">Paano pumili ng expiration ng isang operasyon</span><span class="bq__meta">09/24/2026 · 4 min basahin</span></a>
@@ -200,7 +235,7 @@
           </div>
         </aside>
       </div>
-    </section>
+    </article>
   </main>
   <footer class="site-footer">
     <div class="container">
@@ -235,7 +270,6 @@
         <p>Ang Fox On ay nag-o-operate sa ilalim ng rehistro sa Saint Vincent and the Grenadines (SVG), walang awtorisasyon mula sa Comissão de Valores Mobiliários (CVM), ang securities regulator ng Brazil, at maaaring hindi rin awtorisado ng financial regulator ng iyong bansa: tiyakin muna ito bago magbukas ng account. Ang anumang impormasyong nakasaad dito ay hindi dapat ituring na alok ng mga serbisyong pinansyal. Walang garantiya na ang mga projection o estratehiya ay magbubunga ng partikular na resulta, at ang nakaraang performance ay hindi garantiya ng mga resulta sa hinaharap. Ang volatility ng merkado ay maaaring magdulot ng malalaking pagbabago sa kita. Ang mga derivative at leveraged na produkto ay masalimuot at may mataas na posibilidad ng panganib: mahalagang alam mo na maaari kang malugi, pati na ang buong kapital na ininvest mo. Huwag kailanman mag-invest ng perang hindi mo kayang mawala.</p>
         <p class="footer__links">
           <a href="/fil/foxon-faq/">Mga madalas itanong</a>
-          <a href="/fil/tungkol-sa-site/">Tungkol sa site na ito</a>
           <a href="/fil/makipag-ugnayan/">Makipag-ugnayan</a>
         </p>
       </div>
@@ -263,6 +297,6 @@
       </div>
     </div>
   </template>
-  <script src="/assets/js/main.js?v=202610061114" defer></script>
+  <script src="/assets/js/main.js?v=202610072150" defer></script>
 </body>
 </html>

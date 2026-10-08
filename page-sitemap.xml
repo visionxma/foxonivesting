@@ -549,26 +549,4 @@
 			<image:loc>https://foxonivesting.com.br/assets/img/marca-astron.png</image:loc>
 		</image:image>
 	</url>
-	<url>
-		<loc>https://foxonivesting.com.br/sobre/</loc>
-		<lastmod>2026-07-30T10:00:00+00:00</lastmod>
-		<xhtml:link rel="alternate" hreflang="pt-BR" href="https://foxonivesting.com.br/sobre/"/>
-		<xhtml:link rel="alternate" hreflang="en" href="https://foxonivesting.com.br/en/about/"/>
-		<xhtml:link rel="alternate" hreflang="es" href="https://foxonivesting.com.br/es/sobre/"/>
-		<xhtml:link rel="alternate" hreflang="ar" href="https://foxonivesting.com.br/ar/about/"/>
-		<xhtml:link rel="alternate" hreflang="bn" href="https://foxonivesting.com.br/bn/about-this-site/"/>
-		<xhtml:link rel="alternate" hreflang="de" href="https://foxonivesting.com.br/de/ueber-uns/"/>
-		<xhtml:link rel="alternate" hreflang="fil" href="https://foxonivesting.com.br/fil/tungkol-sa-site/"/>
-		<xhtml:link rel="alternate" hreflang="fr" href="https://foxonivesting.com.br/fr/a-propos/"/>
-		<xhtml:link rel="alternate" hreflang="hi" href="https://foxonivesting.com.br/hi/about/"/>
-		<xhtml:link rel="alternate" hreflang="id" href="https://foxonivesting.com.br/id/tentang/"/>
-		<xhtml:link rel="alternate" hreflang="it" href="https://foxonivesting.com.br/it/chi-siamo/"/>
-		<xhtml:link rel="alternate" hreflang="ru" href="https://foxonivesting.com.br/ru/about/"/>
-		<xhtml:link rel="alternate" hreflang="sv" href="https://foxonivesting.com.br/sv/om-denna-webbplats/"/>
-		<xhtml:link rel="alternate" hreflang="th" href="https://foxonivesting.com.br/th/about/"/>
-		<xhtml:link rel="alternate" hreflang="tr" href="https://foxonivesting.com.br/tr/hakkinda/"/>
-		<xhtml:link rel="alternate" hreflang="vi" href="https://foxonivesting.com.br/vi/ve-trang-nay/"/>
-		<xhtml:link rel="alternate" hreflang="zh-CN" href="https://foxonivesting.com.br/zh/about-us/"/>
-		<xhtml:link rel="alternate" hreflang="x-default" href="https://foxonivesting.com.br/en/about/"/>
-	</url>
 </urlset>

@@ -44,6 +44,48 @@ function capa(a, i) {
   const k = contagem[a.categoria] = (contagem[a.categoria] || 0) + 1;
   return lista[(k - 1) % lista.length];
 }
+// Textos da página de artigo (layout no molde do blog da IQ Option), por idioma.
+const TXT = JSON.parse(fs.readFileSync(path.join(__dirname, 'textos-artigo.json'), 'utf8'));
+const VISITAS = 'https://duotide-visitas.visionxma.workers.dev';
+const fmtCurta = (d, codigo) => { try { return new Intl.DateTimeFormat(codigo, { day: 'numeric', month: 'short', year: 'numeric' }).format(new Date(d + 'T12:00:00Z')); } catch (e) { return d; } };
+const fmtLonga = (d, codigo) => { try { return new Intl.DateTimeFormat(codigo, { day: 'numeric', month: 'long', year: 'numeric' }).format(new Date(d + 'T12:00:00Z')); } catch (e) { return d; } };
+// "atualizado em": a data mais recente entre publicação, JSON em pt e tradução (dia no calendário de São Paulo)
+const diaSP = ms => new Date(ms).toLocaleDateString('sv-SE', { timeZone: 'America/Sao_Paulo' });
+function atualizado(a, pasta) {
+  const datas = [a.data];
+  if (a.atualizado) datas.push(a.atualizado);
+  for (const p of [path.join(PASTA, a.slugPt + '.json'), pasta ? path.join(TRAD, pasta, a.slugPt + '.json') : null]) {
+    if (p && fs.existsSync(p)) datas.push(diaSP(fs.statSync(p).mtimeMs));
+  }
+  return datas.sort().pop();
+}
+// dá id aos <h2> do corpo e devolve o sumário
+const ancora = t => t.replace(/<[^>]+>/g, '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^\p{L}\p{N}]+/gu, '-').replace(/^-+|-+$/g, '').slice(0, 60) || 's';
+function sumario(corpo) {
+  const itens = [], usados = new Set();
+  const html = corpo.replace(/<h2(\s[^>]*)?>([\s\S]*?)<\/h2>/g, (m, at = '', t) => {
+    let id = ancora(t), k = id, n = 2; while (usados.has(k)) k = id + '-' + n++; usados.add(k);
+    itens.push({ id: k, t: t.replace(/<[^>]+>/g, '').trim() });
+    return `<h2 id="${k}"${at.replace(/\sid="[^"]*"/, '')}>${t}</h2>`;
+  });
+  return { html, itens };
+}
+// Editorias que assinam os artigos (pela categoria em pt), com ícone e cor próprios.
+const ED = JSON.parse(fs.readFileSync(path.join(__dirname, 'editorias.json'), 'utf8'));
+const ICONES = {
+  mercado: '<path d="M4 18 9.5 12l4 3.5L20 8" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/><path d="M15 8h5v5" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>',
+  analise: '<path d="M7 5v14M12 3v18M17 7v10" stroke="#fff" stroke-width="1.6"/><rect x="5.5" y="8" width="3" height="6" rx=".6" fill="#fff"/><rect x="10.5" y="6" width="3" height="9" rx=".6" fill="#fff"/><rect x="15.5" y="9" width="3" height="5" rx=".6" fill="#fff"/>',
+  risco: '<path d="M12 3 19 6v5.5c0 4.4-3 8-7 9.5-4-1.5-7-5.1-7-9.5V6z" fill="none" stroke="#fff" stroke-width="2" stroke-linejoin="round"/><path d="m8.8 12 2.2 2.2 4.2-4.4" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>',
+  cripto: '<circle cx="12" cy="12" r="8" fill="none" stroke="#fff" stroke-width="2"/><path d="M10 8h3.2a2 2 0 0 1 0 4H10m0 0h3.6a2 2 0 0 1 0 4H10m0-8v8m1.5-9.5v1.5m0 8v1.5" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round"/>',
+  iniciante: '<path d="M3 9.5 12 5l9 4.5-9 4.5z" fill="none" stroke="#fff" stroke-width="2" stroke-linejoin="round"/><path d="M7 11.5V15c0 1.4 2.2 2.5 5 2.5s5-1.1 5-2.5v-3.5M21 9.5V14" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round"/>'
+};
+function editoria(catPt, pasta) {
+  const k = Object.keys(ED.grupos).find(g => ED.grupos[g].cats.includes(catPt)) || 'analise';
+  const t = ED.textos[pasta] || ED.textos[''];
+  return { k, cor: ED.grupos[k].cor, nome: t[k][0], bio: t[k][1], funcao: t.funcao };
+}
+const selo = (e, tam) => `<span class="ap__avatar${tam > 60 ? ' ap__avatar--g' : ''}" style="background:${e.cor}" aria-hidden="true"><svg viewBox="0 0 24 24" width="${Math.round(tam * 0.5)}" height="${Math.round(tam * 0.5)}">${ICONES[e.k]}</svg></span>`;
+const OLHO = '<svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" d="M1.5 12S5.5 4.5 12 4.5 22.5 12 22.5 12 18.5 19.5 12 19.5 1.5 12 1.5 12z"/><circle cx="12" cy="12" r="3" fill="none" stroke="currentColor" stroke-width="2"/></svg>';
 const esc = s => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 const dataBR = d => d.split('-').reverse().join('/');
 
@@ -124,8 +166,8 @@ function gerar(pasta = '') {
     const home = pasta ? `/${pasta}/` : '/';
     const ld = { '@context': 'https://schema.org', '@graph': [
       { '@type': 'BlogPosting', '@id': url + '#artigo', headline: a.titulo, description: a.descricao, url, inLanguage: idioma.codigo,
-        datePublished: iso, dateModified: iso, image: SITE + a.img, articleSection: a.categoria,
-        author: { '@type': 'Organization', name: B.equipe || 'Fox On', url: SITE + home }, publisher: { '@id': SITE + '/#organization' },
+        datePublished: iso, dateModified: atualizado(a, pasta) + 'T09:00:00-03:00', image: SITE + a.img, articleSection: a.categoria,
+        author: { '@type': 'Organization', name: 'Fox On — ' + editoria(a.categoriaPt || a.categoria, pasta).nome, url: SITE + base(pasta) }, publisher: { '@id': SITE + '/#organization' },
         mainEntityOfPage: url, isPartOf: { '@id': SITE + base(pasta) + '#blog' } },
       { '@type': 'BreadcrumbList', itemListElement: [
         { '@type': 'ListItem', position: 1, name: C.nav.home, item: SITE + home },
@@ -133,36 +175,75 @@ function gerar(pasta = '') {
         { '@type': 'ListItem', position: 3, name: a.titulo, item: url }] }] };
     const mesma = arts.filter(o => o.slug !== a.slug && o.categoria === a.categoria);
     const outros = [...mesma, ...arts.filter(o => o.slug !== a.slug && o.categoria !== a.categoria)].slice(0, 3);
+    const T = TXT[pasta] || TXT[''];
+    const sm = sumario(a.corpo);
+    const atual = atualizado(a, pasta);
+    const ed = editoria(a.categoriaPt || a.categoria, pasta);
+    const autor = esc(ed.nome);
+    const avatar = selo(ed, 56);
+    const vis = cls => `<span class="ap__vis${cls}" data-visitas hidden>${OLHO}<b></b><span class="sr-only"> ${esc(T.visitas)}</span></span>`;
     const main = `<nav class="breadcrumb" aria-label="${esc(aria)}">
-    <div class="container">
+    <div class="container ap__trilha">
       <ol>
         <li><a href="${home}">${esc(C.nav.home)}</a></li>
         <li><a href="${base(pasta)}">${esc(C.nav.blog)}</a></li>
         <li><span aria-current="page">${esc(a.titulo)}</span></li>
       </ol>
+      <a class="ap__voltar" href="${base(pasta)}">${esc(T.voltar)}</a>
     </div>
   </nav>
   <main id="conteudo"><!--artigo-blog-->
-    <section class="section">
-      <div class="container article bq-post">
-        <span class="bq__tag">${esc(a.categoria || 'Blog')}</span>
-        <h1>${esc(a.titulo)}</h1>
-        <p class="bq-post__meta">${esc(B.equipe || 'Fox On')} · <time datetime="${a.data}">${fmtData(a.data, idioma.codigo)}</time> · ${leitura(a.leitura)}</p>
-        <figure class="foto"><img src="${a.img}" alt="" width="1024" height="512" decoding="async" fetchpriority="high"></figure>
-        ${a.corpo}
-${a.fonte ? `        <p class="artigo__fonte">${esc(B.fonte || '')} <a href="${esc(a.fonte)}" target="_blank" rel="noopener nofollow">Traders Union</a>.</p>
-` : ''}        <div class="bq-post__cta">
-          <p><strong>${esc(B.cta_titulo)}</strong> ${esc(B.cta_texto)}</p>
-          <a class="btn btn--primary" href="${AFF}" target="_blank" rel="noopener sponsored nofollow">${esc(B.cta_botao)}</a>
+    <div class="ap__progresso" aria-hidden="true"><span></span></div>
+    <article class="ap" data-slug="${a.slugPt}" data-api="${VISITAS}" data-copiado="${esc(T.copiado)}">
+      <div class="container">
+        <header class="ap__cab" id="topo">
+          <div class="ap__info">
+            <div class="ap__linha">
+              <span><time datetime="${a.data}">${fmtCurta(a.data, idioma.codigo)}</time><span class="ap__sep">${leitura(a.leitura)}</span></span>
+              ${vis('')}
+            </div>
+            <p class="ap__atual">${esc(T.atualizado)}: <time datetime="${atual}">${fmtLonga(atual, idioma.codigo)}</time></p>
+            <span class="bq__tag">${esc(a.categoria || 'Blog')}</span>
+            <h1>${esc(a.titulo)}</h1>
+            <div class="ap__autor">${avatar}<span><strong>${autor}</strong><small>${esc(ed.funcao)}</small></span></div>
+          </div>
+          <figure class="ap__capa"><img src="${a.img}" alt="" width="1024" height="512" decoding="async" fetchpriority="high"></figure>
+        </header>
+        <div class="ap__grade">
+          <aside class="ap__lado">
+            <nav class="ap__indice" aria-label="${esc(T.conteudo)}">
+${sm.itens.length ? `              <p class="ap__indice-tit">${esc(T.conteudo)}</p>
+              <div class="ap__trilho"><span class="ap__barra"></span><ol>
+${sm.itens.map(i => `                <li><a href="#${i.id}">${esc(i.t)}</a></li>`).join('\n')}
+              </ol></div>
+` : '              <div class="ap__trilho ap__trilho--so"><span class="ap__barra"></span></div>\n'}              <a class="ap__topo" href="#topo"><svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><circle cx="12" cy="12" r="10.5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M12 17V7m-4.5 4.5L12 7l4.5 4.5" fill="none" stroke="currentColor" stroke-width="1.6"/></svg>${esc(T.topo)}</a>
+            </nav>
+          </aside>
+          <div class="ap__texto article">
+            ${sm.html}
+${a.fonte ? `            <p class="artigo__fonte">${esc(B.fonte || '')} <a href="${esc(a.fonte)}" target="_blank" rel="noopener nofollow">Traders Union</a>.</p>
+` : ''}            <div class="bq-post__cta">
+              <p><strong>${esc(B.cta_titulo)}</strong> ${esc(B.cta_texto)}</p>
+              <a class="btn btn--primary" href="${AFF}" target="_blank" rel="noopener sponsored nofollow">${esc(B.cta_botao)}</a>
+            </div>
+            <div class="ap__fim">
+              <p>${esc(T.atualizado)}: <time datetime="${atual}">${fmtCurta(atual, idioma.codigo)}</time></p>
+              <div class="ap__acoes">${vis(' ap__vis--pilula')}<button class="ap__compartilhar" type="button">${esc(T.compartilhar)} <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path d="M12 15V3m-4 4 4-4 4 4M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-7" fill="none" stroke="currentColor" stroke-width="2"/></svg></button></div>
+            </div>
+            <div class="ap__autorbox">
+              ${selo(ed, 96)}
+              <div><strong>${autor}</strong><p>${esc(ed.bio)}</p></div>
+            </div>
+          </div>
         </div>
-        <aside class="bq-post__mais">
-          <h2>${esc(B.leia)}</h2>
+        <aside class="ap__rel">
+          <h2>${esc(T.relacionados)}</h2>
           <div class="bq__grade bq__grade--3">
 ${outros.map(o => `            <a class="bq__card" href="${o.href}"><img src="${o.img}" alt="" width="1024" height="512" loading="lazy" decoding="async"><span class="bq__titulo">${esc(o.titulo)}</span><span class="bq__meta">${fmtData(o.data, idioma.codigo)} · ${leitura(o.leitura)}</span></a>`).join('\n')}
           </div>
         </aside>
       </div>
-    </section>
+    </article>
   </main>`;
     let h = casca;
     h = h.replace(/<title>[\s\S]*?<\/title>/, () => `<title>${esc(a.titulo)} | Blog Fox On</title>`);
