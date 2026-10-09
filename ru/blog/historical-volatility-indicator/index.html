@@ -55,7 +55,7 @@
   <!-- ===== Performance ===== -->
   <link rel="preload" as="font" type="font/woff2"
         href="/assets/fonts/montserrat-latin-var.woff2" crossorigin>
-  <link rel="stylesheet" href="/assets/css/style.css?v=202610082303">
+  <link rel="stylesheet" href="/assets/css/style.css?v=202610092005">
   <!-- ===== Dados estruturados (JSON-LD) ===== -->
 <script type="application/ld+json">
 {
@@ -69,7 +69,7 @@
       "url": "https://foxonivesting.com.br/ru/blog/historical-volatility-indicator/",
       "inLanguage": "ru",
       "datePublished": "2026-09-24T09:00:00-03:00",
-      "dateModified": "2026-10-08T09:00:00-03:00",
+      "dateModified": "2026-10-09T09:00:00-03:00",
       "image": "https://foxonivesting.com.br/assets/img/capas/blog-analise-tecnica-e-fundamentalista.webp",
       "articleSection": "Индикаторы",
       "author": {
@@ -190,7 +190,7 @@
               <span><time datetime="2026-09-24">24 сент. 2026 г.</time><span class="ap__sep">5 мин чтения</span></span>
               <span class="ap__vis" data-visitas hidden><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" d="M1.5 12S5.5 4.5 12 4.5 22.5 12 22.5 12 18.5 19.5 12 19.5 1.5 12 1.5 12z"/><circle cx="12" cy="12" r="3" fill="none" stroke="currentColor" stroke-width="2"/></svg><b></b><span class="sr-only"> просмотров</span></span>
             </div>
-            <p class="ap__atual">Обновлено: <time datetime="2026-10-08">8 октября 2026 г.</time></p>
+            <p class="ap__atual">Обновлено: <time datetime="2026-10-09">9 октября 2026 г.</time></p>
             <span class="bq__tag">Индикаторы</span>
             <h1>Историческая волатильность: как настроить и интерпретировать</h1>
             <div class="ap__autor"><span class="ap__avatar" style="background:#16a34a" aria-hidden="true"><svg viewBox="0 0 24 24" width="28" height="28"><path d="M7 5v14M12 3v18M17 7v10" stroke="#fff" stroke-width="1.6"/><rect x="5.5" y="8" width="3" height="6" rx=".6" fill="#fff"/><rect x="10.5" y="6" width="3" height="9" rx=".6" fill="#fff"/><rect x="15.5" y="9" width="3" height="5" rx=".6" fill="#fff"/></svg></span><span><strong>Аналитика</strong><small>Раздел Fox On</small></span></div>
@@ -215,11 +215,11 @@
           <div class="ap__texto article">
             <p>В отличие от большинства индикаторов, пытающихся предсказать направление цены, индикатор исторической волатильности не высказывает мнения о том, вырастет рынок или упадет, — он измеряет, насколько сильно цена колебалась вверх или вниз за определенный период. Эта информация, хотя и менее эффектная, чем сигнал на покупку или продажу, фундаментальна для калибровки стопов, размера позиции и даже для выбора моментов, когда стоит торговать.</p><p>В этой статье вы узнаете, как рассчитывается историческая волатильность, как настроить индикатор и как интерпретировать его изменения на практике.</p><figure class="ap__grafico"><img src="/assets/graficos/indicador-de-volatilidade-historica.svg" alt="График: Tesla, дневной, с 01.04.2026 по 07.10.2026. Данные: Yahoo Finance. Собственный анализ." width="960" height="540" loading="lazy" decoding="async"><figcaption>График: Tesla, дневной, с 01.04.2026 по 07.10.2026. Данные: Yahoo Finance. Собственный анализ.</figcaption></figure><h2 id="что-измеряет-историческая-волатильность">Что измеряет историческая волатильность</h2><p>Историческая волатильность рассчитывает стандартное отклонение дневной (или выбранного периода) доходности актива за определенное число свечей, обычно выраженное в годовом исчислении для облегчения сравнения между разными активами. Проще говоря: чем сильнее меняются цены закрытия от одной свечи к другой, тем выше историческая волатильность; чем стабильнее цены, тем она ниже.</p><p>Важно не путать волатильность с направлением. Актив может иметь высокую историческую волатильность как во время резкого падения, так и во время резкого роста — индикатор не различает это, он лишь измеряет амплитуду изменений, независимо от направления.</p><figure class="ap__ilustra"><img src="/assets/img/blog/ind-01.webp" alt="" width="1280" height="720" loading="lazy" decoding="async"></figure><h2 id="как-работает-расчет-упрощенно">Как работает расчет, упрощенно</h2><p>Предположим актив с дневной доходностью +2%, −1%, +3%, −2% и +1% за пять свечей. Историческая волатильность рассчитывает, насколько эти показатели в среднем отклоняются от средней доходности периода, — чем больше этот разброс, тем выше итоговое значение индикатора. Актив, дневная доходность которого обычно находится между −0,5% и +0,5%, покажет историческую волатильность намного ниже, чем актив, дневная доходность которого обычно колеблется между −3% и +3%, даже если оба завершили период с одинаковым накопленным результатом.</p><h2 id="настроика-периода-индикатора">Настройка периода индикатора</h2><p>Самый распространенный период для расчета исторической волатильности — 10, 20 или 30 свечей, в зависимости от горизонта анализа. Более короткие периоды, например 10, отражают самую недавнюю волатильность, быстро реагируя на изменения поведения актива — полезно для тех, кто торгует на коротких сроках и хочет настроить стоп под самую актуальную обстановку. Более длинные периоды, например 30, сглаживают эти изменения и показывают более структурную волатильность актива, полезную для тех, кто торгует на более длинных сроках.</p><p>Распространенная практика — сравнивать текущее значение индикатора с его собственным историческим средним по тому же активу: историческая волатильность в 25% может считаться высокой для актива, обычно колеблющегося между 10% и 15%, но считалась бы низкой для актива, обычно меняющегося между 35% и 45%.</p><figure class="ap__ilustra"><img src="/assets/img/blog/ind-02.webp" alt="" width="1280" height="720" loading="lazy" decoding="async"></figure><h2 id="использование-историческои-волатильности-для-калибровки-стоп">Использование исторической волатильности для калибровки стопов</h2><p>Когда историческая волатильность высока, стоп, рассчитанный на основе фиксированного расстояния в рублях или пунктах, обычно срабатывает чаще просто из-за обычного рыночного шума, без связи с изначальной причиной сделки. В такие периоды имеет смысл использовать пропорционально более широкие стопы, что, в свою очередь, требует уменьшения размера позиции для сохранения контроля над риском в рублях.</p><p>Когда историческая волатильность низка, применяется обратное: стопы ближе к цене входа обычно более уместны, поскольку актив в этот момент колеблется меньше обычного.</p><h2 id="историческая-волатильность-и-момент-для-торговли">Историческая волатильность и момент для торговли</h2><p>Некоторые трейдеры также используют историческую волатильность для решения, стоит ли торговать определенным активом в данный момент. Крайне низкая волатильность может указывать на период накопления, с небольшими и малопривлекательными движениями для тех, кто ищет сделки большей амплитуды. Крайне высокая волатильность, напротив, может указывать на момент повышенной неопределенности, с большим риском резких и непредсказуемых движений в обоих направлениях.</p><h2 id="применение-на-практике">Применение на практике</h2><p>На Fox On можно отслеживать историческую волатильность разных активов и сравнивать текущее значение с историческим средним каждого, корректируя стопы и размер позиции в соответствии с обстановкой каждого момента. Высокая волатильность сама по себе не повод прекращать торговлю, но требует большей осторожности в расчете риска, который, как и в любой сделке, никогда не исчезает.</p><p>Стоит также следить за трендом самой волатильности, а не только за абсолютным значением на одной свече. Историческая волатильность, стабильно растущая, даже оставаясь в диапазоне, считающемся нормальным для актива, может быть сигналом того, что обстановка меняется и что используемые до сих пор параметры стопа и размера позиции, возможно, нуждаются в корректировке, прежде чем изменение станет еще больше.</p>
             <div class="bq-post__cta">
-              <p><strong>Потренируйтесь, прежде чем рисковать.</strong> Откройте счёт в Fox On и проверьте свои идеи на демо-счёте с виртуальными R$ 10 000.</p>
+              <p><strong>Потренируйтесь, прежде чем рисковать.</strong> Откройте счёт в Fox On и проверьте свои идеи на демо-счёте с виртуальными 10 000 $.</p>
               <a class="btn btn--primary" href="https://trade.safirion.com/register?aff=818084&aff_model=revenue&afftrack=foxon" target="_blank" rel="noopener sponsored nofollow">Открыть бесплатный счёт</a>
             </div>
             <div class="ap__fim">
-              <p>Обновлено: <time datetime="2026-10-08">8 окт. 2026 г.</time></p>
+              <p>Обновлено: <time datetime="2026-10-09">9 окт. 2026 г.</time></p>
               <div class="ap__acoes"><span class="ap__vis ap__vis--pilula" data-visitas hidden><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" d="M1.5 12S5.5 4.5 12 4.5 22.5 12 22.5 12 18.5 19.5 12 19.5 1.5 12 1.5 12z"/><circle cx="12" cy="12" r="3" fill="none" stroke="currentColor" stroke-width="2"/></svg><b></b><span class="sr-only"> просмотров</span></span><button class="ap__compartilhar" type="button">Поделиться <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path d="M12 15V3m-4 4 4-4 4 4M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-7" fill="none" stroke="currentColor" stroke-width="2"/></svg></button></div>
             </div>
             <div class="ap__autorbox">
@@ -248,12 +248,28 @@
         <aside class="ap__rel">
           <h2>Похожие статьи</h2>
           <div class="bq__grade bq__grade--3">
-            <a class="bq__card" href="/ru/blog/what-is-the-adx-indicator/"><img src="/assets/img/foxon-corretora-02.webp" alt="" width="1024" height="512" loading="lazy" decoding="async"><span class="bq__titulo">Что такое индикатор ADX и как он работает</span><span class="bq__meta">24.09.2026 · 6 мин чтения</span></a>
-            <a class="bq__card" href="/ru/blog/what-is-the-stochastic-oscillator/"><img src="/assets/img/capas/blog-analise-tecnica-e-fundamentalista.webp" alt="" width="1024" height="512" loading="lazy" decoding="async"><span class="bq__titulo">Что такое Стохастический осциллятор и как он работает</span><span class="bq__meta">24.09.2026 · 5 мин чтения</span></a>
-            <a class="bq__card" href="/ru/blog/what-is-average-true-range-atr/"><img src="/assets/img/foxon-corretora-04.webp" alt="" width="1024" height="512" loading="lazy" decoding="async"><span class="bq__titulo">Что такое Average True Range (ATR) и как его рассчитать</span><span class="bq__meta">24.09.2026 · 6 мин чтения</span></a>
+            <a class="bq__card" href="/ru/blog/what-is-the-adx-indicator/"><img src="/assets/img/mini/foxon-corretora-02.webp" srcset="/assets/img/mini/foxon-corretora-02.webp 480w, /assets/img/foxon-corretora-02.webp 1024w" sizes="(max-width: 47.99rem) 30vw, 360px" alt="" width="480" height="240" loading="lazy" decoding="async"><span class="bq__titulo">Что такое индикатор ADX и как он работает</span><span class="bq__meta">24.09.2026 · 6 мин чтения</span></a>
+            <a class="bq__card" href="/ru/blog/what-is-the-stochastic-oscillator/"><img src="/assets/img/mini/capas/blog-analise-tecnica-e-fundamentalista.webp" srcset="/assets/img/mini/capas/blog-analise-tecnica-e-fundamentalista.webp 480w, /assets/img/capas/blog-analise-tecnica-e-fundamentalista.webp 1024w" sizes="(max-width: 47.99rem) 30vw, 360px" alt="" width="480" height="240" loading="lazy" decoding="async"><span class="bq__titulo">Что такое Стохастический осциллятор и как он работает</span><span class="bq__meta">24.09.2026 · 5 мин чтения</span></a>
+            <a class="bq__card" href="/ru/blog/what-is-average-true-range-atr/"><img src="/assets/img/mini/foxon-corretora-04.webp" srcset="/assets/img/mini/foxon-corretora-04.webp 480w, /assets/img/foxon-corretora-04.webp 1024w" sizes="(max-width: 47.99rem) 30vw, 360px" alt="" width="480" height="240" loading="lazy" decoding="async"><span class="bq__titulo">Что такое Average True Range (ATR) и как его рассчитать</span><span class="bq__meta">24.09.2026 · 6 мин чтения</span></a>
           </div>
         </aside>
       </div>
+      <section class="ap-lp" aria-labelledby="ap-lp-tit">
+        <div class="container ap-lp__dentro">
+          <h2 id="ap-lp-tit">Готовы попробовать на практике?</h2>
+          <p class="ap-lp__sub">Откройте счёт и тренируйтесь на демо-счёте с виртуальными 10 000 долларов США, не рискуя деньгами.</p>
+          <div class="ap-lp__botoes">
+            <a class="btn btn--primary" href="https://trade.safirion.com/register?aff=818084&aff_model=revenue&afftrack=foxon" target="_blank" rel="noopener sponsored nofollow">Открыть счёт</a>
+            <a class="btn ap-lp__demo" href="https://trade.safirion.com/register?aff=818084&aff_model=revenue&afftrack=foxon" target="_blank" rel="noopener sponsored nofollow">Попробовать демо</a>
+          </div>
+          <ul class="ap-lp__selos">
+            <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 19 6v5.5c0 4.4-3 8-7 9.5-4-1.5-7-5.1-7-9.5V6z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="m8.8 12 2.2 2.2 4.2-4.4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><strong>Безопасная платформа</strong><span>Защищённый вход и проверка личности</span></li>
+            <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 13v-1a8 8 0 0 1 16 0v1" fill="none" stroke="currentColor" stroke-width="2"/><rect x="3" y="13" width="4" height="6" rx="1.5" fill="none" stroke="currentColor" stroke-width="2"/><rect x="17" y="13" width="4" height="6" rx="1.5" fill="none" stroke="currentColor" stroke-width="2"/></svg><strong>Поддержка на разных языках</strong><span>Помощь каждый день</span></li>
+            <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 18 9.5 12l4 3.5L20 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M15 8h5v5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><strong>Бесплатный демо-счёт</strong><span>10 000 USD виртуально для практики</span></li>
+          </ul>
+          <p class="ap-lp__risco">Торговля связана с риском потери вложенного капитала.</p>
+        </div>
+      </section>
     </article>
   </main>
   <footer class="site-footer">
@@ -316,6 +332,6 @@
       </div>
     </div>
   </template>
-  <script src="/assets/js/main.js?v=202610082303" defer></script>
+  <script src="/assets/js/main.js?v=202610092005" defer></script>
 </body>
 </html>

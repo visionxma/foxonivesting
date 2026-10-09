@@ -55,7 +55,7 @@
   <!-- ===== Performance ===== -->
   <link rel="preload" as="font" type="font/woff2"
         href="/assets/fonts/montserrat-latin-var.woff2" crossorigin>
-  <link rel="stylesheet" href="/assets/css/style.css?v=202610082303">
+  <link rel="stylesheet" href="/assets/css/style.css?v=202610092005">
   <!-- ===== Dados estruturados (JSON-LD) ===== -->
 <script type="application/ld+json">
 {
@@ -69,7 +69,7 @@
       "url": "https://foxonivesting.com.br/ru/blog/vortex-indicator-how-to-set-up-and-use/",
       "inLanguage": "ru",
       "datePublished": "2026-09-24T09:00:00-03:00",
-      "dateModified": "2026-10-08T09:00:00-03:00",
+      "dateModified": "2026-10-09T09:00:00-03:00",
       "image": "https://foxonivesting.com.br/assets/img/foxon-corretora-04.webp",
       "articleSection": "Индикаторы",
       "author": {
@@ -190,7 +190,7 @@
               <span><time datetime="2026-09-24">24 сент. 2026 г.</time><span class="ap__sep">6 мин чтения</span></span>
               <span class="ap__vis" data-visitas hidden><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" d="M1.5 12S5.5 4.5 12 4.5 22.5 12 22.5 12 18.5 19.5 12 19.5 1.5 12 1.5 12z"/><circle cx="12" cy="12" r="3" fill="none" stroke="currentColor" stroke-width="2"/></svg><b></b><span class="sr-only"> просмотров</span></span>
             </div>
-            <p class="ap__atual">Обновлено: <time datetime="2026-10-08">8 октября 2026 г.</time></p>
+            <p class="ap__atual">Обновлено: <time datetime="2026-10-09">9 октября 2026 г.</time></p>
             <span class="bq__tag">Индикаторы</span>
             <h1>Индикатор Vortex: как настроить и использовать</h1>
             <div class="ap__autor"><span class="ap__avatar" style="background:#16a34a" aria-hidden="true"><svg viewBox="0 0 24 24" width="28" height="28"><path d="M7 5v14M12 3v18M17 7v10" stroke="#fff" stroke-width="1.6"/><rect x="5.5" y="8" width="3" height="6" rx=".6" fill="#fff"/><rect x="10.5" y="6" width="3" height="9" rx=".6" fill="#fff"/><rect x="15.5" y="9" width="3" height="5" rx=".6" fill="#fff"/></svg></span><span><strong>Аналитика</strong><small>Раздел Fox On</small></span></div>
@@ -215,11 +215,11 @@
           <div class="ap__texto article">
             <p>Индикатор Vortex возник из необычного для инструментов технического анализа вдохновения: его создатели, Этьен Ботес и Дуглас Сипман, опирались на наблюдения австрийского изобретателя Виктора Шаубергера о потоке воды, предполагая, что движения финансового рынка могут напоминать паттерны вихрей, наблюдаемые в природе. На практике результат — трендовый индикатор с двумя линиями, интерпретировать который проще, чем предполагает аналогия.</p><figure class="ap__grafico"><img src="/assets/graficos/indicador-vortex-como-configurar-e-usar.svg" alt="График: Ouro, дневной, с 02.03.2026 по 07.10.2026. Данные: Yahoo Finance. Собственный анализ." width="960" height="540" loading="lazy" decoding="async"><figcaption>График: Ouro, дневной, с 02.03.2026 по 07.10.2026. Данные: Yahoo Finance. Собственный анализ.</figcaption></figure><h2 id="идея-лежащая-в-основе-расчета">Идея, лежащая в основе расчета</h2><p>Vortex измеряет расстояние между минимумом текущей свечи и максимумом предыдущей свечи (восходящее движение), а также расстояние между максимумом текущей свечи и минимумом предыдущей свечи (нисходящее движение). Чем больше одно из этих расстояний относительно другого, тем сильнее соответствующее направленное движение. Эти два показателя, сглаженные за период (по умолчанию 14), формируют две линии индикатора: VI+ (восходящее движение) и VI- (нисходящее движение).</p><p>Расчет также учитывает истинный диапазон каждой свечи — ту же концепцию, что используется в ATR и ADX, — что помогает индикатору улавливать движение даже при наличии гэпов между свечами.</p><figure class="ap__ilustra"><img src="/assets/img/blog/ind-04.webp" alt="" width="1280" height="720" loading="lazy" decoding="async"></figure><h2 id="как-настроить">Как настроить</h2><p>Vortex относится к категории индикаторов моментума (или тренда, в зависимости от платформы) и по умолчанию использует период 14 для обеих основных линий. Уровни перекупленности и перепроданности обычно настроены на 1,1 и 0,9 соответственно, хотя эти два уровня имеют меньший вес в чтении индикатора, чем пересечение самих линий VI+ и VI-.</p><h2 id="как-читать-сигналы">Как читать сигналы</h2><ul><li><strong>Сигнал роста</strong>: линия VI+ находится ниже VI-, пересекает ее снизу вверх и остается выше — указывая, что восходящее движение стало доминирующим.</li><li><strong>Сигнал падения</strong>: линия VI- находится ниже VI+, пересекает ее снизу вверх и остается выше — указывая, что нисходящее движение стало доминирующим.</li><li><strong>Расстояние между линиями</strong>: чем больше разрыв между VI+ и VI- после пересечения, тем сильнее считается текущий тренд.</li></ul><p>Пример: в валютной паре, где VI- был выше VI+ на протяжении нескольких недель (нисходящий тренд), VI+ пересекает VI- снизу вверх, и расстояние между двумя линиями начинает расти на следующих свечах. Это сочетание — пересечение плюс расширение расстояния — читается как подтверждение того, что тренд сменил направление, а не просто изолированное пересечение, способное развернуться на следующей свече.</p><figure class="ap__ilustra"><img src="/assets/img/blog/ind-05.webp" alt="" width="1280" height="720" loading="lazy" decoding="async"></figure><h2 id="не-каждое-пересечение-должно-становиться-входом">Не каждое пересечение должно становиться входом</h2><p>Пересечение между VI+ и VI- не следует рассматривать как автоматический приказ на покупку или продажу, а скорее как приглашение присмотреться к активу внимательнее: проверить недавнее поведение цены, оценить наличие поблизости значимой поддержки или сопротивления и только потом рассматривать вход в указанном направлении. На рынках без четкого тренда пересечения обычно повторяются несколько раз за короткое время, не порождая используемого движения, — та же проблема ложных сигналов, что затрагивает практически любой трендовый индикатор на боковом рынке.</p><h2 id="сочетание-vortex-с-другими-индикаторами">Сочетание Vortex с другими индикаторами</h2><p>Поскольку он измеряет только тренд, Vortex выигрывает от сочетания с индикатором иной природы, а не с другим трендовым индикатором, измеряющим по сути то же самое. MACD и ADX часто упоминаются как хорошие дополнения: MACD усиливает чтение моментума, а ADX помогает подтвердить, действительно ли сила тренда, обозначенного пересечением Vortex, достаточно значима, чтобы оправдать вход.</p><h2 id="управление-риском-по-прежнему-необходимо">Управление риском по-прежнему необходимо</h2><p>Как и любой трендовый индикатор, Vortex не всегда прав, и построенная на нем стратегия должна включать стоп-лосс и, когда это уместно, определенную до входа цель тейк-профита. Ни один инструмент, какой бы продуманной ни была лежащая в его основе логика, не выдает верные сигналы все время — и относиться к Vortex иначе означало бы игнорировать, как на самом деле ведет себя любая трендовая стратегия на протяжении многих сделок.</p><p>Стоит также протестировать индикатор на разных активах и таймфреймах, прежде чем доверять ему в реальных сделках: период 14, хорошо работающий на дневном графике акций, может не давать тех же результатов на внутридневном графике валютной пары, учитывая разницу в волатильности и поведении между этими двумя рынками.</p>
             <div class="bq-post__cta">
-              <p><strong>Потренируйтесь, прежде чем рисковать.</strong> Откройте счёт в Fox On и проверьте свои идеи на демо-счёте с виртуальными R$ 10 000.</p>
+              <p><strong>Потренируйтесь, прежде чем рисковать.</strong> Откройте счёт в Fox On и проверьте свои идеи на демо-счёте с виртуальными 10 000 $.</p>
               <a class="btn btn--primary" href="https://trade.safirion.com/register?aff=818084&aff_model=revenue&afftrack=foxon" target="_blank" rel="noopener sponsored nofollow">Открыть бесплатный счёт</a>
             </div>
             <div class="ap__fim">
-              <p>Обновлено: <time datetime="2026-10-08">8 окт. 2026 г.</time></p>
+              <p>Обновлено: <time datetime="2026-10-09">9 окт. 2026 г.</time></p>
               <div class="ap__acoes"><span class="ap__vis ap__vis--pilula" data-visitas hidden><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" d="M1.5 12S5.5 4.5 12 4.5 22.5 12 22.5 12 18.5 19.5 12 19.5 1.5 12 1.5 12z"/><circle cx="12" cy="12" r="3" fill="none" stroke="currentColor" stroke-width="2"/></svg><b></b><span class="sr-only"> просмотров</span></span><button class="ap__compartilhar" type="button">Поделиться <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path d="M12 15V3m-4 4 4-4 4 4M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-7" fill="none" stroke="currentColor" stroke-width="2"/></svg></button></div>
             </div>
             <div class="ap__autorbox">
@@ -248,12 +248,28 @@
         <aside class="ap__rel">
           <h2>Похожие статьи</h2>
           <div class="bq__grade bq__grade--3">
-            <a class="bq__card" href="/ru/blog/what-is-the-adx-indicator/"><img src="/assets/img/foxon-corretora-02.webp" alt="" width="1024" height="512" loading="lazy" decoding="async"><span class="bq__titulo">Что такое индикатор ADX и как он работает</span><span class="bq__meta">24.09.2026 · 6 мин чтения</span></a>
-            <a class="bq__card" href="/ru/blog/what-is-the-stochastic-oscillator/"><img src="/assets/img/capas/blog-analise-tecnica-e-fundamentalista.webp" alt="" width="1024" height="512" loading="lazy" decoding="async"><span class="bq__titulo">Что такое Стохастический осциллятор и как он работает</span><span class="bq__meta">24.09.2026 · 5 мин чтения</span></a>
-            <a class="bq__card" href="/ru/blog/what-is-average-true-range-atr/"><img src="/assets/img/foxon-corretora-04.webp" alt="" width="1024" height="512" loading="lazy" decoding="async"><span class="bq__titulo">Что такое Average True Range (ATR) и как его рассчитать</span><span class="bq__meta">24.09.2026 · 6 мин чтения</span></a>
+            <a class="bq__card" href="/ru/blog/what-is-the-adx-indicator/"><img src="/assets/img/mini/foxon-corretora-02.webp" srcset="/assets/img/mini/foxon-corretora-02.webp 480w, /assets/img/foxon-corretora-02.webp 1024w" sizes="(max-width: 47.99rem) 30vw, 360px" alt="" width="480" height="240" loading="lazy" decoding="async"><span class="bq__titulo">Что такое индикатор ADX и как он работает</span><span class="bq__meta">24.09.2026 · 6 мин чтения</span></a>
+            <a class="bq__card" href="/ru/blog/what-is-the-stochastic-oscillator/"><img src="/assets/img/mini/capas/blog-analise-tecnica-e-fundamentalista.webp" srcset="/assets/img/mini/capas/blog-analise-tecnica-e-fundamentalista.webp 480w, /assets/img/capas/blog-analise-tecnica-e-fundamentalista.webp 1024w" sizes="(max-width: 47.99rem) 30vw, 360px" alt="" width="480" height="240" loading="lazy" decoding="async"><span class="bq__titulo">Что такое Стохастический осциллятор и как он работает</span><span class="bq__meta">24.09.2026 · 5 мин чтения</span></a>
+            <a class="bq__card" href="/ru/blog/what-is-average-true-range-atr/"><img src="/assets/img/mini/foxon-corretora-04.webp" srcset="/assets/img/mini/foxon-corretora-04.webp 480w, /assets/img/foxon-corretora-04.webp 1024w" sizes="(max-width: 47.99rem) 30vw, 360px" alt="" width="480" height="240" loading="lazy" decoding="async"><span class="bq__titulo">Что такое Average True Range (ATR) и как его рассчитать</span><span class="bq__meta">24.09.2026 · 6 мин чтения</span></a>
           </div>
         </aside>
       </div>
+      <section class="ap-lp" aria-labelledby="ap-lp-tit">
+        <div class="container ap-lp__dentro">
+          <h2 id="ap-lp-tit">Готовы попробовать на практике?</h2>
+          <p class="ap-lp__sub">Откройте счёт и тренируйтесь на демо-счёте с виртуальными 10 000 долларов США, не рискуя деньгами.</p>
+          <div class="ap-lp__botoes">
+            <a class="btn btn--primary" href="https://trade.safirion.com/register?aff=818084&aff_model=revenue&afftrack=foxon" target="_blank" rel="noopener sponsored nofollow">Открыть счёт</a>
+            <a class="btn ap-lp__demo" href="https://trade.safirion.com/register?aff=818084&aff_model=revenue&afftrack=foxon" target="_blank" rel="noopener sponsored nofollow">Попробовать демо</a>
+          </div>
+          <ul class="ap-lp__selos">
+            <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 19 6v5.5c0 4.4-3 8-7 9.5-4-1.5-7-5.1-7-9.5V6z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="m8.8 12 2.2 2.2 4.2-4.4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><strong>Безопасная платформа</strong><span>Защищённый вход и проверка личности</span></li>
+            <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 13v-1a8 8 0 0 1 16 0v1" fill="none" stroke="currentColor" stroke-width="2"/><rect x="3" y="13" width="4" height="6" rx="1.5" fill="none" stroke="currentColor" stroke-width="2"/><rect x="17" y="13" width="4" height="6" rx="1.5" fill="none" stroke="currentColor" stroke-width="2"/></svg><strong>Поддержка на разных языках</strong><span>Помощь каждый день</span></li>
+            <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 18 9.5 12l4 3.5L20 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M15 8h5v5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><strong>Бесплатный демо-счёт</strong><span>10 000 USD виртуально для практики</span></li>
+          </ul>
+          <p class="ap-lp__risco">Торговля связана с риском потери вложенного капитала.</p>
+        </div>
+      </section>
     </article>
   </main>
   <footer class="site-footer">
@@ -316,6 +332,6 @@
       </div>
     </div>
   </template>
-  <script src="/assets/js/main.js?v=202610082303" defer></script>
+  <script src="/assets/js/main.js?v=202610092005" defer></script>
 </body>
 </html>
