@@ -155,22 +155,22 @@
 			<image:loc>https://foxonivesting.com.br/assets/img/foxon-e-confiavel-02.webp</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/terra.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-corretora-offshore-o-que-e.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-03.webp</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://foxonivesting.com.br/assets/img/foxon-app-04.webp</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-corretora-offshore-o-que-e.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/terra.webp</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-kyc-por-que-pedem-documento.webp</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://foxonivesting.com.br/assets/img/foxon-o-que-e.webp</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-03.webp</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://foxonivesting.com.br/assets/img/foxon-e-confiavel-03.webp</image:loc>
@@ -994,7 +994,7 @@
 		<loc>https://foxonivesting.com.br/tr/blog/etf-islem-icin-en-cesitlendirilmis-arac/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/capas/noticia-titulos-globais-caem-apostas-fed.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/capas/noticia-divida-global-passa-365-trilhoes.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1043,7 +1043,7 @@
 		<loc>https://foxonivesting.com.br/tr/blog/forex-islemi-icin-en-iyi-teknik-gostergeler/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-01.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-corretora-offshore-o-que-e.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1120,7 +1120,7 @@
 		<loc>https://foxonivesting.com.br/tr/blog/en-cok-islem-goren-5-forex-paritesi-ve-ozellikleri/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-corretora-offshore-o-que-e.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-03.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1225,7 +1225,7 @@
 		<loc>https://foxonivesting.com.br/tr/blog/forex-piyasasinda-islem-icin-en-iyi-saat/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-03.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/terra.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1281,7 +1281,7 @@
 		<loc>https://foxonivesting.com.br/tr/blog/endeksler-nasil-islem-gorur-yeni-baslayanlar-icin-rehber/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/capas/noticia-divida-global-passa-365-trilhoes.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-04.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1400,7 +1400,7 @@
 		<loc>https://foxonivesting.com.br/tr/blog/etf-ile-islemleri-nasil-cesitlendirmeli/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-04.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/capas/noticia-titulos-globais-caem-apostas-fed.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1484,7 +1484,7 @@
 		<loc>https://foxonivesting.com.br/tr/blog/yatirim-oncesi-etf-nasil-degerlendirilir/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/capas/noticia-titulos-globais-caem-apostas-fed.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/capas/noticia-divida-global-passa-365-trilhoes.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1498,7 +1498,7 @@
 		<loc>https://foxonivesting.com.br/tr/blog/yeni-baslayanlar-icin-forex-doviz-piyasasi-nasil-calisir/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/terra.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-01.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1617,7 +1617,7 @@
 		<loc>https://foxonivesting.com.br/tr/blog/ivv-vs-spy-vs-voo-sp-500-etflerini-karsilastirmak/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/capas/noticia-divida-global-passa-365-trilhoes.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-04.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1694,7 +1694,7 @@
 		<loc>https://foxonivesting.com.br/tr/blog/doviz-trading-forex-piyasasi-nasil-isler/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-01.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-corretora-offshore-o-que-e.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1813,7 +1813,7 @@
 		<loc>https://foxonivesting.com.br/tr/blog/forex-islem-yapmak-icin-en-iyi-saatler/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-corretora-offshore-o-que-e.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-03.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1841,7 +1841,7 @@
 		<loc>https://foxonivesting.com.br/tr/blog/pip-degeri-nasil-hesaplanir/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-03.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/terra.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1855,7 +1855,7 @@
 		<loc>https://foxonivesting.com.br/tr/blog/swap-orani-overnight-maliyeti-hesaplama/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/terra.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-01.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1939,7 +1939,7 @@
 		<loc>https://foxonivesting.com.br/tr/blog/forexte-spread-nasil-hesaplanir/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-01.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-corretora-offshore-o-que-e.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -2037,7 +2037,7 @@
 		<loc>https://foxonivesting.com.br/tr/blog/cpi-nfp-veya-fomc-forex-piyasasini-en-cok-ne-hareket-ettirir/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-corretora-offshore-o-que-e.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-03.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -2121,7 +2121,7 @@
 		<loc>https://foxonivesting.com.br/tr/blog/etf-mi-yatirim-fonu-mu-pratikte-fark/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-04.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/capas/noticia-titulos-globais-caem-apostas-fed.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -2163,14 +2163,14 @@
 		<loc>https://foxonivesting.com.br/tr/blog/forexte-pip-nedir-sonucunuzu-nasil-etkiler/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-03.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/terra.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/tr/blog/yeni-baslayanlar-icin-etf-nasil-islem-yapilir/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/capas/noticia-titulos-globais-caem-apostas-fed.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/capas/noticia-divida-global-passa-365-trilhoes.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
