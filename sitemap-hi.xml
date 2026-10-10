@@ -45,7 +45,7 @@
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/hi/blog/</loc>
-		<lastmod>2026-10-09T12:00:00-03:00</lastmod>
+		<lastmod>2026-10-10T12:00:00-03:00</lastmod>
 		<xhtml:link rel="alternate" hreflang="pt-BR" href="https://foxonivesting.com.br/blog/"/>
 		<xhtml:link rel="alternate" hreflang="en" href="https://foxonivesting.com.br/en/blog/"/>
 		<xhtml:link rel="alternate" hreflang="es" href="https://foxonivesting.com.br/es/blog/"/>
@@ -98,6 +98,9 @@
 			<image:loc>https://foxonivesting.com.br/assets/img/capas/noticia-uniswap-cai-11-futuros-cme.webp</image:loc>
 		</image:image>
 		<image:image>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-vale-a-pena.webp</image:loc>
+		</image:image>
+		<image:image>
 			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-02.webp</image:loc>
 		</image:image>
 		<image:image>
@@ -110,73 +113,70 @@
 			<image:loc>https://foxonivesting.com.br/assets/img/foxon-app-03.webp</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-vale-a-pena.webp</image:loc>
-		</image:image>
-		<image:image>
 			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-day-trade-ou-swing-trade.webp</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-01.webp</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-como-escolher-uma-corretora.webp</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-por-que-iniciante-perde-dinheiro.webp</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-gestao-de-risco-stop-e-posicao.webp</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-app-01.webp</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-abrir-conta.webp</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-slippage-e-execucao-de-ordem.webp</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-seguro-02.webp</image:loc>
-		</image:image>
-		<image:image>
 			<image:loc>https://foxonivesting.com.br/assets/img/foxon-app-04.webp</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-e-confiavel-02.webp</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-seguranca.webp</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-corretora-offshore-o-que-e.webp</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-03.webp</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-kyc-por-que-pedem-documento.webp</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-saque-nao-caiu-o-que-fazer.webp</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/terra.webp</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-login-01.webp</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-cripto-corretora-ou-exchange.webp</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://foxonivesting.com.br/assets/img/foxon-o-que-e.webp</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/capas/noticia-alphabet-recua-na-bolsa-gastos-com-ia.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-seguranca.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-app-01.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-kyc-por-que-pedem-documento.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-slippage-e-execucao-de-ordem.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-gestao-de-risco-stop-e-posicao.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-saque-nao-caiu-o-que-fazer.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-login-01.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-seguro-02.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-e-confiavel-02.webp</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://foxonivesting.com.br/assets/img/foxon-e-confiavel-03.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-corretora-offshore-o-que-e.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-como-escolher-uma-corretora.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-abrir-conta.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-03.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-por-que-iniciante-perde-dinheiro.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://foxonivesting.com.br/assets/img/capas/noticia-alphabet-recua-na-bolsa-gastos-com-ia.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-cripto-corretora-ou-exchange.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://foxonivesting.com.br/assets/img/terra.webp</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://foxonivesting.com.br/assets/img/ativos/btc.svg</image:loc>
@@ -637,14 +637,14 @@
 		<loc>https://foxonivesting.com.br/hi/blog/what-is-the-adx-indicator/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-02.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-vale-a-pena.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/hi/blog/what-is-the-stochastic-oscillator/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-analise-tecnica-e-fundamentalista.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-02.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -665,14 +665,14 @@
 		<loc>https://foxonivesting.com.br/hi/blog/what-is-average-true-range-atr/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-04.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-analise-tecnica-e-fundamentalista.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/hi/blog/macd-stochastic-and-parabolic-sar-how-to-combine/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-app-03.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-04.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -700,21 +700,21 @@
 		<loc>https://foxonivesting.com.br/hi/blog/belkhayate-timing-indicator-how-to-use/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-vale-a-pena.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-app-03.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/hi/blog/bollinger-bands-how-they-work/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-02.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-vale-a-pena.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/hi/blog/moving-average-as-dynamic-support-and-resistance/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-analise-tecnica-e-fundamentalista.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-02.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -749,28 +749,28 @@
 		<loc>https://foxonivesting.com.br/hi/blog/how-to-understand-a-market-quote/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-como-escolher-uma-corretora.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-app-04.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/hi/blog/vortex-indicator-how-to-set-up-and-use/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-04.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-analise-tecnica-e-fundamentalista.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/hi/blog/kdj-indicator-a-stochastic-variation/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-app-03.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-04.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/hi/blog/awesome-oscillator-guide/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-vale-a-pena.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-app-03.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -784,14 +784,14 @@
 		<loc>https://foxonivesting.com.br/hi/blog/types-of-technical-indicators/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-02.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-vale-a-pena.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/hi/blog/mass-psychology-and-market-sentiment/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-por-que-iniciante-perde-dinheiro.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-o-que-e.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -812,28 +812,28 @@
 		<loc>https://foxonivesting.com.br/hi/blog/stop-loss-and-take-profit-in-forex/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-gestao-de-risco-stop-e-posicao.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-seguranca.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/hi/blog/relative-strength-index-rsi-guide/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-analise-tecnica-e-fundamentalista.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-02.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/hi/blog/chande-forecast-oscillator/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-04.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-analise-tecnica-e-fundamentalista.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/hi/blog/stochastic-oscillator-overbought-oversold/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-app-03.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-04.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -847,14 +847,14 @@
 		<loc>https://foxonivesting.com.br/hi/blog/center-of-gravity-indicator/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-vale-a-pena.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-app-03.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/hi/blog/essential-books-for-beginner-traders/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-abrir-conta.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-kyc-por-que-pedem-documento.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -882,21 +882,21 @@
 		<loc>https://foxonivesting.com.br/hi/blog/martingale-strategy-in-trading/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-seguro-02.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-gestao-de-risco-stop-e-posicao.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/hi/blog/envelopes-moving-average-indicator/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-02.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-vale-a-pena.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/hi/blog/historical-volatility-indicator/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-analise-tecnica-e-fundamentalista.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-02.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -910,35 +910,35 @@
 		<loc>https://foxonivesting.com.br/hi/blog/starc-bands-or-bollinger-bands-which-to-use/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-04.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-analise-tecnica-e-fundamentalista.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/hi/blog/5-popular-indicators-in-5-minutes-part-1/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-app-03.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-04.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/hi/blog/5-popular-indicators-in-5-minutes-part-2/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-vale-a-pena.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-app-03.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/hi/blog/trading-tools-and-how-to-choose-them/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-app-01.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-saque-nao-caiu-o-que-fazer.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/hi/blog/safety-first-how-to-avoid-trading-scams/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-app-04.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-login-01.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -952,21 +952,21 @@
 		<loc>https://foxonivesting.com.br/hi/blog/50-period-moving-average-how-to-use/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-02.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-vale-a-pena.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/hi/blog/when-to-close-a-trade-exit-signals/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-e-confiavel-02.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-seguro-02.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/hi/blog/take-profit-and-stop-loss-complete-guide/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-seguranca.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-e-confiavel-02.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -980,7 +980,7 @@
 		<loc>https://foxonivesting.com.br/hi/blog/kdj-indicator-how-to-customize-settings/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-analise-tecnica-e-fundamentalista.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-02.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -994,7 +994,7 @@
 		<loc>https://foxonivesting.com.br/hi/blog/etf-the-most-diversified-trading-instrument/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/capas/noticia-divida-global-passa-365-trilhoes.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-04.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1008,21 +1008,21 @@
 		<loc>https://foxonivesting.com.br/hi/blog/zigzag-indicator-how-to-filter-chart-noise/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-04.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-analise-tecnica-e-fundamentalista.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/hi/blog/adx-the-indicator-that-measures-trend-strength/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-app-03.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-04.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/hi/blog/margin-trading-how-it-works/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-gestao-de-risco-stop-e-posicao.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-seguranca.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1036,14 +1036,14 @@
 		<loc>https://foxonivesting.com.br/hi/blog/ichimoku-cloud-how-to-use/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-vale-a-pena.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-app-03.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/hi/blog/best-indicators-for-forex-trading/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-corretora-offshore-o-que-e.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-01.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1057,28 +1057,28 @@
 		<loc>https://foxonivesting.com.br/hi/blog/parabolic-sar-how-to-use-indicator/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-02.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-vale-a-pena.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/hi/blog/zig-zag-fibonacci-following-the-trend/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-analise-tecnica-e-fundamentalista.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-02.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/hi/blog/psychological-differences-demo-vs-real-trading/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-vale-a-pena.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-e-confiavel-03.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/hi/blog/cci-basics-overbought-oversold/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-04.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-analise-tecnica-e-fundamentalista.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1092,14 +1092,14 @@
 		<loc>https://foxonivesting.com.br/hi/blog/3-ways-to-use-bollinger-bands/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-app-03.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-04.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/hi/blog/stochastic-oscillator-for-short-term-trading/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-vale-a-pena.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-app-03.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1120,7 +1120,7 @@
 		<loc>https://foxonivesting.com.br/hi/blog/most-traded-forex-pairs-characteristics/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-03.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-corretora-offshore-o-que-e.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1134,21 +1134,21 @@
 		<loc>https://foxonivesting.com.br/hi/blog/risk-reward-ratio-per-trade/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-seguro-02.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-gestao-de-risco-stop-e-posicao.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/hi/blog/bankroll-management-techniques-in-trading/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-e-confiavel-02.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-seguro-02.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/hi/blog/how-to-trade-basic-concepts-for-beginners/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-kyc-por-que-pedem-documento.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-como-escolher-uma-corretora.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1190,7 +1190,7 @@
 		<loc>https://foxonivesting.com.br/hi/blog/how-binary-options-work/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-slippage-e-execucao-de-ordem.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-02.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1204,28 +1204,28 @@
 		<loc>https://foxonivesting.com.br/hi/blog/beginners-guide-to-trading/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-saque-nao-caiu-o-que-fazer.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-abrir-conta.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/hi/blog/best-technical-indicator-combinations/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-02.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-vale-a-pena.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/hi/blog/binary-options-step-by-step-and-risk-management/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-02.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-day-trade-ou-swing-trade.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/hi/blog/best-time-to-trade-forex-market/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/terra.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-03.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1239,7 +1239,7 @@
 		<loc>https://foxonivesting.com.br/hi/blog/digital-options-how-they-work/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-day-trade-ou-swing-trade.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-slippage-e-execucao-de-ordem.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1253,7 +1253,7 @@
 		<loc>https://foxonivesting.com.br/hi/blog/5-risk-management-tips-for-traders/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-seguranca.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-e-confiavel-02.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1267,7 +1267,7 @@
 		<loc>https://foxonivesting.com.br/hi/blog/alligator-indicator-and-fractals/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-analise-tecnica-e-fundamentalista.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-02.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1281,7 +1281,7 @@
 		<loc>https://foxonivesting.com.br/hi/blog/how-to-trade-indices-complete-guide/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-04.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/capas/noticia-titulos-globais-caem-apostas-fed.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1302,7 +1302,7 @@
 		<loc>https://foxonivesting.com.br/hi/blog/relative-vigor-index-rvi-how-to-use/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-04.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-analise-tecnica-e-fundamentalista.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1316,14 +1316,14 @@
 		<loc>https://foxonivesting.com.br/hi/blog/5-indicators-for-quick-trades/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-app-03.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-04.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/hi/blog/starc-bands-volatility-strategy/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-vale-a-pena.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-app-03.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1337,7 +1337,7 @@
 		<loc>https://foxonivesting.com.br/hi/blog/rainbow-moving-average-how-to-use/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-02.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-vale-a-pena.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1351,7 +1351,7 @@
 		<loc>https://foxonivesting.com.br/hi/blog/plan-your-entry-into-trading-this-year/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-login-01.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-app-01.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1365,14 +1365,14 @@
 		<loc>https://foxonivesting.com.br/hi/blog/crypto-rumors-hype-and-real-strategy/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-cripto-corretora-ou-exchange.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/capas/noticia-near-dispara-parceria-ondo-acoes-tokenizadas.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/hi/blog/detrended-price-oscillator-dpo/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-analise-tecnica-e-fundamentalista.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-02.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1386,7 +1386,7 @@
 		<loc>https://foxonivesting.com.br/hi/blog/daily-routine-checklist-for-consistent-trading/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-o-que-e.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-por-que-iniciante-perde-dinheiro.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1400,70 +1400,70 @@
 		<loc>https://foxonivesting.com.br/hi/blog/how-to-diversify-trading-with-etfs/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/capas/noticia-titulos-globais-caem-apostas-fed.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/capas/noticia-divida-global-passa-365-trilhoes.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/hi/blog/5-trading-superstitions-myth-or-fact/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-e-confiavel-03.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-vale-a-pena.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/hi/blog/5-tips-to-trade-more-efficiently/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-slippage-e-execucao-de-ordem.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-02.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/hi/blog/how-to-choose-the-right-indicator-for-your-strategy/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-04.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-analise-tecnica-e-fundamentalista.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/hi/blog/what-is-leverage-and-how-it-works/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-gestao-de-risco-stop-e-posicao.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-seguranca.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/hi/blog/5-options-strategies-for-beginners/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-02.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-day-trade-ou-swing-trade.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/hi/blog/what-is-spread-and-how-it-affects-your-trades/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-como-escolher-uma-corretora.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-app-04.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/hi/blog/labubu-coin-what-is-the-meme-coin-phenomenon/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/capas/noticia-mercado-cripto-sem-indice-de-referencia.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-cripto-corretora-ou-exchange.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/hi/blog/what-are-binary-options-and-how-they-work/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-day-trade-ou-swing-trade.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-slippage-e-execucao-de-ordem.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/hi/blog/how-to-trade-binary-options-step-by-step/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-seguro-02.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-gestao-de-risco-stop-e-posicao.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1484,42 +1484,42 @@
 		<loc>https://foxonivesting.com.br/hi/blog/how-to-evaluate-an-etf-before-investing/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/capas/noticia-divida-global-passa-365-trilhoes.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-04.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/hi/blog/what-is-day-trading-and-who-its-for/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-abrir-conta.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-kyc-por-que-pedem-documento.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/hi/blog/forex-for-beginners-how-the-currency-market-works/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-01.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/terra.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/hi/blog/popular-technical-indicators-and-how-to-interpret-them/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-app-03.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-04.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/hi/blog/options-fundamentals-guide/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-slippage-e-execucao-de-ordem.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-02.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/hi/blog/how-cfds-work-inside/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-e-confiavel-02.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-seguro-02.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1533,7 +1533,7 @@
 		<loc>https://foxonivesting.com.br/hi/blog/how-to-diversify-a-trading-portfolio/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-seguranca.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-e-confiavel-02.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1561,7 +1561,7 @@
 		<loc>https://foxonivesting.com.br/hi/blog/how-to-hedge-a-portfolio-with-options/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-02.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-day-trade-ou-swing-trade.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1582,7 +1582,7 @@
 		<loc>https://foxonivesting.com.br/hi/blog/what-is-a-trading-signal/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-app-01.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-saque-nao-caiu-o-que-fazer.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1603,7 +1603,7 @@
 		<loc>https://foxonivesting.com.br/hi/blog/the-3-5-7-rule-in-trading/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-gestao-de-risco-stop-e-posicao.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-seguranca.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1617,7 +1617,7 @@
 		<loc>https://foxonivesting.com.br/hi/blog/ivv-vs-spy-vs-voo-sp500-etfs/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-04.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/capas/noticia-titulos-globais-caem-apostas-fed.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1645,21 +1645,21 @@
 		<loc>https://foxonivesting.com.br/hi/blog/risks-and-strategies-in-margin-trading/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-seguro-02.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-gestao-de-risco-stop-e-posicao.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/hi/blog/what-is-overtrading-and-how-to-avoid-it/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-por-que-iniciante-perde-dinheiro.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-o-que-e.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/hi/blog/what-is-a-stop-limit-order/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-app-04.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-login-01.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1673,28 +1673,28 @@
 		<loc>https://foxonivesting.com.br/hi/blog/what-are-exotic-options/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-day-trade-ou-swing-trade.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-slippage-e-execucao-de-ordem.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/hi/blog/what-is-moving-average-and-how-to-use-it/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-vale-a-pena.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-app-03.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/hi/blog/when-will-all-bitcoin-be-mined/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/capas/noticia-near-dispara-parceria-ondo-acoes-tokenizadas.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/capas/noticia-mercado-cripto-sem-indice-de-referencia.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/hi/blog/currency-trading-how-forex-works/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-corretora-offshore-o-que-e.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-01.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1708,7 +1708,7 @@
 		<loc>https://foxonivesting.com.br/hi/blog/demo-account-how-to-use/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-kyc-por-que-pedem-documento.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-como-escolher-uma-corretora.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1729,21 +1729,21 @@
 		<loc>https://foxonivesting.com.br/hi/blog/do-90-percent-of-traders-lose-money/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-vale-a-pena.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-e-confiavel-03.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/hi/blog/how-to-start-trading-with-little-money-2026/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-saque-nao-caiu-o-que-fazer.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-abrir-conta.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/hi/blog/complete-guide-to-cryptocurrency-trading/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-cripto-corretora-ou-exchange.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/capas/noticia-near-dispara-parceria-ondo-acoes-tokenizadas.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1771,14 +1771,14 @@
 		<loc>https://foxonivesting.com.br/hi/blog/risk-management-for-beginners-in-trading/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-e-confiavel-02.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-seguro-02.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/hi/blog/market-sentiment-tools/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-02.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-vale-a-pena.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1792,7 +1792,7 @@
 		<loc>https://foxonivesting.com.br/hi/blog/cross-margin-vs-isolated-margin/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-seguranca.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-e-confiavel-02.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1813,49 +1813,49 @@
 		<loc>https://foxonivesting.com.br/hi/blog/best-times-to-trade-forex/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-03.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-corretora-offshore-o-que-e.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/hi/blog/trailing-stop-without-killing-your-winners/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-gestao-de-risco-stop-e-posicao.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-seguranca.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/hi/blog/trading-journal-free-template-how-to-use/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-o-que-e.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-por-que-iniciante-perde-dinheiro.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/hi/blog/risk-reward-and-win-rate-in-trading/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-seguro-02.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-gestao-de-risco-stop-e-posicao.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/hi/blog/pip-calculator-step-by-step/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/terra.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-03.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/hi/blog/leverage-calculator-how-to-calculate/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-e-confiavel-02.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-seguro-02.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/hi/blog/swap-calculator-overnight-fee/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-01.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/terra.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1932,21 +1932,21 @@
 		<loc>https://foxonivesting.com.br/hi/blog/how-much-to-risk-per-trade-1-2-5-10-percent/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-seguranca.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-e-confiavel-02.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/hi/blog/how-to-calculate-spread-in-forex/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-corretora-offshore-o-que-e.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-01.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/hi/blog/stock-market-terms-for-beginners/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-login-01.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-app-01.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -2002,14 +2002,14 @@
 		<loc>https://foxonivesting.com.br/hi/blog/options-greeks-for-beginners/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-slippage-e-execucao-de-ordem.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-02.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/hi/blog/trading-expectancy-calculator/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-gestao-de-risco-stop-e-posicao.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-seguranca.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -2023,7 +2023,7 @@
 		<loc>https://foxonivesting.com.br/hi/blog/atr-stop-loss-calculator/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-seguro-02.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-gestao-de-risco-stop-e-posicao.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -2037,7 +2037,7 @@
 		<loc>https://foxonivesting.com.br/hi/blog/cpi-nfp-or-fomc-what-moves-forex-most/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-03.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-corretora-offshore-o-que-e.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -2051,21 +2051,21 @@
 		<loc>https://foxonivesting.com.br/hi/blog/what-is-rsi-relative-strength-index/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-analise-tecnica-e-fundamentalista.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-02.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/hi/blog/what-is-macd-and-how-to-use-it/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-04.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-analise-tecnica-e-fundamentalista.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/hi/blog/what-does-price-touching-bollinger-band-mean/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-app-03.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-04.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -2121,7 +2121,7 @@
 		<loc>https://foxonivesting.com.br/hi/blog/etf-vs-mutual-fund-differences/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/capas/noticia-titulos-globais-caem-apostas-fed.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/capas/noticia-divida-global-passa-365-trilhoes.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -2156,21 +2156,21 @@
 		<loc>https://foxonivesting.com.br/hi/blog/what-is-volatility-in-the-market/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-e-confiavel-02.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-seguro-02.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/hi/blog/understanding-pip-in-forex/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/terra.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-03.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/hi/blog/etf-trading-for-beginners-how-it-works/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/capas/noticia-divida-global-passa-365-trilhoes.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-04.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -2184,14 +2184,14 @@
 		<loc>https://foxonivesting.com.br/hi/blog/how-to-build-an-indicator-set-without-overdoing-it/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-vale-a-pena.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-app-03.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/hi/blog/most-common-psychological-mistakes-beginners-make/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-e-confiavel-03.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-vale-a-pena.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -2212,14 +2212,14 @@
 		<loc>https://foxonivesting.com.br/hi/blog/lessons-from-peter-lynch-and-jesse-livermore/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-como-escolher-uma-corretora.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-app-04.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/hi/blog/ideal-amount-to-start-investing/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-seguranca.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-e-confiavel-02.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
