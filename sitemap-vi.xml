@@ -98,12 +98,6 @@
 			<image:loc>https://foxonivesting.com.br/assets/img/capas/noticia-uniswap-cai-11-futuros-cme.webp</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-vale-a-pena.webp</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-02.webp</image:loc>
-		</image:image>
-		<image:image>
 			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-analise-tecnica-e-fundamentalista.webp</image:loc>
 		</image:image>
 		<image:image>
@@ -113,58 +107,67 @@
 			<image:loc>https://foxonivesting.com.br/assets/img/foxon-app-03.webp</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-day-trade-ou-swing-trade.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-vale-a-pena.webp</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-01.webp</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-app-04.webp</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-o-que-e.webp</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-seguranca.webp</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-app-01.webp</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-kyc-por-que-pedem-documento.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-02.webp</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-slippage-e-execucao-de-ordem.webp</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-gestao-de-risco-stop-e-posicao.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-day-trade-ou-swing-trade.webp</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-saque-nao-caiu-o-que-fazer.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-kyc-por-que-pedem-documento.webp</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-login-01.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-o-que-e.webp</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://foxonivesting.com.br/assets/img/foxon-seguro-02.webp</image:loc>
 		</image:image>
 		<image:image>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-01.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-saque-nao-caiu-o-que-fazer.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-app-01.webp</image:loc>
+		</image:image>
+		<image:image>
 			<image:loc>https://foxonivesting.com.br/assets/img/foxon-e-confiavel-02.webp</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-e-confiavel-03.webp</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-corretora-offshore-o-que-e.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-login-01.webp</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-como-escolher-uma-corretora.webp</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-abrir-conta.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-seguranca.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-gestao-de-risco-stop-e-posicao.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-corretora-offshore-o-que-e.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-e-confiavel-03.webp</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-03.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-abrir-conta.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://foxonivesting.com.br/assets/img/terra.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-app-04.webp</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-por-que-iniciante-perde-dinheiro.webp</image:loc>
@@ -174,9 +177,6 @@
 		</image:image>
 		<image:image>
 			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-cripto-corretora-ou-exchange.webp</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/terra.webp</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://foxonivesting.com.br/assets/img/ativos/btc.svg</image:loc>
@@ -637,14 +637,14 @@
 		<loc>https://foxonivesting.com.br/vi/blog/chi-bao-adx-la-gi-va-cach-hoat-dong/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-vale-a-pena.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-analise-tecnica-e-fundamentalista.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/vi/blog/dao-dong-stochastic-la-gi-va-cach-hoat-dong/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-02.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-04.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -665,77 +665,77 @@
 		<loc>https://foxonivesting.com.br/vi/blog/average-true-range-atr-la-gi-va-cach-tinh/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-analise-tecnica-e-fundamentalista.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-app-03.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/vi/blog/macd-stochastic-parabolic-sar-cach-ket-hop/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-04.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-vale-a-pena.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/vi/blog/mau-hinh-vai-dau-vai-cach-nhan-dien-dao-chieu/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-analise-tecnica-e-fundamentalista.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-02.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/vi/blog/thoai-lui-fibonacci-trong-giao-dich-vi-du-thuc-te/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-02.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-vale-a-pena.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/vi/blog/3-mo-hinh-nen-thuong-that-bai/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-vale-a-pena.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-04.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/vi/blog/chi-bao-belkhayate-timing-cach-su-dung/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-app-03.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-02.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/vi/blog/dai-bollinger-la-gi-va-hoat-dong-ra-sao/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-vale-a-pena.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-analise-tecnica-e-fundamentalista.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/vi/blog/duong-trung-binh-dong-nhu-ho-tro-khang-cu-dong/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-02.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-04.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/vi/blog/giao-cat-duong-trung-binh-dong-mu-ema-trong-giao-dich/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-day-trade-ou-swing-trade.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-slippage-e-execucao-de-ordem.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/vi/blog/cach-chon-ky-han-het-han-cho-mot-giao-dich/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-01.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-day-trade-ou-swing-trade.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/vi/blog/khoang-trong-gia-tai-sao-xay-ra-va-quan-trong/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-04.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-analise-tecnica-e-fundamentalista.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -749,42 +749,42 @@
 		<loc>https://foxonivesting.com.br/vi/blog/cach-hieu-mot-bao-gia-thi-truong/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-app-04.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-kyc-por-que-pedem-documento.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/vi/blog/chi-bao-vortex-cach-cai-dat-va-su-dung/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-analise-tecnica-e-fundamentalista.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-app-03.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/vi/blog/chi-bao-kdj-bien-the-cua-stochastic/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-04.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-vale-a-pena.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/vi/blog/awesome-oscillator-la-gi-va-3-ky-thuat-su-dung/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-app-03.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-02.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/vi/blog/vi-sao-khoi-luong-giao-dich-quan-trong/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-analise-tecnica-e-fundamentalista.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-02.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/vi/blog/4-loai-chi-bao-ky-thuat/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-vale-a-pena.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-analise-tecnica-e-fundamentalista.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -798,175 +798,175 @@
 		<loc>https://foxonivesting.com.br/vi/blog/cach-chon-khung-thoi-gian-tot-nhat-cho-ho-so-cua-ban/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-02.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-vale-a-pena.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/vi/blog/highest-high-va-lowest-low-cach-su-dung/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-vale-a-pena.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-04.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/vi/blog/cach-dung-stop-loss-va-take-profit-trong-forex/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-seguranca.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-seguro-02.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/vi/blog/rsi-cach-cai-dat-va-su-dung-chi-so-suc-manh/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-02.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-04.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/vi/blog/bo-dao-dong-du-bao-chande-cach-su-dung-trong-giao-dich/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-analise-tecnica-e-fundamentalista.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-app-03.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/vi/blog/qua-mua-va-qua-ban-voi-bo-dao-dong-stochastic/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-04.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-vale-a-pena.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/vi/blog/nhung-chi-bao-tot-nhat-cho-day-trade/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-app-01.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-01.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/vi/blog/chi-bao-trong-tam-center-of-gravity/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-app-03.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-02.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/vi/blog/nhung-cuon-sach-can-doc-cho-nguoi-moi-trading/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-kyc-por-que-pedem-documento.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-saque-nao-caiu-o-que-fazer.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/vi/blog/cach-su-dung-cac-duong-fibonacci-trong-trading/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-04.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-analise-tecnica-e-fundamentalista.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/vi/blog/ho-tro-va-khang-cu-trong-trading/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-analise-tecnica-e-fundamentalista.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-02.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/vi/blog/chien-luoc-dual-stochastic-cach-ket-hop-hai-dao-dong/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-slippage-e-execucao-de-ordem.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-app-01.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/vi/blog/chien-luoc-martingale-trong-giao-dich-va-rui-ro/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-gestao-de-risco-stop-e-posicao.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-e-confiavel-02.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/vi/blog/chi-bao-envelopes-dai-trung-binh-dong/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-vale-a-pena.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-analise-tecnica-e-fundamentalista.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/vi/blog/do-bien-dong-lich-su-cach-cai-dat-va-dien-giai/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-02.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-04.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/vi/blog/rsi-sma-macd-chien-luoc-cho-moi-thi-truong/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-day-trade-ou-swing-trade.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-slippage-e-execucao-de-ordem.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/vi/blog/dai-starc-hay-dai-bollinger-nen-chon-cai-nao/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-analise-tecnica-e-fundamentalista.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-app-03.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/vi/blog/5-chi-bao-pho-bien-giai-thich-trong-5-phut-phan-1/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-04.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-vale-a-pena.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/vi/blog/5-chi-bao-pho-bien-giai-thich-trong-5-phut-phan-2/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-app-03.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-02.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/vi/blog/cong-cu-giao-dich-cach-chon-dung-cong-cu/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-saque-nao-caiu-o-que-fazer.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-login-01.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/vi/blog/an-toan-la-tren-het-cach-tranh-lua-dao-trong-giao-dich/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-login-01.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-como-escolher-uma-corretora.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/vi/blog/giao-cat-hai-duong-trung-binh-dong-cach-ket-hop/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-01.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-day-trade-ou-swing-trade.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/vi/blog/duong-trung-binh-dong-50-chu-ky-cach-dung/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-vale-a-pena.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-analise-tecnica-e-fundamentalista.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/vi/blog/khi-nao-dong-mot-giao-dich-tin-hieu-thoat-lenh/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-seguro-02.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-seguranca.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/vi/blog/take-profit-va-stop-loss-huong-dan-day-du/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-e-confiavel-02.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-gestao-de-risco-stop-e-posicao.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -980,14 +980,14 @@
 		<loc>https://foxonivesting.com.br/vi/blog/chi-bao-kdj-cach-tuy-chinh-cau-hinh/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-02.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-04.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/vi/blog/cach-xay-dung-ke-hoach-vao-lenh-bang-nen-nhat/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-02.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-vale-a-pena.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1001,70 +1001,70 @@
 		<loc>https://foxonivesting.com.br/vi/blog/10-quy-luat-cua-giao-dich-ky-thuat/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-vale-a-pena.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-04.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/vi/blog/chi-bao-zigzag-cach-loc-nhieu-bieu-do/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-analise-tecnica-e-fundamentalista.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-app-03.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/vi/blog/adx-chi-bao-do-suc-manh-cua-xu-huong/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-04.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-vale-a-pena.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/vi/blog/giao-dich-ky-quy-cach-hoat-dong/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-seguranca.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-seguro-02.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/vi/blog/ly-thuyet-song-elliott-cach-ap-dung/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-04.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-analise-tecnica-e-fundamentalista.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/vi/blog/dam-may-ichimoku-cach-su-dung/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-app-03.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-02.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/vi/blog/chi-bao-ky-thuat-tot-nhat-de-giao-dich-forex/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-01.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-corretora-offshore-o-que-e.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/vi/blog/4-mo-hinh-nen-thuong-bao-hieu-dao-chieu/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-analise-tecnica-e-fundamentalista.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-02.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/vi/blog/parabolic-sar-cach-su-dung-chi-bao-theo-xu-huong/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-vale-a-pena.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-analise-tecnica-e-fundamentalista.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/vi/blog/zig-zag-va-fibonacci-cach-theo-doi-xu-huong/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-02.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-04.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1078,35 +1078,35 @@
 		<loc>https://foxonivesting.com.br/vi/blog/cci-co-ban-mua-qua-muc-ban-qua-muc/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-analise-tecnica-e-fundamentalista.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-app-03.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/vi/blog/swing-trading-la-gi-va-cach-ap-dung-trong-thuc-te/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-app-01.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-01.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/vi/blog/3-cach-su-dung-dai-bollinger-trong-phan-tich-ky-thuat/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-04.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-vale-a-pena.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/vi/blog/bo-dao-dong-stochastic-cach-su-dung-cho-ngan-han/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-app-03.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-02.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/vi/blog/chien-luoc-bat-lai-tren-duong-trung-binh-dong-ngan-han/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-slippage-e-execucao-de-ordem.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-app-01.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1120,70 +1120,70 @@
 		<loc>https://foxonivesting.com.br/vi/blog/5-cap-forex-duoc-giao-dich-nhieu-nhat-va-dac-diem/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-corretora-offshore-o-que-e.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-03.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/vi/blog/cac-loai-bieu-do-cho-phan-tich-ky-thuat/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-02.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-vale-a-pena.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/vi/blog/ty-le-rui-ro-loi-nhuan-cach-tinh-truoc-moi-giao-dich/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-gestao-de-risco-stop-e-posicao.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-e-confiavel-02.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/vi/blog/7-ky-thuat-quan-ly-von-trong-trading/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-seguro-02.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-seguranca.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/vi/blog/cach-giao-dich-khai-niem-co-ban-cho-nguoi-moi/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-como-escolher-uma-corretora.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-abrir-conta.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/vi/blog/price-action-vi-sao-cay-nen-chi-co-y-nghia-trong-boi-canh/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-vale-a-pena.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-04.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/vi/blog/he-thong-woodies-cci-chien-luoc-day-du/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-day-trade-ou-swing-trade.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-slippage-e-execucao-de-ordem.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/vi/blog/phan-tich-ky-thuat-trong-forex-co-thuc-su-hieu-qua/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-04.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-analise-tecnica-e-fundamentalista.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/vi/blog/cach-chon-chien-luoc-theo-ho-so-cua-ban/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-01.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-day-trade-ou-swing-trade.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/vi/blog/cach-kiem-thu-va-dieu-chinh-chien-luoc-giao-dich/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-app-01.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-01.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1197,21 +1197,21 @@
 		<loc>https://foxonivesting.com.br/vi/blog/5-chien-luoc-giao-dich-duoc-dung-nhieu-nhat/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-slippage-e-execucao-de-ordem.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-app-01.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/vi/blog/trading-cho-nguoi-moi-bat-dau-nhung-buoc-dau-tien/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-abrir-conta.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-app-01.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/vi/blog/3-cach-ket-hop-chi-bao-ky-thuat-bo-sung-nhau/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-vale-a-pena.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-analise-tecnica-e-fundamentalista.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1225,14 +1225,14 @@
 		<loc>https://foxonivesting.com.br/vi/blog/khung-gio-nao-tot-nhat-de-giao-dich-forex/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-03.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/terra.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/vi/blog/cach-hoat-dong-cua-phuong-phap-scalping/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-day-trade-ou-swing-trade.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-slippage-e-execucao-de-ordem.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1246,35 +1246,35 @@
 		<loc>https://foxonivesting.com.br/vi/blog/hedge-trong-giao-dich-cach-bao-ve-mot-lenh-bang-lenh-khac/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-01.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-day-trade-ou-swing-trade.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/vi/blog/5-meo-quan-ly-rui-ro-giup-khong-mat-het-von/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-e-confiavel-02.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-gestao-de-risco-stop-e-posicao.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/vi/blog/tai-dau-tu-loi-nhuan-trong-giao-dich-co-dang-khong/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-app-01.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-01.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/vi/blog/alligator-va-fractal-cach-ket-hop-hai-chi-bao/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-02.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-04.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/vi/blog/3-mo-hinh-nen-ma-moi-trader-nen-biet/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-analise-tecnica-e-fundamentalista.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-02.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1288,7 +1288,7 @@
 		<loc>https://foxonivesting.com.br/vi/blog/mau-hinh-kim-cuong-cach-giao-dich/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-02.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-vale-a-pena.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1302,7 +1302,7 @@
 		<loc>https://foxonivesting.com.br/vi/blog/rvi-chi-so-suc-song-tuong-doi-cach-su-dung/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-analise-tecnica-e-fundamentalista.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-app-03.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1316,14 +1316,14 @@
 		<loc>https://foxonivesting.com.br/vi/blog/5-chi-bao-cho-giao-dich-nhanh-kem-vi-du-thuc-te/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-04.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-vale-a-pena.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/vi/blog/dai-starc-chi-bao-bien-dong-hoat-dong-ra-sao/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-app-03.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-02.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1337,28 +1337,28 @@
 		<loc>https://foxonivesting.com.br/vi/blog/duong-trung-binh-dong-cau-vong-cach-su-dung/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-vale-a-pena.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-analise-tecnica-e-fundamentalista.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/vi/blog/3-chien-luoc-tac-dong-cao-cho-giao-dich-ngan-han/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-slippage-e-execucao-de-ordem.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-app-01.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/vi/blog/lap-ke-hoach-bat-dau-giao-dich-trong-nam-nay/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-app-01.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-app-04.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/vi/blog/5-chien-luoc-giao-dich-theo-kieu-tinh-cach/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-day-trade-ou-swing-trade.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-slippage-e-execucao-de-ordem.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1372,14 +1372,14 @@
 		<loc>https://foxonivesting.com.br/vi/blog/dpo-cach-su-dung-bo-dao-dong-gia-phi-xu-huong/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-02.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-04.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/vi/blog/mau-hinh-tiep-dien-xu-huong-cach-nhan-dien/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-vale-a-pena.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-04.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1421,14 +1421,14 @@
 		<loc>https://foxonivesting.com.br/vi/blog/cach-chon-chi-bao-phu-hop-cho-chien-luoc-cua-ban/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-analise-tecnica-e-fundamentalista.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-app-03.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/vi/blog/don-bay-la-gi-va-cach-hoat-dong-trong-trading/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-seguranca.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-seguro-02.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1442,7 +1442,7 @@
 		<loc>https://foxonivesting.com.br/vi/blog/spread-trong-giao-dich-la-gi-va-vi-sao-no-an-loi-nhuan/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-app-04.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-kyc-por-que-pedem-documento.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1463,14 +1463,14 @@
 		<loc>https://foxonivesting.com.br/vi/blog/cach-giao-dich-quyen-chon-nhi-phan-tung-buoc/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-gestao-de-risco-stop-e-posicao.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-e-confiavel-02.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/vi/blog/5-chien-luoc-day-trade-cho-nguoi-moi-bat-dau/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-01.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-day-trade-ou-swing-trade.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1491,21 +1491,21 @@
 		<loc>https://foxonivesting.com.br/vi/blog/day-trade-la-gi-va-phu-hop-voi-ai/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-kyc-por-que-pedem-documento.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-saque-nao-caiu-o-que-fazer.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/vi/blog/forex-cho-nguoi-moi-thi-truong-ngoai-hoi-hoat-dong-the-nao/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/terra.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-01.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/vi/blog/5-chi-bao-ky-thuat-pho-bien-va-cach-dien-giai/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-04.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-vale-a-pena.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1519,7 +1519,7 @@
 		<loc>https://foxonivesting.com.br/vi/blog/co-che-ben-trong-cua-cfd-don-bay-ky-quy-va-rui-ro/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-seguro-02.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-seguranca.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1533,14 +1533,14 @@
 		<loc>https://foxonivesting.com.br/vi/blog/cach-da-dang-hoa-danh-muc-giao-dich-va-giam-rui-ro/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-e-confiavel-02.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-gestao-de-risco-stop-e-posicao.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/vi/blog/cach-thuc-hien-backtest-mot-chien-luoc/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-app-01.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-01.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1568,21 +1568,21 @@
 		<loc>https://foxonivesting.com.br/vi/blog/cach-su-dung-tri-tue-nhan-tao-trong-giao-dich/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-slippage-e-execucao-de-ordem.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-app-01.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/vi/blog/cach-cau-hinh-robot-giao-dich-tung-buoc/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-day-trade-ou-swing-trade.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-slippage-e-execucao-de-ordem.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/vi/blog/tin-hieu-giao-dich-la-gi-va-cach-dien-giai/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-saque-nao-caiu-o-que-fazer.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-login-01.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1596,14 +1596,14 @@
 		<loc>https://foxonivesting.com.br/vi/blog/thuat-toan-trading-la-gi-va-cach-hoat-dong/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-01.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-day-trade-ou-swing-trade.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/vi/blog/quy-tac-3-5-7-trong-giao-dich/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-seguranca.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-seguro-02.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1624,14 +1624,14 @@
 		<loc>https://foxonivesting.com.br/vi/blog/chien-luoc-breakout-la-gi-va-hoat-dong-the-nao/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-app-01.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-01.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/vi/blog/10-chien-luoc-giao-dich-de-kiem-tra-va-so-sanh/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-slippage-e-execucao-de-ordem.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-app-01.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1645,7 +1645,7 @@
 		<loc>https://foxonivesting.com.br/vi/blog/rui-ro-giao-dich-ky-quy-goi-ky-quy-stop-out-thanh-ly/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-gestao-de-risco-stop-e-posicao.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-e-confiavel-02.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1659,14 +1659,14 @@
 		<loc>https://foxonivesting.com.br/vi/blog/lenh-stop-limit-la-gi-va-khi-nao-nen-dung/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-login-01.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-como-escolher-uma-corretora.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/vi/blog/swing-trading-la-gi-va-hoat-dong-nhu-the-nao/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-day-trade-ou-swing-trade.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-slippage-e-execucao-de-ordem.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1680,7 +1680,7 @@
 		<loc>https://foxonivesting.com.br/vi/blog/duong-trung-binh-dong-la-gi-cach-dung-trong-trading/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-app-03.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-02.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1694,21 +1694,21 @@
 		<loc>https://foxonivesting.com.br/vi/blog/giao-dich-tien-te-thi-truong-forex-hoat-dong-the-nao/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-01.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-corretora-offshore-o-que-e.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/vi/blog/price-action-la-gi-va-cach-su-dung-trong-thuc-te/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-04.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-analise-tecnica-e-fundamentalista.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/vi/blog/tai-khoan-demo-cach-su-dung-de-hoc-giao-dich-khong-rui-ro/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-como-escolher-uma-corretora.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-abrir-conta.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1722,7 +1722,7 @@
 		<loc>https://foxonivesting.com.br/vi/blog/quy-tac-5-3-1-trong-giao-dich/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-01.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-day-trade-ou-swing-trade.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1736,7 +1736,7 @@
 		<loc>https://foxonivesting.com.br/vi/blog/cach-bat-dau-giao-dich-voi-so-von-nho-nam-2026/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-abrir-conta.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-app-01.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1750,35 +1750,35 @@
 		<loc>https://foxonivesting.com.br/vi/blog/social-trading-loi-ich-va-luu-y/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-app-01.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-01.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/vi/blog/cach-dung-thoai-lui-fibonacci-de-tim-diem-vao-lenh/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-analise-tecnica-e-fundamentalista.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-02.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/vi/blog/mau-hinh-bieu-do-nao-dang-de-theo-doi/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-02.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-vale-a-pena.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/vi/blog/quan-ly-rui-ro-trong-giao-dich-huong-dan-cho-nguoi-moi/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-seguro-02.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-seguranca.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/vi/blog/tam-ly-thi-truong-cong-cu-do-luong/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-vale-a-pena.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-analise-tecnica-e-fundamentalista.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1792,7 +1792,7 @@
 		<loc>https://foxonivesting.com.br/vi/blog/margin-cheo-va-margin-co-lap-nen-chon-loai-nao/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-e-confiavel-02.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-gestao-de-risco-stop-e-posicao.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1806,21 +1806,21 @@
 		<loc>https://foxonivesting.com.br/vi/blog/cach-tim-muc-ho-tro-va-khang-cu-tren-bieu-do/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-vale-a-pena.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-04.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/vi/blog/khung-gio-tot-nhat-de-giao-dich-forex/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-corretora-offshore-o-que-e.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-03.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/vi/blog/cach-dung-trailing-stop-khong-cat-loi-nhuan-som/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-seguranca.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-seguro-02.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1834,28 +1834,28 @@
 		<loc>https://foxonivesting.com.br/vi/blog/rui-ro-loi-nhuan-va-ty-le-dung-trong-giao-dich/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-gestao-de-risco-stop-e-posicao.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-e-confiavel-02.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/vi/blog/cach-tinh-gia-tri-pip-trong-forex-tung-buoc/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-03.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/terra.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/vi/blog/cach-tinh-don-bay-va-ky-quy-can-thiet-trong-giao-dich/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-seguro-02.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-seguranca.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/vi/blog/phi-swap-cach-tinh-chi-phi-giu-vi-the-mo-qua-dem/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/terra.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-01.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1925,28 +1925,28 @@
 		<loc>https://foxonivesting.com.br/vi/blog/chien-luoc-giao-dich-hop-dong-tuong-lai-theo-thi-truong/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-slippage-e-execucao-de-ordem.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-app-01.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/vi/blog/dieu-gi-xay-ra-neu-ban-mao-hiem-1-2-5-hay-10-phan-tram/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-e-confiavel-02.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-gestao-de-risco-stop-e-posicao.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/vi/blog/cach-tinh-spread-trong-forex/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-01.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-corretora-offshore-o-que-e.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/vi/blog/thuat-ngu-thi-truong-chung-khoan-cho-nguoi-moi/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-app-01.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-app-04.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1967,14 +1967,14 @@
 		<loc>https://foxonivesting.com.br/vi/blog/khung-thoi-gian-tot-nhat-cho-day-trade/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-day-trade-ou-swing-trade.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-slippage-e-execucao-de-ordem.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/vi/blog/trend-following-hay-dao-chieu-ve-trung-binh/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-01.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-day-trade-ou-swing-trade.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -2009,21 +2009,21 @@
 		<loc>https://foxonivesting.com.br/vi/blog/may-tinh-ky-vong-toan-hoc-chien-luoc-co-edge-khong/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-seguranca.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-seguro-02.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/vi/blog/liquidity-sweep-hay-pha-vo-cach-phan-biet/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-04.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-analise-tecnica-e-fundamentalista.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/vi/blog/may-tinh-diem-cat-lo-bang-atr-cach-xac-dinh-khoang-cach/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-gestao-de-risco-stop-e-posicao.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-e-confiavel-02.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -2037,7 +2037,7 @@
 		<loc>https://foxonivesting.com.br/vi/blog/cpi-nfp-hay-fomc-tin-nao-anh-huong-forex-nhieu-nhat/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-corretora-offshore-o-que-e.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-03.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -2051,21 +2051,21 @@
 		<loc>https://foxonivesting.com.br/vi/blog/rsi-chi-so-suc-manh-tuong-doi-la-gi-va-cach-tinh/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-02.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-04.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/vi/blog/macd-la-gi-va-cach-dung-chi-bao-nay/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-analise-tecnica-e-fundamentalista.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-app-03.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/vi/blog/gia-cham-dai-bollinger-co-y-nghia-gi/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-04.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-vale-a-pena.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -2114,7 +2114,7 @@
 		<loc>https://foxonivesting.com.br/vi/blog/cach-doc-bieu-do-gia-tu-con-so-0/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-analise-tecnica-e-fundamentalista.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-02.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -2149,21 +2149,21 @@
 		<loc>https://foxonivesting.com.br/vi/blog/cfd-va-thi-truong-giao-ngay-nhung-khac-biet/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-app-01.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-01.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/vi/blog/bien-dong-la-gi-va-vi-sao-no-quan-trong/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-seguro-02.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-seguranca.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/vi/blog/pip-trong-forex-la-gi-va-anh-huong-ket-qua-the-nao/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-03.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/terra.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -2184,7 +2184,7 @@
 		<loc>https://foxonivesting.com.br/vi/blog/cach-xay-dung-bo-chi-bao-ma-khong-thai-qua/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-app-03.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-02.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -2198,7 +2198,7 @@
 		<loc>https://foxonivesting.com.br/vi/blog/thi-truong-hoat-dong-the-nao-trong-dip-le-cuoi-nam/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-slippage-e-execucao-de-ordem.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-app-01.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -2212,14 +2212,14 @@
 		<loc>https://foxonivesting.com.br/vi/blog/hoc-duoc-gi-tu-peter-lynch-va-jesse-livermore/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-app-04.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-kyc-por-que-pedem-documento.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://foxonivesting.com.br/vi/blog/so-tien-ly-tuong-de-bat-dau-dau-tu-la-bao-nhieu/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-e-confiavel-02.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-gestao-de-risco-stop-e-posicao.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
