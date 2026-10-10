@@ -83,6 +83,9 @@
 			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-como-escolher-uma-corretora.webp</image:loc>
 		</image:image>
 		<image:image>
+			<image:loc>https://foxonivesting.com.br/assets/img/capas/noticia-divida-global-passa-365-trilhoes.webp</image:loc>
+		</image:image>
+		<image:image>
 			<image:loc>https://foxonivesting.com.br/assets/img/foxon-corretora-02.webp</image:loc>
 		</image:image>
 		<image:image>
@@ -95,7 +98,7 @@
 			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-corretora-offshore-o-que-e.webp</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/capas/noticia-divida-global-passa-365-trilhoes.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/capas/noticia-petroleo-sobe-impasse-eua-ira.webp</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-gestao-de-risco-stop-e-posicao.webp</image:loc>
@@ -140,22 +143,25 @@
 			<image:loc>https://foxonivesting.com.br/assets/img/foxon-seguranca.webp</image:loc>
 		</image:image>
 		<image:image>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-app-04.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-kyc-por-que-pedem-documento.webp</image:loc>
+		</image:image>
+		<image:image>
 			<image:loc>https://foxonivesting.com.br/assets/img/terra.webp</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://foxonivesting.com.br/assets/img/foxon-app-03.webp</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-app-04.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-saque-nao-caiu-o-que-fazer.webp</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/capas/noticia-petroleo-sobe-impasse-eua-ira.webp</image:loc>
+			<image:loc>https://foxonivesting.com.br/assets/img/foxon-login-01.webp</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://foxonivesting.com.br/assets/img/foxon-e-confiavel-03.webp</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-kyc-por-que-pedem-documento.webp</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://foxonivesting.com.br/assets/img/capas/noticia-bitcoin-perde-83750-juros-dos-eua-pressionam.webp</image:loc>
@@ -171,12 +177,6 @@
 		</image:image>
 		<image:image>
 			<image:loc>https://foxonivesting.com.br/assets/img/capas/noticia-uniswap-cai-11-futuros-cme.webp</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/capas/blog-saque-nao-caiu-o-que-fazer.webp</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://foxonivesting.com.br/assets/img/foxon-login-01.webp</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://foxonivesting.com.br/assets/img/ativos/btc.svg</image:loc>
