@@ -48,6 +48,11 @@ Allow: /
 
 User-agent: MistralAI-User
 Allow: /
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
 
 User-agent: Diffbot
 Allow: /
