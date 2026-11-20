@@ -1,10 +1,10 @@
-// Monta o site multilíngue a partir das páginas em português + traduções em .i18n/<pasta>/.
-//   node .i18n/montar.js
-// O que faz:
-//   1. Gera /<pasta>/…/index.html para cada idioma cuja tradução passa no verificador.
-//   2. Nas páginas em português: hreflang, seletor de idioma e pop-up (idempotente).
-//   3. Refaz sitemap_index.xml, page-/post-sitemap.xml, sitemap-<pasta>.xml, sitemap.xml e llms.txt.
-// Idioma com tradução incompleta é pulado inteiro (não entra em hreflang nem em sitemap).
+
+
+
+
+
+
+
 const fs = require('fs');
 const path = require('path');
 const { execFileSync } = require('child_process');
@@ -15,11 +15,11 @@ const HOJE = new Date().toISOString().slice(0, 10) + 'T12:00:00-03:00';
 const AFF_BASE = 'https://trade.safirion.com/register?aff=818084&aff_model=revenue&afftrack=foxon';
 const IDIOMAS = JSON.parse(fs.readFileSync(path.join(__dirname, 'idiomas.json'), 'utf8'));
 const PT = IDIOMAS[0];
-const ROTAS = JSON.parse(fs.readFileSync(path.join(__dirname, 'fonte/_rotas.json'), 'utf8')); // chave -> rota pt
+const ROTAS = JSON.parse(fs.readFileSync(path.join(__dirname, 'fonte/_rotas.json'), 'utf8')); 
 const CHAVES = Object.keys(ROTAS);
 const CHROME_PT = JSON.parse(fs.readFileSync(path.join(__dirname, 'fonte/_chrome.json'), 'utf8'));
 
-// Itens do menu: chave do texto em _chrome.nav -> chave da página
+
 const MENU = [['home', 'inicio'], ['confiavel', 'foxon-e-confiavel'], ['login', 'foxon-login'],
   ['corretora', 'foxon-corretora'], ['seguro', 'foxon-e-seguro'], ['app', 'foxon-app'],
   ['melhores', 'melhores-corretoras'], ['blog', 'blog']];
@@ -31,10 +31,10 @@ const escXml = s => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g,
 const decod = s => s.replace(/&nbsp;/g, ' ').replace(/&quot;/g, '"').replace(/&#39;/g, "'").replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&amp;/g, '&');
 const texto = h => decod(h.replace(/<[^>]+>/g, ' ')).replace(/\s+/g, ' ').trim();
 const aff = idioma => 'https://trade.safirion.com/register?aff=818084&aff_model=revenue&afftrack=foxon';
-// links de afiliado que continuam só na página de ranking (Safirion)
+
 const affSafirion = idioma => 'https://trade.safirion.com/register?aff=818084&aff_model=revenue&afftrack=foxon';
 
-// ---------------------------------------------------------------- traduções
+
 function partes(html) {
   const p = {};
   for (const k of ['slug', 'title', 'description', 'corpo']) p[k] = html.match(new RegExp(`<!--${k}-->([\\s\\S]*?)<!--/${k}-->`))[1];
@@ -42,7 +42,7 @@ function partes(html) {
   return p;
 }
 const prontos = [PT];
-const trad = {}; // pasta -> { chrome, paginas: {chave: partes} }
+const trad = {}; 
 for (const idioma of IDIOMAS.slice(1)) {
   const dir = path.join(__dirname, idioma.pasta);
   if (!fs.existsSync(dir)) { console.log(`- ${idioma.codigo}: sem tradução, pulado`); continue; }
@@ -59,7 +59,7 @@ for (const idioma of IDIOMAS.slice(1)) {
   prontos.push(idioma);
 }
 
-// ---------------------------------------------------------------- endereços
+
 function caminho(idioma, chave) {
   if (idioma === PT) return ROTAS[chave] === '' ? '/' : `/${ROTAS[chave]}/`;
   const base = `/${idioma.pasta}/`;
@@ -70,7 +70,7 @@ function caminho(idioma, chave) {
 const chavePorRotaPt = Object.fromEntries(CHAVES.map(c => [caminho(PT, c), c]));
 const chrome = idioma => idioma === PT ? CHROME_PT : trad[idioma.pasta].chrome;
 
-// ---------------------------------------------------------------- blocos comuns
+
 const GLOBO = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.7 3.8 5.7 3.8 9s-1.3 6.3-3.8 9c-2.5-2.7-3.8-5.7-3.8-9S9.5 5.7 12 3z"/></svg>';
 
 function seletor(idioma, chave) {
@@ -125,7 +125,7 @@ function menuUl(idioma, chaveAtual) {
   }).join('\n')}\n        </ul>`;
 }
 
-// Menu "Empresa" do rodapé: os mesmos 6 itens do rodapé da velocbroker.com.br
+
 const MENU_RODAPE = [['home', 'inicio'], ['confiavel', 'foxon-e-confiavel'], ['login', 'foxon-login'],
   ['corretora', 'foxon-corretora'], ['seguro', 'foxon-e-seguro'], ['app', 'foxon-app']];
 function menuRodape(idioma, chaveAtual) {
@@ -202,7 +202,7 @@ ${LINKS_RODAPE.map(([k, c]) => `          <a href="${caminho(idioma, c)}">${R.li
   </footer>`;
 }
 
-// ---------------------------------------------------------------- app: botões das lojas e topo da página
+
 const APPLE = '<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M16.37 12.73c-.02-2.2 1.8-3.26 1.88-3.31-1.03-1.5-2.62-1.7-3.19-1.73-1.35-.14-2.65.8-3.33.8-.69 0-1.75-.78-2.88-.76-1.48.02-2.85.86-3.61 2.19-1.54 2.67-.39 6.62 1.1 8.79.74 1.06 1.61 2.25 2.75 2.2 1.1-.04 1.52-.71 2.86-.71 1.33 0 1.71.71 2.88.69 1.19-.02 1.94-1.08 2.66-2.15.84-1.23 1.19-2.43 1.21-2.49-.03-.01-2.31-.89-2.33-3.52zM14.17 6.27c.6-.74 1.01-1.75.9-2.77-.87.04-1.94.59-2.56 1.32-.56.64-1.05 1.68-.92 2.67.97.07 1.97-.49 2.58-1.22z"/></svg>';
 const PLAY = '<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="#a86734" d="M3.6 2.3 13.4 12l-9.8 9.7c-.35-.2-.6-.6-.6-1.1V3.4c0-.5.25-.9.6-1.1z"/><path fill="#fbbc04" d="m16.8 8.6-3.4 3.4 3.4 3.4 3.9-2.2c.8-.45.8-1.6 0-2.05z"/><path fill="#ea4335" d="M13.4 12 3.6 21.7c.3.2.75.25 1.15.02l12.05-6.3z"/><path fill="#4285f4" d="M13.4 12 16.8 8.6 4.75 2.28c-.4-.23-.85-.18-1.15.02z"/></svg>';
 function lojas(idioma) {
@@ -298,7 +298,7 @@ function suporte(idioma) {
     </section><!--/gerado-->`;
 }
 
-// ---------------------------------------------------------------- blog no estilo do blog da IQ Option
+
 const BLOG_IMGS = ['foxon-o-que-e', 'foxon-seguranca', 'foxon-abrir-conta', 'foxon-vale-a-pena', 'foxon-e-confiavel-01',
   'foxon-corretora-02', 'foxon-corretora-03', 'foxon-app-03', 'foxon-seguro-02', 'foxon-corretora-04'];
 const ATIVOS = [['Bitcoin', 'BTC/USD', ['btc']], ['Ethereum', 'ETH/USD', ['eth']], ['EUR/USD', 'Forex', ['eu', 'us']],
@@ -344,23 +344,23 @@ ${ATIVOS.map(([n, s, ics]) => `              <li><span class="bq__ic${ics.length
           </aside>
         </div>
       </div><!--/gerado-->`;
-  // a lista original fica no HTML (é ela que a extração e as traduções usam); o CSS a esconde
+  
   return h.replace(/\s*<div class="cards(?: cards--blog-original)?">/, () => '\n        ' + html + '\n        <div class="cards">');
 }
 
-// Banner no topo de páginas internas (a imagem fica atrás do título; no celular, acima dele).
+
 const BANNERS = { 'foxon-como-abrir-conta': 'como-abrir-conta', 'foxon-conta-demo': 'conta-demo', 'foxon-saque': 'saque',
   'foxon-atendimento': 'atendimento', 'foxon-para-iniciantes': 'iniciantes', 'foxon-perguntas-frequentes': 'faq',
   'melhores-corretoras': 'melhores-corretoras', contato: 'contato' };
 
-// Preenche o que é gerado dentro do <main> (idempotente: limpa antes de preencher).
+
 function gerados(h, idioma, chave) {
   h = h.replace(/\s*<!--gerado--><section[\s\S]*?<\/section><!--\/gerado-->/g, '');
   h = h.replace(/<!--gerado-->[\s\S]*?<!--\/gerado-->/g, '');
   h = h.replace(/<div class="lojas"><\/div>/g, () => `<div class="lojas">${lojas(idioma)}</div>`);
   if (chave === 'foxon-app') h = h.replace(/(<main id="conteudo">)/, (m, a) => a + '\n    ' + topoApp(idioma));
   if (chave === 'blog') h = blogLayout(h, idioma);
-  // blog em modo claro, com "Fox On Blog" no logo do topo (os artigos herdam da casca /blog/)
+  
   if (chave === 'blog') {
     h = h.replace(/<body(?: class="tema-claro")?>/, '<body class="tema-claro">');
     h = h.replace(/<span class="wordmark__text">(?:<span class="wordmark__blog">Blog<\/span>)?<\/span>/, '<span class="wordmark__text"><span class="wordmark__blog">Blog</span></span>');
@@ -371,11 +371,11 @@ function gerados(h, idioma, chave) {
   return h;
 }
 
-// ---------------------------------------------------------------- layout da home
-// Reorganiza o texto da home em blocos visuais SEM mudar a ordem nem o conteúdo dos
-// elementos: só acrescenta invólucros <div … data-g>…</div><!--/g--> (que o extrair.js
-// remove) e alguns trechos <!--gerado-->. Como a sequência de tags é a mesma em todos
-// os idiomas, o mesmo layout vale para as 17 versões.
+
+
+
+
+
 function filhosDiretos(html) {
   const re = /<\/?([a-zA-Z][a-zA-Z0-9]*)\b[^>]*>|<!--[\s\S]*?-->/g;
   const vazias = new Set(['img', 'br', 'hr', 'source', 'input', 'meta', 'link']);
@@ -418,7 +418,7 @@ function layoutHome(h, idioma) {
         return `<div class="hb hb--split hb--app" data-g><div class="hb__txt" data-g>${txt}</div><!--/g--><!--gerado--><div class="hb__midia hb__midia--bonus"><img src="/assets/img/celular-bonus.webp" alt="" width="696" height="464" loading="lazy" decoding="async"></div><!--/gerado--></div><!--/g-->`;
       }
       if (fig.length === 1) {
-        // mantém a ordem original: o que vem antes da foto, a foto, o que vem depois
+        
         const k = g.indexOf(fig[0]);
         const antes = g.slice(0, k).map(f => f.html).join('\n');
         const depois = g.slice(k + 1).map(f => f.html).join('\n');
@@ -433,7 +433,7 @@ function layoutHome(h, idioma) {
   });
 }
 
-// ---------------------------------------------------------------- página traduzida
+
 function mapearLinks(html, idioma) {
   return html
     .replace(/href="(?:https:\/\/foxonivesting\.com\.br)?(\/[^"#?]*)([#?][^"]*)?"/g, (m, rota, resto = '') => {
@@ -474,7 +474,7 @@ function jsonLd(ptJson, idioma, chave, p, corpoTrad) {
         n.mainEntity = qs.map(m => ({ '@type': 'Question', name: texto(m[1]), acceptedAnswer: { '@type': 'Answer', text: texto(m[2]) } }));
         break;
       }
-      default: // WebPage, Article, ContactPage, AboutPage
+      default: 
         n.name = decod(p.title); n.description = decod(p.description); n.inLanguage = idioma.codigo;
         if ('headline' in n) n.headline = h1;
     }
@@ -490,7 +490,7 @@ function paginaTraduzida(idioma, chave) {
   const url = SITE + caminho(idioma, chave);
   const corpo = mapearLinks(p.corpo.trim(), idioma);
   const h1 = texto((corpo.match(/<h1[^>]*>([\s\S]*?)<\/h1>/) || [, p.title])[1]);
-  // item do menu marcado na página pt (blog posts marcam "Blog", por exemplo)
+  
   const hrefAtual = (ptHtml.match(/<nav class="site-nav"[\s\S]*?<a href="([^"]+)" aria-current="page"/) || [])[1];
   const chaveMenu = hrefAtual ? chavePorRotaPt[hrefAtual] : null;
 
@@ -525,10 +525,10 @@ function paginaTraduzida(idioma, chave) {
   return h;
 }
 
-// ---------------------------------------------------------------- páginas em português (idempotente)
+
 function ajustarPt(arquivo, chave) {
   let h = ler(arquivo);
-  // rodapé padrão (texto de _chrome.json da fonte), igual ao dos outros idiomas
+  
   h = h.replace(/<footer class="site-footer">[\s\S]*?<\/footer>/, () => rodape(PT, chave));
   h = h.replace(/<html lang="pt-BR"(?: dir="ltr")?(?: data-tema="dark")?(?: data-tv="[^"]*")?>/, () => `<html lang="pt-BR" dir="ltr" data-tema="dark" data-tv="${PT.tv}">`);
   h = h.replace(/\s*<!--hreflang-->[\s\S]*?<!--\/hreflang-->/, '');
@@ -550,7 +550,7 @@ function ajustarPt(arquivo, chave) {
   fs.writeFileSync(arquivo, h);
 }
 
-// ---------------------------------------------------------------- sitemaps e llms.txt
+
 function imagens(html) {
   const main = (html.match(/<main[\s\S]*?<\/main>/) || [''])[0];
   return [...new Set([...main.matchAll(/<img[^>]+src="(\/[^"]+)"/g)].map(m => SITE + m[1]))];
@@ -568,17 +568,17 @@ ${u.alternados.map(a => `\t\t<xhtml:link rel="alternate" hreflang="${a.codigo}" 
 }
 
 function main() {
-  // datas anteriores (sitemap.xml em pt), para não inventar lastmod
+  
   const antigo = fs.existsSync(path.join(RAIZ, 'sitemap.xml')) ? ler(path.join(RAIZ, 'sitemap.xml')) : '';
   const lastmodPt = Object.fromEntries([...antigo.matchAll(/<loc>([^<]+)<\/loc>\s*<lastmod>(\d{4}-\d{2}-\d{2}[^<]*)<\/lastmod>/g)].map(m => [m[1], m[2]]));
 
-  // 1. idiomas traduzidos: pasta regenerada do zero
+  
   const lastmodTrad = {};
   for (const idioma of prontos.slice(1)) {
     const destino = path.join(RAIZ, idioma.pasta);
     const anterior = {};
     if (fs.existsSync(destino)) {
-      // guarda o conteúdo anterior para manter o lastmod de páginas que não mudaram
+      
       for (const c of CHAVES) {
         const f = path.join(RAIZ, caminho(idioma, c), 'index.html');
         if (fs.existsSync(f)) anterior[c] = ler(f);
@@ -597,14 +597,14 @@ function main() {
     }
   }
 
-  // 2. português
+  
   for (const c of CHAVES) ajustarPt(path.join(RAIZ, ROTAS[c], 'index.html'), c);
   for (const extra of ['404.html']) {
     const f = path.join(RAIZ, extra);
     if (fs.existsSync(f)) ajustarPt(f, null);
   }
 
-  // 3. sitemaps
+  
   const alternados = c => [...prontos.map(i => ({ codigo: i.codigo, href: SITE + caminho(i, c) })),
     { codigo: 'x-default', href: SITE + caminho(prontos.find(i => i.pasta === 'en') || PT, c) }];
   const entradaPt = c => {
@@ -613,7 +613,7 @@ function main() {
   };
   const pts = CHAVES.map(entradaPt);
   const paginasPt = [...pts.filter(u => !u.post)].sort((a, b) => a.loc === SITE + '/' ? -1 : b.loc === SITE + '/' ? 1 : 0);
-  // artigos do blog (.blog/artigos/*.json): páginas geradas a partir da casca /blog/
+  
   const postsPt = BLOG.gerar('').map(a => ({ loc: `${SITE}${a.href}`, lastmod: a.data + 'T09:00:00-03:00', imagens: [SITE + a.img], alternados: [] }));
   fs.writeFileSync(path.join(RAIZ, 'page-sitemap.xml'), urlset(paginasPt));
   fs.writeFileSync(path.join(RAIZ, 'post-sitemap.xml'), urlset(postsPt));
@@ -622,12 +622,12 @@ function main() {
   for (const idioma of prontos.slice(1)) {
     const lista = CHAVES.map(c => ({ loc: SITE + caminho(idioma, c), lastmod: lastmodTrad[idioma.pasta + c],
       imagens: imagens(ler(path.join(RAIZ, caminho(idioma, c), 'index.html'))), alternados: alternados(c) }));
-    // artigos do blog traduzidos para este idioma
+    
     for (const art of BLOG.gerar(idioma.pasta)) lista.push({ loc: SITE + art.href, lastmod: art.data + 'T09:00:00-03:00', imagens: [SITE + art.img], alternados: [] });
     fs.writeFileSync(path.join(RAIZ, `sitemap-${idioma.pasta}.xml`), urlset(lista));
     indice.push([`sitemap-${idioma.pasta}.xml`, lista]);
   }
-  // sitemap.xml: todas as URLs do site num arquivo só (pt, artigos e os 16 idiomas)
+  
   fs.writeFileSync(path.join(RAIZ, 'sitemap.xml'), urlset(indice.flatMap(([, l]) => l).map(u => ({ ...u, alternados: [] }))));
   const recente = l => l.map(u => u.lastmod).sort((a, b) => new Date(b) - new Date(a))[0];
   fs.writeFileSync(path.join(RAIZ, 'sitemap_index.xml'), `<?xml version="1.0" encoding="UTF-8"?>
@@ -636,7 +636,7 @@ ${indice.map(([f, l]) => `\t<sitemap>\n\t\t<loc>${SITE}/${f}</loc>\n\t\t<lastmod
 </sitemapindex>
 `);
 
-  // 3b. páginas removidas: redirecionam para a home do idioma (evita 404 para quem vem do Google)
+  
   const redir = path.join(__dirname, 'redirecionados.json');
   if (fs.existsSync(redir)) {
     const vivos = new Set(postsPt.map(u => u.loc.slice(SITE.length)));
@@ -646,7 +646,7 @@ ${indice.map(([f, l]) => `\t<sitemap>\n\t\t<loc>${SITE}/${f}</loc>\n\t\t<lastmod
       const base = idioma === PT ? '/' : `/${idioma.pasta}/`;
       const noticia = (rota.match(/^\/noticias\/([^/]+)\/$/) || [])[1];
       const alvo = noticia && vivos.has(`/blog/${noticia}/`) ? `/blog/${noticia}/` : /^\/noticias\//.test(rota) ? '/blog/' : /\/blog\/[^/]+\/$/.test(rota) ? base + 'blog/' : base;
-      if (vivos.has(rota)) continue; // um artigo novo ocupa hoje esse endereço
+      if (vivos.has(rota)) continue; 
       const f = path.join(RAIZ, rota, 'index.html');
       fs.mkdirSync(path.dirname(f), { recursive: true });
       fs.writeFileSync(f, `<!DOCTYPE html>
@@ -665,7 +665,7 @@ ${indice.map(([f, l]) => `\t<sitemap>\n\t\t<loc>${SITE}/${f}</loc>\n\t\t<lastmod
     }
   }
 
-  // 4. llms.txt: seção de idiomas (substitui a anterior, se houver)
+  
   const llmsF = path.join(RAIZ, 'llms.txt');
   let llms = ler(llmsF).replace(/\n## Other languages[\s\S]*$/, '\n').trimEnd() + '\n';
   if (prontos.length > 1) {

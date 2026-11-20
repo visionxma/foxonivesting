@@ -1,6 +1,6 @@
-// Artigos do blog: um JSON por artigo em .blog/artigos/<slug>.json (formato em INSTRUCOES.md).
-// O .i18n/montar.js usa lista() para o índice /blog/ e chama gerar() para escrever
-// /blog/<slug>/index.html, usando a página /blog/ em português como casca (cabeçalho, rodapé, pop-up).
+
+
+
 const fs = require('fs');
 const path = require('path');
 const RAIZ = path.join(__dirname, '..');
@@ -13,12 +13,12 @@ const TRAD = path.join(__dirname, 'traducoes');
 const chromeDe = pasta => JSON.parse(fs.readFileSync(path.join(RAIZ, '.i18n', pasta || 'fonte', '_chrome.json'), 'utf8'));
 const base = pasta => pasta ? `/${pasta}/blog/` : '/blog/';
 const fmtData = (d, codigo) => { try { return new Intl.DateTimeFormat(codigo, { day: '2-digit', month: '2-digit', year: 'numeric' }).format(new Date(d + 'T12:00:00Z')); } catch (e) { return d; } };
-// Capas provisórias (até chegarem as imagens próprias de cada artigo).
+
 const IMGS = ['foxon-o-que-e', 'foxon-seguranca', 'foxon-abrir-conta', 'foxon-vale-a-pena', 'foxon-e-confiavel-01',
   'foxon-e-confiavel-02', 'foxon-e-confiavel-03', 'foxon-corretora-01', 'foxon-corretora-02', 'foxon-corretora-03',
   'foxon-corretora-04', 'foxon-app-01', 'foxon-app-02', 'foxon-app-03', 'foxon-app-04', 'foxon-seguro-01',
   'foxon-seguro-02', 'foxon-login-01', 'foxon-login-02'];
-// Capas por categoria (imagens próprias em /assets/img/capas e fotos do site); notícias têm capa própria.
+
 const C = n => `/assets/img/capas/${n}.webp`, F = n => `/assets/img/foxon-${n}.webp`;
 const CAPAS = {
   'Análise técnica': [C('blog-analise-tecnica-e-fundamentalista'), F('corretora-02'), F('vale-a-pena'), F('corretora-04')],
@@ -44,9 +44,9 @@ function capa(a, i) {
   const k = contagem[a.categoria] = (contagem[a.categoria] || 0) + 1;
   return lista[(k - 1) % lista.length];
 }
-// Textos da página de artigo (layout no molde do blog da IQ Option), por idioma.
+
 const GRAF = require('./graficos.js');
-// Ilustrações próprias (assets/img/blog/<nome>.webp), duas por artigo, escolhidas pelo tema.
+
 const ILUS = { ind: ['ind-01', 'ind-02', 'ind-03', 'ind-04', 'ind-05'], est: ['est-01', 'est-02', 'est-03', 'est-04'],
   ris: ['ris-01', 'ris-02', 'ris-03', 'ris-04'], psi: ['psi-01', 'psi-02', 'psi-03'], ini: ['ini-01', 'ini-02', 'ini-03'],
   forex: ['mer-01', 'est-02', 'ind-03'], cripto: ['mer-03', 'ind-01', 'ini-02'], acoes: ['mer-04', 'est-03', 'ind-03'],
@@ -66,12 +66,12 @@ const ICO_LP = [
   '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 19 6v5.5c0 4.4-3 8-7 9.5-4-1.5-7-5.1-7-9.5V6z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="m8.8 12 2.2 2.2 4.2-4.4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>',
   '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 13v-1a8 8 0 0 1 16 0v1" fill="none" stroke="currentColor" stroke-width="2"/><rect x="3" y="13" width="4" height="6" rx="1.5" fill="none" stroke="currentColor" stroke-width="2"/><rect x="17" y="13" width="4" height="6" rx="1.5" fill="none" stroke="currentColor" stroke-width="2"/></svg>',
   '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 18 9.5 12l4 3.5L20 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M15 8h5v5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>'];
-const desenhados = new Map(); // um SVG por artigo, compartilhado pelos 17 idiomas
+const desenhados = new Map(); 
 const TXT = JSON.parse(fs.readFileSync(path.join(__dirname, 'textos-artigo.json'), 'utf8'));
 const VISITAS = 'https://duotide-visitas.mjxdigital.workers.dev';
 const fmtCurta = (d, codigo) => { try { return new Intl.DateTimeFormat(codigo, { day: 'numeric', month: 'short', year: 'numeric' }).format(new Date(d + 'T12:00:00Z')); } catch (e) { return d; } };
 const fmtLonga = (d, codigo) => { try { return new Intl.DateTimeFormat(codigo, { day: 'numeric', month: 'long', year: 'numeric' }).format(new Date(d + 'T12:00:00Z')); } catch (e) { return d; } };
-// "atualizado em": a data mais recente entre publicação, JSON em pt e tradução (dia no calendário de São Paulo)
+
 const diaSP = ms => new Date(ms).toLocaleDateString('sv-SE', { timeZone: 'America/Sao_Paulo' });
 function atualizado(a, pasta) {
   const datas = [a.data];
@@ -82,7 +82,7 @@ function atualizado(a, pasta) {
   }
   return datas.sort().pop();
 }
-// dá id aos <h2> do corpo e devolve o sumário
+
 const ancora = t => t.replace(/<[^>]+>/g, '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^\p{L}\p{N}]+/gu, '-').replace(/^-+|-+$/g, '').slice(0, 60) || 's';
 function sumario(corpo) {
   const itens = [], usados = new Set();

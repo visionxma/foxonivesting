@@ -1,9 +1,7 @@
 (function () {
   'use strict';
 
-  /* ----------------------------------------------------------------------
-     Menu (botão hambúrguer, em todas as larguras)
-     ---------------------------------------------------------------------- */
+  
   var toggle = document.querySelector('.nav-toggle');
   var nav = document.querySelector('.site-nav');
   if (toggle && nav) {
@@ -31,9 +29,7 @@
     });
   }
 
-  /* ----------------------------------------------------------------------
-     Botão "voltar ao topo"
-     ---------------------------------------------------------------------- */
+  
   var toTop = document.querySelector('.to-top');
   if (toTop) {
     var ticking = false;
@@ -51,10 +47,7 @@
     });
   }
 
-  /* ----------------------------------------------------------------------
-     Cotações ao vivo (TradingView), carregadas só quando a seção aparece.
-     Sem JavaScript ou sem rede, fica o gráfico estático de cada cartão.
-     ---------------------------------------------------------------------- */
+  
   var cotacoes = document.querySelectorAll('.cotacao[data-simbolo]');
   var localeTV = document.documentElement.getAttribute('data-tv') || 'br';
   if (cotacoes.length) {
@@ -88,12 +81,7 @@
     }
   }
 
-  /* ----------------------------------------------------------------------
-     Pop-up de boas-vindas (no estilo do safirion.com.br)
-     Abre uma vez por sessão: em 2 s ou aos 35% de rolagem, o que vier primeiro.
-     O conteúdo vem do <template id="pp-modelo"> da página, já no idioma dela.
-     Console: foxonPopup.abrir() / .limpar() / .estado()
-     ---------------------------------------------------------------------- */
+  
   var modelo = document.getElementById('pp-modelo');
   if (modelo && 'content' in modelo) {
     var CHAVE = 'foxon_boasvindas_v1';
@@ -161,9 +149,7 @@
     }
   }
 
-  /* ----------------------------------------------------------------------
-     Animação ao rolar: blocos aparecem suavemente quando entram na tela
-     ---------------------------------------------------------------------- */
+  
   if ('IntersectionObserver' in window && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
     var alvos = document.querySelectorAll('main h2, main .foto, main .card, main .recurso, main .faq__item, main .cotacoes, main .check-list li, main .steps li, main .callout, main .lojas');
     var obsRevela = new IntersectionObserver(function (entradas) {
@@ -176,9 +162,7 @@
     });
   }
 
-  /* ----------------------------------------------------------------------
-     Faixa de cotações ao vivo (TradingView) logo abaixo do topo da home
-     ---------------------------------------------------------------------- */
+  
   var heroHome = document.querySelector('main > .hero');
   if (heroHome) {
     var fita = document.createElement('div');
@@ -211,7 +195,7 @@
   }
 })();
 
-// Blog: filtro por categoria e "carregar mais"
+
 (function () {
   var grade = document.querySelector('.bq__grade[data-visiveis]');
   if (!grade) return;
@@ -239,8 +223,8 @@
   aplicar();
 })();
 
-// Página de artigo do blog: barra de progresso, sumário que acompanha a leitura,
-// contador de visitas (uma por navegador por dia) e botão de compartilhar.
+
+
 (function () {
   var ap = document.querySelector('.ap');
   if (!ap) return;
@@ -260,7 +244,7 @@
     itens.forEach(function (x, i) { if (x.h.getBoundingClientRect().top <= linha) atual = i; });
     itens.forEach(function (x, i) { x.li.classList.toggle('is-lido', i < atual); x.li.classList.toggle('is-atual', i === atual); });
     if (barra && trilho) {
-      // a barra cresce até o item que está sendo lido, proporcional ao quanto da seção já passou
+      
       var alt = trilho.clientHeight;
       if (itens.length && atual >= 0) {
         var prox = itens[atual + 1], ini = itens[atual].h.getBoundingClientRect().top, fim = prox ? prox.h.getBoundingClientRect().top : r.bottom;
@@ -275,7 +259,7 @@
   window.addEventListener('resize', pedir);
   atualizar();
 
-  // visitas: soma uma por navegador por dia; se o contador não responder, o número fica escondido
+  
   var slug = ap.getAttribute('data-slug'), api = ap.getAttribute('data-api');
   if (slug && api && window.fetch) {
     var hoje = new Date().toISOString().slice(0, 10), chave = 'vis:' + slug, ja = null;
@@ -288,7 +272,7 @@
     }).catch(function () {});
   }
 
-  // compartilhar: menu nativo do celular, ou copia o link
+  
   var bt = ap.querySelector('.ap__compartilhar');
   if (bt) bt.addEventListener('click', function () {
     var url = location.href.split('#')[0], titulo = document.title;
@@ -298,7 +282,7 @@
   });
 })();
 
-// Avaliação (estrelas) e comentários do artigo: dados reais no mesmo serviço das visitas.
+
 (function () {
   var ap = document.querySelector('.ap');
   if (!ap || !window.fetch) return;

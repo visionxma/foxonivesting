@@ -1,5 +1,5 @@
-// Confere um artigo reescrito no formato novo (resposta rápida, gráfico real, seções).
-//   node .blog/verificar-artigo.js <slug> [<slug>...]
+
+
 const fs = require('fs'), path = require('path');
 const SEM_ACENTO = /(?<!\p{L})(nao|voce|tambem|entao|ate|grafico|analise|preco|operacao|media|indice|negociacao|sao|estrategia|tendencia|sera|ja|ha|alem|possivel|periodo|informacao|calculo)(?!\p{L})/iu;
 let falhas = 0;
